@@ -1,0 +1,317 @@
+[
+  {
+    "date": "2026-09-08",
+    "time": "09:40",
+    "municipality": "elverum",
+    "committee": "Sakkyndig takstnemnd for eiendomsskatt",
+    "category": "utvalg"
+  },
+  {
+    "date": "2026-09-08",
+    "time": "18:00",
+    "municipality": "elverum",
+    "committee": "Kommunestyrekomité for utdanning",
+    "category": "kst"
+  },
+  {
+    "date": "2026-09-09",
+    "time": "09:00",
+    "municipality": "elverum",
+    "committee": "Kommunestyrekomité for plan og eiendom",
+    "category": "kst"
+  },
+  {
+    "date": "2026-09-11",
+    "time": "09:00",
+    "municipality": "elverum",
+    "committee": "Kontrollutvalget",
+    "category": "andre"
+  },
+  {
+    "date": "2026-09-15",
+    "time": "13:00",
+    "municipality": "elverum",
+    "committee": "Rådet for personer med funksjonsnedsettelser",
+    "category": "andre"
+  },
+  {
+    "date": "2026-09-16",
+    "time": "09:00",
+    "municipality": "elverum",
+    "committee": "Formannskapet",
+    "category": "fsk"
+  },
+  {
+    "date": "2026-09-18",
+    "time": "12:00",
+    "municipality": "elverum",
+    "committee": "Kommunestyrekomité for vekst og utvikling",
+    "category": "kst"
+  },
+  {
+    "date": "2026-09-18",
+    "time": "14:00",
+    "municipality": "elverum",
+    "committee": "Elverum trafikksikkerhetsutvalg",
+    "category": "andre"
+  },
+  {
+    "date": "2026-09-23",
+    "time": "09:00",
+    "municipality": "elverum",
+    "committee": "Ungdomsrådet",
+    "category": "andre"
+  },
+  {
+    "date": "2026-09-23",
+    "time": "19:00",
+    "municipality": "elverum",
+    "committee": "Kommunestyret",
+    "category": "kst"
+  },
+  {
+    "date": "2026-09-30",
+    "time": "08:30",
+    "municipality": "elverum",
+    "committee": "Administrasjonsutvalget",
+    "category": "andre"
+  },
+  {
+    "date": "2026-09-30",
+    "time": "09:30",
+    "municipality": "elverum",
+    "committee": "Formannskapet",
+    "category": "fsk"
+  },
+  {
+    "date": "2026-10-13",
+    "time": "08:00",
+    "municipality": "elverum",
+    "committee": "Viltfaglig utvalg",
+    "category": "utvalg"
+  },
+  {
+    "date": "2026-10-13",
+    "time": "13:00",
+    "municipality": "elverum",
+    "committee": "Rådet for personer med funksjonsnedsettelser",
+    "category": "andre"
+  },
+  {
+    "date": "2026-10-13",
+    "time": "18:00",
+    "municipality": "elverum",
+    "committee": "Kommunestyrekomité for utdanning",
+    "category": "kst"
+  },
+  {
+    "date": "2026-10-14",
+    "time": "09:00",
+    "municipality": "elverum",
+    "committee": "Formannskapet",
+    "category": "fsk"
+  },
+  {
+    "date": "2026-10-16",
+    "time": "09:00",
+    "municipality": "elverum",
+    "committee": "Kontrollutvalget",
+    "category": "andre"
+  },
+  {
+    "date": "2026-10-20",
+    "time": "13:00",
+    "municipality": "elverum",
+    "committee": "Arbeidsmiljøutvalget",
+    "category": "andre"
+  },
+  {
+    "date": "2026-10-22",
+    "time": "09:00",
+    "municipality": "elverum",
+    "committee": "Eldrerådet",
+    "category": "andre"
+  },
+  {
+    "date": "2026-10-22",
+    "time": "12:00",
+    "municipality": "elverum",
+    "committee": "Kommunestyrekomité for vekst og utvikling",
+    "category": "kst"
+  },
+  {
+    "date": "2026-10-22",
+    "time": "14:00",
+    "municipality": "elverum",
+    "committee": "Elverum trafikksikkerhetsutvalg",
+    "category": "andre"
+  },
+  {
+    "date": "2026-10-27",
+    "time": "13:00",
+    "municipality": "elverum",
+    "committee": "Kommunestyrekomité for helse og omsorg",
+    "category": "kst"
+  },
+  {
+    "date": "2026-10-28",
+    "time": "08:30",
+    "municipality": "elverum",
+    "committee": "Administrasjonsutvalget",
+    "category": "andre"
+  },
+  {
+    "date": "2026-10-28",
+    "time": "09:30",
+    "municipality": "elverum",
+    "committee": "Formannskapet",
+    "category": "fsk"
+  },
+  {
+    "date": "2026-11-04",
+    "time": "19:00",
+    "municipality": "elverum",
+    "committee": "Kommunestyret",
+    "category": "kst"
+  },
+  {
+    "date": "2026-11-10",
+    "time": "13:00",
+    "municipality": "elverum",
+    "committee": "Rådet for personer med funksjonsnedsettelser",
+    "category": "andre"
+  },
+  {
+    "date": "2026-11-10",
+    "time": "18:00",
+    "municipality": "elverum",
+    "committee": "Kommunestyrekomité for utdanning",
+    "category": "kst"
+  },
+  {
+    "date": "2026-11-11",
+    "time": "09:00",
+    "municipality": "elverum",
+    "committee": "Formannskapet",
+    "category": "fsk"
+  },
+  {
+    "date": "2026-11-12",
+    "time": "09:00",
+    "municipality": "elverum",
+    "committee": "Eldrerådet",
+    "category": "andre"
+  },
+  {
+    "date": "2026-11-18",
+    "time": "12:00",
+    "municipality": "elverum",
+    "committee": "Kommunestyrekomité for vekst og utvikling",
+    "category": "kst"
+  },
+  {
+    "date": "2026-11-18",
+    "time": "14:00",
+    "municipality": "elverum",
+    "committee": "Elverum trafikksikkerhetsutvalg",
+    "category": "andre"
+  },
+  {
+    "date": "2026-11-24",
+    "time": "13:00",
+    "municipality": "elverum",
+    "committee": "Kommunestyrekomité for helse og omsorg",
+    "category": "kst"
+  },
+  {
+    "date": "2026-11-25",
+    "time": "08:30",
+    "municipality": "elverum",
+    "committee": "Administrasjonsutvalget",
+    "category": "andre"
+  },
+  {
+    "date": "2026-11-25",
+    "time": "09:30",
+    "municipality": "elverum",
+    "committee": "Formannskapet",
+    "category": "fsk"
+  },
+  {
+    "date": "2026-11-27",
+    "time": "09:00",
+    "municipality": "elverum",
+    "committee": "Kontrollutvalget",
+    "category": "andre"
+  },
+  {
+    "date": "2026-11-27",
+    "time": "09:00",
+    "municipality": "elverum",
+    "committee": "Klagenemda",
+    "category": "andre"
+  },
+  {
+    "date": "2026-12-01",
+    "time": "08:00",
+    "municipality": "elverum",
+    "committee": "Viltfaglig utvalg",
+    "category": "utvalg"
+  },
+  {
+    "date": "2026-12-01",
+    "time": "18:00",
+    "municipality": "elverum",
+    "committee": "Kommunestyrekomité for utdanning",
+    "category": "kst"
+  },
+  {
+    "date": "2026-12-08",
+    "time": "13:00",
+    "municipality": "elverum",
+    "committee": "Arbeidsmiljøutvalget",
+    "category": "andre"
+  },
+  {
+    "date": "2026-12-09",
+    "time": "09:00",
+    "municipality": "elverum",
+    "committee": "Formannskapet",
+    "category": "fsk"
+  },
+  {
+    "date": "2026-12-10",
+    "time": "09:00",
+    "municipality": "elverum",
+    "committee": "Eldrerådet",
+    "category": "andre"
+  },
+  {
+    "date": "2026-12-10",
+    "time": "12:00",
+    "municipality": "elverum",
+    "committee": "Kommunestyret",
+    "category": "kst"
+  },
+  {
+    "date": "2026-12-15",
+    "time": "13:00",
+    "municipality": "elverum",
+    "committee": "Rådet for personer med funksjonsnedsettelser",
+    "category": "andre"
+  },
+  {
+    "date": "2026-12-18",
+    "time": "10:00",
+    "municipality": "elverum",
+    "committee": "Kommunestyrekomité for vekst og utvikling",
+    "category": "kst"
+  },
+  {
+    "date": "2026-12-18",
+    "time": "12:00",
+    "municipality": "elverum",
+    "committee": "Elverum trafikksikkerhetsutvalg",
+    "category": "andre"
+  }
+]

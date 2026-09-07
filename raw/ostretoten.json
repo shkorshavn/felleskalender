@@ -1,0 +1,275 @@
+[
+  {
+    "date": "2026-09-11",
+    "time": "09:00",
+    "municipality": "ostretoten",
+    "committee": "Felles politiråd (POLITI)",
+    "category": "andre"
+  },
+  {
+    "date": "2026-09-14",
+    "time": "09:00",
+    "municipality": "ostretoten",
+    "committee": "Kontrollutvalget (KONT)",
+    "category": "andre"
+  },
+  {
+    "date": "2026-09-15",
+    "time": "12:00",
+    "municipality": "ostretoten",
+    "committee": "Eldrerådet (ELDR)",
+    "category": "andre"
+  },
+  {
+    "date": "2026-09-15",
+    "time": "12:00",
+    "municipality": "ostretoten",
+    "committee": "Råd for personer med funksjonsnedsettelse (NEFU)",
+    "category": "andre"
+  },
+  {
+    "date": "2026-09-15",
+    "time": "18:00",
+    "municipality": "ostretoten",
+    "committee": "Østre Toten ungdomsråd (ØTU)",
+    "category": "andre"
+  },
+  {
+    "date": "2026-09-17",
+    "time": "09:00",
+    "municipality": "ostretoten",
+    "committee": "Utvalg for samfunnsutvikling (SAM)",
+    "category": "utvalg"
+  },
+  {
+    "date": "2026-09-17",
+    "time": "09:00",
+    "municipality": "ostretoten",
+    "committee": "Tjenesteutvalg (TU)",
+    "category": "andre"
+  },
+  {
+    "date": "2026-09-23",
+    "time": "09:00",
+    "municipality": "ostretoten",
+    "committee": "Formannskapet (FSK)",
+    "category": "fsk"
+  },
+  {
+    "date": "2026-09-30",
+    "time": "09:00",
+    "municipality": "ostretoten",
+    "committee": "Kommunestyret (KST)",
+    "category": "kst"
+  },
+  {
+    "date": "2026-10-13",
+    "time": "12:00",
+    "municipality": "ostretoten",
+    "committee": "Råd for personer med funksjonsnedsettelse (NEFU)",
+    "category": "andre"
+  },
+  {
+    "date": "2026-10-13",
+    "time": "12:00",
+    "municipality": "ostretoten",
+    "committee": "Eldrerådet (ELDR)",
+    "category": "andre"
+  },
+  {
+    "date": "2026-10-14",
+    "time": "09:00",
+    "municipality": "ostretoten",
+    "committee": "Tjenesteutvalg (TU)",
+    "category": "andre"
+  },
+  {
+    "date": "2026-10-14",
+    "time": "09:00",
+    "municipality": "ostretoten",
+    "committee": "Utvalg for samfunnsutvikling (SAM)",
+    "category": "utvalg"
+  },
+  {
+    "date": "2026-10-14",
+    "time": "09:00",
+    "municipality": "ostretoten",
+    "committee": "Østre Toten ungdomsråd (ØTU)",
+    "category": "andre"
+  },
+  {
+    "date": "2026-10-14",
+    "time": "17:00",
+    "municipality": "ostretoten",
+    "committee": "Formannskapet (FSK)",
+    "category": "fsk"
+  },
+  {
+    "date": "2026-10-21",
+    "time": "09:00",
+    "municipality": "ostretoten",
+    "committee": "Formannskapet (FSK)",
+    "category": "fsk"
+  },
+  {
+    "date": "2026-10-21",
+    "time": "12:00",
+    "municipality": "ostretoten",
+    "committee": "Valgstyret (VAL)",
+    "category": "andre"
+  },
+  {
+    "date": "2026-10-26",
+    "time": "09:00",
+    "municipality": "ostretoten",
+    "committee": "Kontrollutvalget (KONT)",
+    "category": "andre"
+  },
+  {
+    "date": "2026-10-28",
+    "time": "17:00",
+    "municipality": "ostretoten",
+    "committee": "Kommunestyret (KST)",
+    "category": "kst"
+  },
+  {
+    "date": "2026-11-04",
+    "time": "16:00",
+    "municipality": "ostretoten",
+    "committee": "Dialogforum",
+    "category": "andre"
+  },
+  {
+    "date": "2026-11-05",
+    "time": "12:00",
+    "municipality": "ostretoten",
+    "committee": "Formannskapet (FSK)",
+    "category": "fsk"
+  },
+  {
+    "date": "2026-11-10",
+    "time": "12:00",
+    "municipality": "ostretoten",
+    "committee": "Eldrerådet (ELDR)",
+    "category": "andre"
+  },
+  {
+    "date": "2026-11-10",
+    "time": "12:00",
+    "municipality": "ostretoten",
+    "committee": "Råd for personer med funksjonsnedsettelse (NEFU)",
+    "category": "andre"
+  },
+  {
+    "date": "2026-11-10",
+    "time": "18:00",
+    "municipality": "ostretoten",
+    "committee": "Østre Toten ungdomsråd (ØTU)",
+    "category": "andre"
+  },
+  {
+    "date": "2026-11-11",
+    "time": "09:00",
+    "municipality": "ostretoten",
+    "committee": "Utvalg for samfunnsutvikling (SAM)",
+    "category": "utvalg"
+  },
+  {
+    "date": "2026-11-12",
+    "time": "09:00",
+    "municipality": "ostretoten",
+    "committee": "Tjenesteutvalg (TU)",
+    "category": "andre"
+  },
+  {
+    "date": "2026-11-18",
+    "time": "09:00",
+    "municipality": "ostretoten",
+    "committee": "Formannskap som partssammensatt utvalg (PART)",
+    "category": "fsk"
+  },
+  {
+    "date": "2026-11-18",
+    "time": "11:00",
+    "municipality": "ostretoten",
+    "committee": "Formannskapet (FSK)",
+    "category": "fsk"
+  },
+  {
+    "date": "2026-11-25",
+    "time": "17:00",
+    "municipality": "ostretoten",
+    "committee": "Kommunestyret (KST)",
+    "category": "kst"
+  },
+  {
+    "date": "2026-11-30",
+    "time": "18:00",
+    "municipality": "ostretoten",
+    "committee": "Østre Toten ungdomsråd (ØTU)",
+    "category": "andre"
+  },
+  {
+    "date": "2026-12-01",
+    "time": "12:00",
+    "municipality": "ostretoten",
+    "committee": "Råd for personer med funksjonsnedsettelse (NEFU)",
+    "category": "andre"
+  },
+  {
+    "date": "2026-12-01",
+    "time": "12:00",
+    "municipality": "ostretoten",
+    "committee": "Eldrerådet (ELDR)",
+    "category": "andre"
+  },
+  {
+    "date": "2026-12-02",
+    "time": "09:00",
+    "municipality": "ostretoten",
+    "committee": "Utvalg for samfunnsutvikling (SAM)",
+    "category": "utvalg"
+  },
+  {
+    "date": "2026-12-03",
+    "time": "09:00",
+    "municipality": "ostretoten",
+    "committee": "Tjenesteutvalg (TU)",
+    "category": "andre"
+  },
+  {
+    "date": "2026-12-04",
+    "time": "09:00",
+    "municipality": "ostretoten",
+    "committee": "Felles politiråd (POLITI)",
+    "category": "andre"
+  },
+  {
+    "date": "2026-12-08",
+    "time": "18:00",
+    "municipality": "ostretoten",
+    "committee": "Østre Toten ungdomsråd (ØTU)",
+    "category": "andre"
+  },
+  {
+    "date": "2026-12-09",
+    "time": "09:00",
+    "municipality": "ostretoten",
+    "committee": "Formannskapet (FSK)",
+    "category": "fsk"
+  },
+  {
+    "date": "2026-12-14",
+    "time": "09:00",
+    "municipality": "ostretoten",
+    "committee": "Kontrollutvalget (KONT)",
+    "category": "andre"
+  },
+  {
+    "date": "2026-12-16",
+    "time": "09:00",
+    "municipality": "ostretoten",
+    "committee": "Kommunestyret (KST)",
+    "category": "kst"
+  }
+]
