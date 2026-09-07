@@ -1,319 +1,62 @@
 {
-<<<<<<< HEAD
-  "generated": "2026-09-07T10:52:25.982435",
-  "totalCount": 541,
-=======
-  "generated": "2026-09-07T10:31:40.986Z",
+  "generated": "2026-09-07T16:36:28.940Z",
   "totalCount": 281,
->>>>>>> c653b080a51ce58469bc07571cabea9cba5a6151
   "sources": {
     "gjovik": {
       "count": 73,
-      "fetched": "2026-09-07T10:27:02.242Z"
+      "fetched": "2026-09-07T16:28:56.464Z"
     },
     "ostretoten": {
-<<<<<<< HEAD
-      "count": 39
-    },
-    "vestretoten": {
-      "count": 31
-=======
       "count": 39,
-      "fetched": "2026-09-07T10:27:07.821Z"
->>>>>>> c653b080a51ce58469bc07571cabea9cba5a6151
+      "fetched": "2026-09-07T16:29:01.636Z"
     },
     "sondre_land": {
       "count": 36,
-      "fetched": "2026-09-07T10:27:11.676Z"
+      "fetched": "2026-09-07T16:29:05.851Z"
     },
     "nordre_land": {
-<<<<<<< HEAD
-      "count": 29
-    },
-    "ipr": {
-      "count": 5
-    },
-    "hamar": {
-      "count": 43
-    },
-    "loten": {
-      "count": 25
-    },
-    "stange": {
-      "count": 27
-    },
-    "ringsaker": {
-      "count": 20
-    },
-    "kongsvinger": {
-      "count": 31
-    },
-    "ipr_kv": {
-      "count": 5
-    },
-    "gausdal": {
-      "count": 17
-    },
-    "oyer": {
-      "count": 19
-    },
-    "lillehammer": {
-      "count": 36
-=======
       "count": 28,
-      "fetched": "2026-09-07T10:27:15.317Z"
->>>>>>> c653b080a51ce58469bc07571cabea9cba5a6151
+      "fetched": "2026-09-07T16:29:09.591Z"
     },
     "elverum": {
       "count": 45,
-      "fetched": "2026-09-07T10:27:20.024Z"
+      "fetched": "2026-09-07T16:29:14.762Z"
     },
     "vestretoten": {
       "count": 0,
-      "fetched": "2026-09-07T10:28:00.024Z"
+      "fetched": "2026-09-07T16:29:54.431Z"
     },
     "hamar": {
       "count": 0,
-      "fetched": "2026-09-07T10:28:11.805Z"
+      "fetched": "2026-09-07T16:30:34.111Z"
     },
     "stange": {
       "count": 0,
-      "fetched": "2026-09-07T10:28:52.300Z"
+      "fetched": "2026-09-07T16:31:13.627Z"
     },
     "lillehammer": {
       "count": 0,
-      "fetched": "2026-09-07T10:29:06.285Z"
+      "fetched": "2026-09-07T16:31:53.207Z"
     },
     "innlandet": {
       "count": 60,
-      "fetched": "2026-09-07T10:29:13.221Z"
+      "fetched": "2026-09-07T16:31:59.902Z"
     },
     "ipr": {
       "count": 6,
-      "fetched": "2026-09-07T10:29:13.221Z"
+      "fetched": "2026-09-07T16:31:59.902Z"
     },
     "ringsaker": {
       "count": 0,
-      "fetched": "2026-09-07T10:31:27.117Z"
+      "fetched": "2026-09-07T16:34:13.745Z"
     },
     "kongsvinger": {
       "count": 0,
-      "fetched": "2026-09-07T10:31:40.949Z"
+      "fetched": "2026-09-07T16:36:28.911Z"
     }
   },
   "meetings": [
     {
-<<<<<<< HEAD
-      "date": "2026-09-01",
-      "time": "09:00",
-      "municipality": "loten",
-      "committee": "Driftsutvalget",
-      "category": "utvalg",
-      "day": "Tirsdag"
-    },
-    {
-      "date": "2026-09-01",
-      "time": "13:00",
-      "municipality": "elverum",
-      "committee": "Kommunestyrekomité for helse og omsorg",
-      "category": "kst",
-      "day": "Tirsdag"
-    },
-    {
-      "date": "2026-09-01",
-      "time": "13:00",
-      "municipality": "elverum",
-      "committee": "Arbeidsmiljøutvalget",
-      "category": "utvalg",
-      "day": "Tirsdag"
-    },
-    {
-      "date": "2026-09-01",
-      "time": "15:00",
-      "municipality": "hamar",
-      "committee": "Eldreråd",
-      "category": "andre",
-      "day": "Tirsdag"
-    },
-    {
-      "date": "2026-09-01",
-      "time": "15:00",
-      "municipality": "hamar",
-      "committee": "Rådet for personer med funksjonsnedsettelse",
-      "category": "andre",
-      "day": "Tirsdag"
-    },
-    {
-      "date": "2026-09-01",
-      "time": "16:00",
-      "municipality": "vestretoten",
-      "committee": "Ungdomsrådet",
-      "category": "andre",
-      "day": "Tirsdag"
-    },
-    {
-      "date": "2026-09-02",
-      "time": "08:00",
-      "municipality": "ostretoten",
-      "committee": "Formannskap som eierutvalg",
-      "category": "fsk",
-      "day": "Onsdag"
-    },
-    {
-      "date": "2026-09-02",
-      "time": "08:00",
-      "municipality": "vestretoten",
-      "committee": "Eierutvalg",
-      "category": "utvalg",
-      "day": "Onsdag"
-    },
-    {
-      "date": "2026-09-02",
-      "time": "08:30",
-      "municipality": "elverum",
-      "committee": "Administrasjonsutvalget",
-      "category": "utvalg",
-      "day": "Onsdag"
-    },
-    {
-      "date": "2026-09-02",
-      "time": "09:00",
-      "municipality": "hamar",
-      "committee": "Økonomiutvalg",
-      "category": "utvalg",
-      "day": "Onsdag"
-    },
-    {
-      "date": "2026-09-02",
-      "time": "09:00",
-      "municipality": "loten",
-      "committee": "Formannskapet",
-      "category": "fsk",
-      "day": "Onsdag"
-    },
-    {
-      "date": "2026-09-02",
-      "time": "09:00",
-      "municipality": "stange",
-      "committee": "Driftsutvalget",
-      "category": "utvalg",
-      "day": "Onsdag"
-    },
-    {
-      "date": "2026-09-02",
-      "time": "09:00",
-      "municipality": "stange",
-      "committee": "Planutvalget",
-      "category": "utvalg",
-      "day": "Onsdag"
-    },
-    {
-      "date": "2026-09-02",
-      "time": "09:30",
-      "municipality": "elverum",
-      "committee": "Formannskapet",
-      "category": "fsk",
-      "day": "Onsdag"
-    },
-    {
-      "date": "2026-09-02",
-      "time": "12:00",
-      "municipality": "hamar",
-      "committee": "Forberedende planutvalg",
-      "category": "utvalg",
-      "day": "Onsdag"
-    },
-    {
-      "date": "2026-09-02",
-      "time": "13:00",
-      "municipality": "nordre_land",
-      "committee": "Arbeidsmiljøutvalget",
-      "category": "utvalg",
-      "day": "Onsdag"
-    },
-    {
-      "date": "2026-09-02",
-      "time": "14:00",
-      "municipality": "vestretoten",
-      "committee": "Internasjonalt råd",
-      "category": "andre",
-      "day": "Onsdag"
-    },
-    {
-      "date": "2026-09-03",
-      "time": "09:00",
-      "municipality": "vestretoten",
-      "committee": "Eldrerådet",
-      "category": "andre",
-      "day": "Torsdag"
-    },
-    {
-      "date": "2026-09-03",
-      "time": "12:00",
-      "municipality": "elverum",
-      "committee": "Kommunestyret",
-      "category": "kst",
-      "day": "Torsdag"
-    },
-    {
-      "date": "2026-09-03",
-      "time": "12:00",
-      "municipality": "vestretoten",
-      "committee": "Rådet for mennesker med nedsatt funksjonsevne",
-      "category": "andre",
-      "day": "Torsdag"
-    },
-    {
-      "date": "2026-09-04",
-      "time": "09:00",
-      "municipality": "stange",
-      "committee": "Rådet for personer med funksjonsnedsettelse",
-      "category": "andre",
-      "day": "Fredag"
-    },
-    {
-      "date": "2026-09-07",
-      "time": "09:00",
-      "municipality": "lillehammer",
-      "committee": "Rådet for personer med funksjonsnedsettelse",
-      "category": "andre",
-      "day": "Mandag"
-    },
-    {
-      "date": "2026-09-07",
-      "time": "09:00",
-      "municipality": "vestretoten",
-      "committee": "Kontrollutvalget",
-      "category": "utvalg",
-      "day": "Mandag"
-    },
-    {
-      "date": "2026-09-07",
-      "time": "10:00",
-      "municipality": "ringsaker",
-      "committee": "Eldrerådet",
-      "category": "andre",
-      "day": "Mandag"
-    },
-    {
-      "date": "2026-09-07",
-      "time": "12:00",
-      "municipality": "lillehammer",
-      "committee": "Eldreråd",
-      "category": "andre",
-      "day": "Mandag"
-    },
-    {
-      "date": "2026-09-07",
-      "time": "13:30",
-      "municipality": "stange",
-      "committee": "Administrasjonsutvalget",
-      "category": "utvalg",
-      "day": "Mandag"
-    },
-    {
-=======
->>>>>>> c653b080a51ce58469bc07571cabea9cba5a6151
       "date": "2026-09-07",
       "time": "15:45",
       "municipality": "gjovik",
@@ -360,20 +103,7 @@
       "time": "09:00",
       "municipality": "gjovik",
       "committee": "Trepartsutvalget",
-<<<<<<< HEAD
-      "category": "utvalg",
-      "day": "Onsdag"
-    },
-    {
-      "date": "2026-09-09",
-      "time": "09:00",
-      "municipality": "lillehammer",
-      "committee": "Utvalg for helse og velferd",
-      "category": "utvalg",
-      "day": "Onsdag"
-=======
       "category": "andre"
->>>>>>> c653b080a51ce58469bc07571cabea9cba5a6151
     },
     {
       "date": "2026-09-09",
@@ -385,73 +115,6 @@
     {
       "date": "2026-09-09",
       "time": "09:00",
-<<<<<<< HEAD
-      "municipality": "ostretoten",
-      "committee": "Kommunestyret (KST)",
-      "category": "kst",
-      "day": "Onsdag"
-    },
-    {
-      "date": "2026-09-09",
-      "time": "09:00",
-      "municipality": "stange",
-      "committee": "Formannskapet",
-      "category": "fsk",
-      "day": "Onsdag"
-    },
-    {
-      "date": "2026-09-09",
-      "time": "09:00",
-      "municipality": "stange",
-      "committee": "Kontrollutvalg",
-      "category": "utvalg",
-      "day": "Onsdag"
-    },
-    {
-      "date": "2026-09-09",
-      "time": "10:00",
-      "municipality": "sondre_land",
-      "committee": "Formannskapet",
-      "category": "fsk",
-      "day": "Onsdag"
-    },
-    {
-      "date": "2026-09-09",
-      "time": "12:00",
-      "municipality": "hamar",
-      "committee": "Klagenemnd for eiendomsskattesaker",
-      "category": "utvalg",
-      "day": "Onsdag"
-    },
-    {
-      "date": "2026-09-09",
-      "time": "16:00",
-      "municipality": "lillehammer",
-      "committee": "Ungdomsråd",
-      "category": "andre",
-      "day": "Onsdag"
-    },
-    {
-      "date": "2026-09-10",
-      "time": "",
-      "municipality": "ipr_kv",
-      "committee": "Styret - Kongsvingerregionen IPR",
-      "category": "ipr",
-      "day": "Torsdag"
-    },
-    {
-      "date": "2026-09-10",
-      "time": "08:30",
-      "municipality": "hamar",
-      "committee": "Utvalg for miljø og oppvekst",
-      "category": "utvalg",
-      "day": "Torsdag"
-    },
-    {
-      "date": "2026-09-10",
-      "time": "09:00",
-=======
->>>>>>> c653b080a51ce58469bc07571cabea9cba5a6151
       "municipality": "elverum",
       "committee": "Kommunestyrekomité for plan og eiendom",
       "category": "kst"
@@ -480,25 +143,6 @@
     {
       "date": "2026-09-10",
       "time": "16:00",
-<<<<<<< HEAD
-      "municipality": "oyer",
-      "committee": "Ungdomsrådet",
-      "category": "andre",
-      "day": "Torsdag"
-    },
-    {
-      "date": "2026-09-10",
-      "time": "17:00",
-      "municipality": "oyer",
-      "committee": "Felles råd for eldre og personer med funksjonsnedsettelse",
-      "category": "andre",
-      "day": "Torsdag"
-    },
-    {
-      "date": "2026-09-10",
-      "time": "17:30",
-=======
->>>>>>> c653b080a51ce58469bc07571cabea9cba5a6151
       "municipality": "nordre_land",
       "committee": "Kommunestyret",
       "category": "kst"
@@ -564,28 +208,7 @@
       "time": "18:00",
       "municipality": "gjovik",
       "committee": "Internasjonalt råd",
-<<<<<<< HEAD
-      "category": "andre",
-      "day": "Mandag"
-    },
-    {
-      "date": "2026-09-15",
-      "time": "",
-      "municipality": "kongsvinger",
-      "committee": "Kontrollutvalget",
-      "category": "utvalg",
-      "day": "Tirsdag"
-    },
-    {
-      "date": "2026-09-15",
-      "time": "08:30",
-      "municipality": "oyer",
-      "committee": "Formannskapet",
-      "category": "fsk",
-      "day": "Tirsdag"
-=======
       "category": "andre"
->>>>>>> c653b080a51ce58469bc07571cabea9cba5a6151
     },
     {
       "date": "2026-09-15",
@@ -696,14 +319,8 @@
       "date": "2026-09-17",
       "time": "09:00",
       "municipality": "ostretoten",
-<<<<<<< HEAD
-      "committee": "Østre Toten ungdomsråd (ØTU)",
-      "category": "andre",
-      "day": "Torsdag"
-=======
       "committee": "Tjenesteutvalg (TU)",
       "category": "andre"
->>>>>>> c653b080a51ce58469bc07571cabea9cba5a6151
     },
     {
       "date": "2026-09-17",
@@ -801,28 +418,7 @@
       "time": "10:00",
       "municipality": "gjovik",
       "committee": "Formannskapet",
-<<<<<<< HEAD
-      "category": "fsk",
-      "day": "Onsdag"
-    },
-    {
-      "date": "2026-09-23",
-      "time": "13:00",
-      "municipality": "ringsaker",
-      "committee": "Formannskapet",
-      "category": "fsk",
-      "day": "Onsdag"
-    },
-    {
-      "date": "2026-09-23",
-      "time": "15:00",
-      "municipality": "ringsaker",
-      "committee": "Planutvalget",
-      "category": "utvalg",
-      "day": "Onsdag"
-=======
       "category": "fsk"
->>>>>>> c653b080a51ce58469bc07571cabea9cba5a6151
     },
     {
       "date": "2026-09-23",
@@ -850,60 +446,7 @@
       "time": "16:30",
       "municipality": "gjovik",
       "committee": "Kommunestyret",
-<<<<<<< HEAD
-      "category": "kst",
-      "day": "Torsdag"
-    },
-    {
-      "date": "2026-09-24",
-      "time": "18:00",
-      "municipality": "oyer",
-      "committee": "Kommunestyret",
-      "category": "kst",
-      "day": "Torsdag"
-    },
-    {
-      "date": "2026-09-26",
-      "time": "09:00",
-      "municipality": "sondre_land",
-      "committee": "Sakkyndig nemnd eiendomsskatt",
-      "category": "utvalg",
-      "day": "Lørdag"
-    },
-    {
-      "date": "2026-09-28",
-      "time": "",
-      "municipality": "kongsvinger",
-      "committee": "Eldres råd",
-      "category": "andre",
-      "day": "Mandag"
-    },
-    {
-      "date": "2026-09-28",
-      "time": "",
-      "municipality": "kongsvinger",
-      "committee": "Funksjonsnedsattes råd",
-      "category": "andre",
-      "day": "Mandag"
-    },
-    {
-      "date": "2026-09-29",
-      "time": "",
-      "municipality": "kongsvinger",
-      "committee": "Planutvalget",
-      "category": "utvalg",
-      "day": "Tirsdag"
-    },
-    {
-      "date": "2026-09-29",
-      "time": "08:30",
-      "municipality": "oyer",
-      "committee": "Formannskapet",
-      "category": "fsk",
-      "day": "Tirsdag"
-=======
       "category": "kst"
->>>>>>> c653b080a51ce58469bc07571cabea9cba5a6151
     },
     {
       "date": "2026-09-29",
@@ -936,16 +479,9 @@
     {
       "date": "2026-09-30",
       "time": "09:00",
-<<<<<<< HEAD
-      "municipality": "hamar",
-      "committee": "Kommunestyre",
-      "category": "kst",
-      "day": "Onsdag"
-=======
       "municipality": "ostretoten",
       "committee": "Kommunestyret (KST)",
       "category": "kst"
->>>>>>> c653b080a51ce58469bc07571cabea9cba5a6151
     },
     {
       "date": "2026-09-30",
@@ -994,36 +530,7 @@
       "time": "17:30",
       "municipality": "nordre_land",
       "committee": "Kommunestyret",
-<<<<<<< HEAD
-      "category": "kst",
-      "day": "Torsdag"
-    },
-    {
-      "date": "2026-10-05",
-      "time": "12:00",
-      "municipality": "loten",
-      "committee": "Eldrerådet",
-      "category": "andre",
-      "day": "Mandag"
-    },
-    {
-      "date": "2026-10-05",
-      "time": "13:00",
-      "municipality": "loten",
-      "committee": "Rådet for mennesker med funksjonsnedsettelser",
-      "category": "andre",
-      "day": "Mandag"
-    },
-    {
-      "date": "2026-10-06",
-      "time": "10:00",
-      "municipality": "hamar",
-      "committee": "Eldreråd",
-      "category": "andre",
-      "day": "Tirsdag"
-=======
       "category": "kst"
->>>>>>> c653b080a51ce58469bc07571cabea9cba5a6151
     },
     {
       "date": "2026-10-08",
@@ -1072,12 +579,7 @@
       "time": "08:00",
       "municipality": "elverum",
       "committee": "Viltfaglig utvalg",
-<<<<<<< HEAD
-      "category": "utvalg",
-      "day": "Tirsdag"
-=======
       "category": "utvalg"
->>>>>>> c653b080a51ce58469bc07571cabea9cba5a6151
     },
     {
       "date": "2026-10-13",
@@ -1175,36 +677,7 @@
       "time": "10:00",
       "municipality": "innlandet",
       "committee": "Hovedutvalg for kultur",
-<<<<<<< HEAD
-      "category": "utvalg",
-      "day": "Onsdag"
-    },
-    {
-      "date": "2026-10-14",
-      "time": "13:00",
-      "municipality": "ringsaker",
-      "committee": "Formannskapet",
-      "category": "fsk",
-      "day": "Onsdag"
-    },
-    {
-      "date": "2026-10-14",
-      "time": "13:00",
-      "municipality": "ringsaker",
-      "committee": "Planutvalget",
-      "category": "utvalg",
-      "day": "Onsdag"
-    },
-    {
-      "date": "2026-10-14",
-      "time": "16:00",
-      "municipality": "lillehammer",
-      "committee": "Ungdomsråd",
-      "category": "andre",
-      "day": "Onsdag"
-=======
       "category": "utvalg"
->>>>>>> c653b080a51ce58469bc07571cabea9cba5a6151
     },
     {
       "date": "2026-10-14",
@@ -1239,44 +712,7 @@
       "time": "12:00",
       "municipality": "sondre_land",
       "committee": "Det kommunale eldrerådet",
-<<<<<<< HEAD
-      "category": "andre",
-      "day": "Torsdag"
-    },
-    {
-      "date": "2026-10-15",
-      "time": "12:30",
-      "municipality": "hamar",
-      "committee": "Utvalg for miljø og oppvekst",
-      "category": "utvalg",
-      "day": "Torsdag"
-    },
-    {
-      "date": "2026-10-15",
-      "time": "15:45",
-      "municipality": "gausdal",
-      "committee": "Ungdomsrådet",
-      "category": "andre",
-      "day": "Torsdag"
-    },
-    {
-      "date": "2026-10-15",
-      "time": "16:00",
-      "municipality": "oyer",
-      "committee": "Ungdomsrådet",
-      "category": "andre",
-      "day": "Torsdag"
-    },
-    {
-      "date": "2026-10-15",
-      "time": "17:00",
-      "municipality": "oyer",
-      "committee": "Felles råd for eldre og personer med funksjonsnedsettelse",
-      "category": "andre",
-      "day": "Torsdag"
-=======
       "category": "andre"
->>>>>>> c653b080a51ce58469bc07571cabea9cba5a6151
     },
     {
       "date": "2026-10-16",
@@ -1318,20 +754,7 @@
       "time": "10:00",
       "municipality": "innlandet",
       "committee": "Fylkestinget",
-<<<<<<< HEAD
-      "category": "kst",
-      "day": "Tirsdag"
-    },
-    {
-      "date": "2026-10-20",
-      "time": "12:00",
-      "municipality": "hamar",
-      "committee": "Administrasjonsutvalget",
-      "category": "utvalg",
-      "day": "Tirsdag"
-=======
       "category": "kst"
->>>>>>> c653b080a51ce58469bc07571cabea9cba5a6151
     },
     {
       "date": "2026-10-20",
@@ -1422,28 +845,7 @@
       "time": "11:30",
       "municipality": "ipr",
       "committee": "Gjøvikregionen interkommunale politiske råd - koordineringsutvalg",
-<<<<<<< HEAD
-      "category": "utvalg",
-      "day": "Fredag"
-    },
-    {
-      "date": "2026-10-26",
-      "time": "",
-      "municipality": "kongsvinger",
-      "committee": "Eldres råd",
-      "category": "andre",
-      "day": "Mandag"
-    },
-    {
-      "date": "2026-10-26",
-      "time": "",
-      "municipality": "kongsvinger",
-      "committee": "Funksjonsnedsattes råd",
-      "category": "andre",
-      "day": "Mandag"
-=======
       "category": "ipr"
->>>>>>> c653b080a51ce58469bc07571cabea9cba5a6151
     },
     {
       "date": "2026-10-26",
@@ -1471,28 +873,7 @@
       "time": "09:00",
       "municipality": "sondre_land",
       "committee": "Komité for Lokalsamfunn",
-<<<<<<< HEAD
-      "category": "utvalg",
-      "day": "Mandag"
-    },
-    {
-      "date": "2026-10-27",
-      "time": "",
-      "municipality": "kongsvinger",
-      "committee": "Planutvalget",
-      "category": "utvalg",
-      "day": "Tirsdag"
-    },
-    {
-      "date": "2026-10-27",
-      "time": "09:00",
-      "municipality": "lillehammer",
-      "committee": "Formannskapet",
-      "category": "fsk",
-      "day": "Tirsdag"
-=======
       "category": "utvalg"
->>>>>>> c653b080a51ce58469bc07571cabea9cba5a6151
     },
     {
       "date": "2026-10-27",
@@ -1733,37 +1114,8 @@
       "category": "andre"
     },
     {
-<<<<<<< HEAD
-      "date": "2026-11-11",
-      "time": "",
-      "municipality": "kongsvinger",
-      "committee": "Komite for helse og mestring",
-      "category": "utvalg",
-      "day": "Onsdag"
-    },
-    {
-      "date": "2026-11-11",
-      "time": "",
-      "municipality": "kongsvinger",
-      "committee": "Komite for oppvekst og læring",
-      "category": "utvalg",
-      "day": "Onsdag"
-    },
-    {
-      "date": "2026-11-11",
-      "time": "",
-      "municipality": "kongsvinger",
-      "committee": "Komité for miljø- og samfunnsutvikling",
-      "category": "utvalg",
-      "day": "Onsdag"
-    },
-    {
-      "date": "2026-11-11",
-      "time": "09:00",
-=======
       "date": "2026-11-10",
       "time": "18:00",
->>>>>>> c653b080a51ce58469bc07571cabea9cba5a6151
       "municipality": "elverum",
       "committee": "Kommunestyrekomité for utdanning",
       "category": "kst"
@@ -1815,28 +1167,7 @@
       "time": "09:00",
       "municipality": "gjovik",
       "committee": "Utvalg for samfunnsutvikling, bærekraft og tekniske tjenester",
-<<<<<<< HEAD
-      "category": "utvalg",
-      "day": "Torsdag"
-    },
-    {
-      "date": "2026-11-12",
-      "time": "09:00",
-      "municipality": "lillehammer",
-      "committee": "Plan- og miljøutvalget",
-      "category": "utvalg",
-      "day": "Torsdag"
-    },
-    {
-      "date": "2026-11-12",
-      "time": "09:00",
-      "municipality": "lillehammer",
-      "committee": "Utvalg for oppvekst, utdanning og kultur",
-      "category": "utvalg",
-      "day": "Torsdag"
-=======
       "category": "utvalg"
->>>>>>> c653b080a51ce58469bc07571cabea9cba5a6151
     },
     {
       "date": "2026-11-12",
@@ -1997,44 +1328,7 @@
       "time": "17:00",
       "municipality": "ostretoten",
       "committee": "Kommunestyret (KST)",
-<<<<<<< HEAD
-      "category": "kst",
-      "day": "Onsdag"
-    },
-    {
-      "date": "2026-11-26",
-      "time": "",
-      "municipality": "ipr_kv",
-      "committee": "Styret - Kongsvingerregionen IPR",
-      "category": "ipr",
-      "day": "Torsdag"
-    },
-    {
-      "date": "2026-11-26",
-      "time": "",
-      "municipality": "ipr_se",
-      "committee": "Styret – Sør-Østerdal IPR",
-      "category": "ipr",
-      "day": "Torsdag"
-    },
-    {
-      "date": "2026-11-26",
-      "time": "09:00",
-      "municipality": "stange",
-      "committee": "Ungdomsrådet",
-      "category": "andre",
-      "day": "Torsdag"
-    },
-    {
-      "date": "2026-11-26",
-      "time": "09:00",
-      "municipality": "vestretoten",
-      "committee": "Kommunestyret",
-      "category": "kst",
-      "day": "Torsdag"
-=======
       "category": "kst"
->>>>>>> c653b080a51ce58469bc07571cabea9cba5a6151
     },
     {
       "date": "2026-11-26",
@@ -2045,8 +1339,6 @@
     },
     {
       "date": "2026-11-26",
-<<<<<<< HEAD
-=======
       "time": "12:00",
       "municipality": "sondre_land",
       "committee": "Sakkyndig nemnd eiendomsskatt",
@@ -2054,7 +1346,6 @@
     },
     {
       "date": "2026-11-26",
->>>>>>> c653b080a51ce58469bc07571cabea9cba5a6151
       "time": "16:30",
       "municipality": "gjovik",
       "committee": "Kommunestyret",
@@ -2146,18 +1437,10 @@
     },
     {
       "date": "2026-12-01",
-<<<<<<< HEAD
-      "time": "14:00",
-      "municipality": "oyer",
-      "committee": "Plan- og miljøutvalget",
-      "category": "utvalg",
-      "day": "Tirsdag"
-=======
       "time": "12:00",
       "municipality": "innlandet",
       "committee": "Fylkesutvalget",
       "category": "fsk"
->>>>>>> c653b080a51ce58469bc07571cabea9cba5a6151
     },
     {
       "date": "2026-12-01",
@@ -2367,52 +1650,7 @@
       "time": "10:00",
       "municipality": "innlandet",
       "committee": "Hovedutvalg for samferdsel",
-<<<<<<< HEAD
-      "category": "utvalg",
-      "day": "Onsdag"
-    },
-    {
-      "date": "2026-12-09",
-      "time": "16:00",
-      "municipality": "lillehammer",
-      "committee": "Ungdomsråd",
-      "category": "andre",
-      "day": "Onsdag"
-    },
-    {
-      "date": "2026-12-10",
-      "time": "",
-      "municipality": "ipr_se",
-      "committee": "Styret – Sør-Østerdal IPR",
-      "category": "ipr",
-      "day": "Torsdag"
-    },
-    {
-      "date": "2026-12-10",
-      "time": "08:30",
-      "municipality": "oyer",
-      "committee": "Kommunestyret",
-      "category": "kst",
-      "day": "Torsdag"
-    },
-    {
-      "date": "2026-12-10",
-      "time": "09:00",
-      "municipality": "elverum",
-      "committee": "Eldrerådet",
-      "category": "andre",
-      "day": "Torsdag"
-    },
-    {
-      "date": "2026-12-10",
-      "time": "09:00",
-      "municipality": "gausdal",
-      "committee": "Kommunestyret",
-      "category": "kst",
-      "day": "Torsdag"
-=======
       "category": "utvalg"
->>>>>>> c653b080a51ce58469bc07571cabea9cba5a6151
     },
     {
       "date": "2026-12-10",
@@ -2431,24 +1669,9 @@
     {
       "date": "2026-12-10",
       "time": "09:00",
-<<<<<<< HEAD
-      "municipality": "lillehammer",
-      "committee": "Plan- og miljøutvalget",
-      "category": "utvalg",
-      "day": "Torsdag"
-    },
-    {
-      "date": "2026-12-10",
-      "time": "09:00",
-      "municipality": "lillehammer",
-      "committee": "Kommunestyret",
-      "category": "kst",
-      "day": "Torsdag"
-=======
       "municipality": "elverum",
       "committee": "Eldrerådet",
       "category": "andre"
->>>>>>> c653b080a51ce58469bc07571cabea9cba5a6151
     },
     {
       "date": "2026-12-10",
@@ -2477,14 +1700,6 @@
       "municipality": "ipr",
       "committee": "Gjøvikregionen interkommunale politisk råd - representantskapet",
       "category": "ipr"
-    },
-    {
-      "date": "2026-12-11",
-      "time": "09:00",
-      "municipality": "lillehammer",
-      "committee": "Interkommunalt politisk råd",
-      "category": "ipr",
-      "day": "Fredag"
     },
     {
       "date": "2026-12-14",
