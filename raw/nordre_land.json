@@ -1,0 +1,198 @@
+[
+  {
+    "date": "2026-09-09",
+    "time": "08:30",
+    "municipality": "nordre_land",
+    "committee": "Kontrollutvalget",
+    "category": "andre"
+  },
+  {
+    "date": "2026-09-09",
+    "time": "09:00",
+    "municipality": "nordre_land",
+    "committee": "Ad hoc-utvalg Oppvekst",
+    "category": "utvalg"
+  },
+  {
+    "date": "2026-09-10",
+    "time": "16:00",
+    "municipality": "nordre_land",
+    "committee": "Kommunestyret",
+    "category": "kst"
+  },
+  {
+    "date": "2026-09-17",
+    "time": "10:00",
+    "municipality": "nordre_land",
+    "committee": "Hovedutvalg for Landbruk, miljø og teknisk",
+    "category": "utvalg"
+  },
+  {
+    "date": "2026-09-21",
+    "time": "09:00",
+    "municipality": "nordre_land",
+    "committee": "Eldrerådet",
+    "category": "andre"
+  },
+  {
+    "date": "2026-09-21",
+    "time": "09:00",
+    "municipality": "nordre_land",
+    "committee": "Rådet for mennesker med nedsatt funksjonsevne",
+    "category": "andre"
+  },
+  {
+    "date": "2026-09-22",
+    "time": "08:30",
+    "municipality": "nordre_land",
+    "committee": "Administrasjonsutvalget",
+    "category": "andre"
+  },
+  {
+    "date": "2026-09-22",
+    "time": "09:30",
+    "municipality": "nordre_land",
+    "committee": "Formannskapet",
+    "category": "fsk"
+  },
+  {
+    "date": "2026-10-01",
+    "time": "17:30",
+    "municipality": "nordre_land",
+    "committee": "Kommunestyret",
+    "category": "kst"
+  },
+  {
+    "date": "2026-10-19",
+    "time": "09:00",
+    "municipality": "nordre_land",
+    "committee": "Eldrerådet",
+    "category": "andre"
+  },
+  {
+    "date": "2026-10-19",
+    "time": "09:00",
+    "municipality": "nordre_land",
+    "committee": "Rådet for mennesker med nedsatt funksjonsevne",
+    "category": "andre"
+  },
+  {
+    "date": "2026-10-19",
+    "time": "10:00",
+    "municipality": "nordre_land",
+    "committee": "Kirkelig fellesråd",
+    "category": "andre"
+  },
+  {
+    "date": "2026-10-21",
+    "time": "08:30",
+    "municipality": "nordre_land",
+    "committee": "Kontrollutvalget",
+    "category": "andre"
+  },
+  {
+    "date": "2026-10-21",
+    "time": "13:00",
+    "municipality": "nordre_land",
+    "committee": "Arbeidsmiljøutvalget",
+    "category": "andre"
+  },
+  {
+    "date": "2026-10-22",
+    "time": "08:30",
+    "municipality": "nordre_land",
+    "committee": "Formannskapet",
+    "category": "fsk"
+  },
+  {
+    "date": "2026-10-29",
+    "time": "10:00",
+    "municipality": "nordre_land",
+    "committee": "Hovedutvalg for Landbruk, miljø og teknisk",
+    "category": "utvalg"
+  },
+  {
+    "date": "2026-11-03",
+    "time": "08:30",
+    "municipality": "nordre_land",
+    "committee": "Administrasjonsutvalget",
+    "category": "andre"
+  },
+  {
+    "date": "2026-11-03",
+    "time": "09:30",
+    "municipality": "nordre_land",
+    "committee": "Formannskapet",
+    "category": "fsk"
+  },
+  {
+    "date": "2026-11-12",
+    "time": "17:30",
+    "municipality": "nordre_land",
+    "committee": "Kommunestyret",
+    "category": "kst"
+  },
+  {
+    "date": "2026-11-18",
+    "time": "13:00",
+    "municipality": "nordre_land",
+    "committee": "Arbeidsmiljøutvalget",
+    "category": "andre"
+  },
+  {
+    "date": "2026-11-24",
+    "time": "08:30",
+    "municipality": "nordre_land",
+    "committee": "Administrasjonsutvalget",
+    "category": "andre"
+  },
+  {
+    "date": "2026-11-24",
+    "time": "09:30",
+    "municipality": "nordre_land",
+    "committee": "Formannskapet",
+    "category": "fsk"
+  },
+  {
+    "date": "2026-11-26",
+    "time": "10:00",
+    "municipality": "nordre_land",
+    "committee": "Hovedutvalg for Landbruk, miljø og teknisk",
+    "category": "utvalg"
+  },
+  {
+    "date": "2026-11-30",
+    "time": "09:00",
+    "municipality": "nordre_land",
+    "committee": "Eldrerådet",
+    "category": "andre"
+  },
+  {
+    "date": "2026-11-30",
+    "time": "09:00",
+    "municipality": "nordre_land",
+    "committee": "Rådet for mennesker med nedsatt funksjonsevne",
+    "category": "andre"
+  },
+  {
+    "date": "2026-12-09",
+    "time": "08:30",
+    "municipality": "nordre_land",
+    "committee": "Kontrollutvalget",
+    "category": "andre"
+  },
+  {
+    "date": "2026-12-10",
+    "time": "17:30",
+    "municipality": "nordre_land",
+    "committee": "Kommunestyret",
+    "category": "kst"
+  },
+  {
+    "date": "2026-12-14",
+    "time": "10:00",
+    "municipality": "nordre_land",
+    "committee": "Kirkelig fellesråd",
+    "category": "andre"
+  }
+]
