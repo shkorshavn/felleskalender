@@ -1,15 +1,18 @@
 name: Oppdater møtekalender
 
 on:
+  # Kjør automatisk hver mandag kl. 05:00 UTC (07:00 norsk tid)
   schedule:
     - cron: '0 5 * * 1'
+
+  # Tillat manuell kjøring fra GitHub-grensesnittet
   workflow_dispatch:
 
 jobs:
   oppdater:
     runs-on: ubuntu-latest
     permissions:
-      contents: write
+      contents: write   # Nødvendig for å pushe meetings.json tilbake til repoet
 
     steps:
       - name: Sjekk ut kode
@@ -18,7 +21,7 @@ jobs:
       - name: Sett opp Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '24'
+          node-version: '20'
           cache: 'npm'
 
       - name: Installer avhengigheter
@@ -36,5 +39,6 @@ jobs:
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add meetings.json raw/
+          # Commit bare hvis det er endringer
           git diff --staged --quiet || git commit -m "Oppdater møtedata $(date -u '+%Y-%m-%d %H:%M UTC')"
           git push
