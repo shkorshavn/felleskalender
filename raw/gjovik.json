@@ -1,12 +1,5 @@
 [
   {
-    "date": "2026-09-07",
-    "time": "15:45",
-    "municipality": "gjovik",
-    "committee": "Ungdomsrådet",
-    "category": "andre"
-  },
-  {
     "date": "2026-09-08",
     "time": "09:00",
     "municipality": "gjovik",
@@ -129,6 +122,13 @@
     "date": "2026-09-30",
     "time": "10:00",
     "municipality": "gjovik",
+    "committee": "Personalpolitisk utvalg",
+    "category": "utvalg"
+  },
+  {
+    "date": "2026-09-30",
+    "time": "10:00",
+    "municipality": "gjovik",
     "committee": "Eierutvalg",
     "category": "andre"
   },
@@ -138,13 +138,6 @@
     "municipality": "gjovik",
     "committee": "Formannskapet",
     "category": "fsk"
-  },
-  {
-    "date": "2026-09-30",
-    "time": "10:00",
-    "municipality": "gjovik",
-    "committee": "Personalpolitisk utvalg",
-    "category": "utvalg"
   },
   {
     "date": "2026-10-01",
