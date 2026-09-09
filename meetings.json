@@ -1,63 +1,208 @@
 {
-  "generated": "2026-09-08T11:19:07.024859",
-  "totalCount": 545,
+  "generated": "2026-09-09T14:50:57.333560",
+  "totalCount": 1018,
   "sources": {
-    "innlandet": {
-      "count": 60
+    "sel": {
+      "count": 27
     },
-    "gjovik": {
-      "count": 68
+    "dovre": {
+      "count": 24
     },
-    "ostretoten": {
-      "count": 39
+    "vaga": {
+      "count": 14
     },
-    "vestretoten": {
-      "count": 31
+    "amot": {
+      "count": 24
     },
-    "sondre_land": {
-      "count": 37
-    },
-    "nordre_land": {
-      "count": 29
-    },
-    "ipr": {
-      "count": 5
-    },
-    "hamar": {
-      "count": 43
+    "engerdal": {
+      "count": 8
     },
     "loten": {
       "count": 29
     },
+    "elverum": {
+      "count": 45
+    },
+    "hamar": {
+      "count": 43
+    },
+    "vestretoten": {
+      "count": 31
+    },
+    "ostretoten": {
+      "count": 39
+    },
+    "lesja": {
+      "count": 17
+    },
     "stange": {
       "count": 27
     },
-    "ringsaker": {
-      "count": 20
+    "trysil": {
+      "count": 25
     },
-    "kongsvinger": {
-      "count": 31
-    },
-    "ipr_kv": {
-      "count": 5
-    },
-    "gausdal": {
+    "storelvdal": {
       "count": 17
     },
-    "oyer": {
-      "count": 19
+    "nordre_land": {
+      "count": 29
+    },
+    "skjak": {
+      "count": 24
+    },
+    "ipr_ng": {
+      "count": 5
     },
     "lillehammer": {
       "count": 36
     },
-    "elverum": {
-      "count": 45
+    "ringsaker": {
+      "count": 20
+    },
+    "gjovik": {
+      "count": 68
+    },
+    "asnes": {
+      "count": 22
+    },
+    "lom": {
+      "count": 16
+    },
+    "kongsvinger": {
+      "count": 31
+    },
+    "vestreslidre": {
+      "count": 12
+    },
+    "sondre_land": {
+      "count": 37
+    },
+    "gausdal": {
+      "count": 17
+    },
+    "oystreslidre": {
+      "count": 10
+    },
+    "eidskog": {
+      "count": 10
+    },
+    "ipr_kv": {
+      "count": 5
+    },
+    "nordodal": {
+      "count": 29
+    },
+    "sorodal": {
+      "count": 25
+    },
+    "ringebu": {
+      "count": 10
+    },
+    "alvdal": {
+      "count": 10
+    },
+    "tynset": {
+      "count": 6
+    },
+    "etnedal": {
+      "count": 10
+    },
+    "oyer": {
+      "count": 19
+    },
+    "grue": {
+      "count": 11
+    },
+    "ipr_valdres": {
+      "count": 8
+    },
+    "ipr_no": {
+      "count": 4
+    },
+    "sorfron": {
+      "count": 10
+    },
+    "nordfron": {
+      "count": 10
+    },
+    "innlandet": {
+      "count": 60
+    },
+    "vang": {
+      "count": 10
+    },
+    "folldal": {
+      "count": 7
+    },
+    "tolga": {
+      "count": 10
+    },
+    "os": {
+      "count": 8
+    },
+    "rendalen": {
+      "count": 10
+    },
+    "ipr": {
+      "count": 5
+    },
+    "soraurdal": {
+      "count": 10
+    },
+    "valer": {
+      "count": 17
+    },
+    "nordaurdal": {
+      "count": 10
     },
     "ipr_se": {
       "count": 4
+    },
+    "ipr_mg": {
+      "count": 3
     }
   },
   "meetings": [
+    {
+      "date": "2026-08-31",
+      "time": "08:30",
+      "municipality": "sel",
+      "committee": "Kontrollutvalget i Dovre",
+      "category": "utvalg",
+      "day": "Mandag"
+    },
+    {
+      "date": "2026-08-31",
+      "time": "18:00",
+      "municipality": "dovre",
+      "committee": "Kommunestyret",
+      "category": "kst",
+      "day": "Mandag"
+    },
+    {
+      "date": "2026-08-31",
+      "time": "18:00",
+      "municipality": "vaga",
+      "committee": "Ungdomsrådet",
+      "category": "andre",
+      "day": "Mandag"
+    },
+    {
+      "date": "2026-09-01",
+      "time": "08:30",
+      "municipality": "amot",
+      "committee": "Hovedutvalg kommunalteknikk og arealplanlegging",
+      "category": "utvalg",
+      "day": "Tirsdag"
+    },
+    {
+      "date": "2026-09-01",
+      "time": "09:00",
+      "municipality": "engerdal",
+      "committee": "Formannskapet",
+      "category": "fsk",
+      "day": "Tirsdag"
+    },
     {
       "date": "2026-09-01",
       "time": "09:00",
@@ -107,6 +252,22 @@
       "day": "Tirsdag"
     },
     {
+      "date": "2026-09-01",
+      "time": "17:00",
+      "municipality": "dovre",
+      "committee": "Ungdomsrådet",
+      "category": "andre",
+      "day": "Tirsdag"
+    },
+    {
+      "date": "2026-09-01",
+      "time": "17:00",
+      "municipality": "sel",
+      "committee": "Eldreråd",
+      "category": "andre",
+      "day": "Tirsdag"
+    },
+    {
       "date": "2026-09-02",
       "time": "08:00",
       "municipality": "ostretoten",
@@ -141,6 +302,14 @@
     {
       "date": "2026-09-02",
       "time": "09:00",
+      "municipality": "lesja",
+      "committee": "Kraftfondstyret",
+      "category": "andre",
+      "day": "Onsdag"
+    },
+    {
+      "date": "2026-09-02",
+      "time": "09:00",
       "municipality": "loten",
       "committee": "Formannskapet",
       "category": "fsk",
@@ -164,8 +333,64 @@
     },
     {
       "date": "2026-09-02",
+      "time": "09:00",
+      "municipality": "trysil",
+      "committee": "Kontrollutvalget",
+      "category": "utvalg",
+      "day": "Onsdag"
+    },
+    {
+      "date": "2026-09-02",
       "time": "09:30",
       "municipality": "elverum",
+      "committee": "Formannskapet",
+      "category": "fsk",
+      "day": "Onsdag"
+    },
+    {
+      "date": "2026-09-02",
+      "time": "10:00",
+      "municipality": "amot",
+      "committee": "Administrasjonsutvalget",
+      "category": "utvalg",
+      "day": "Onsdag"
+    },
+    {
+      "date": "2026-09-02",
+      "time": "10:00",
+      "municipality": "amot",
+      "committee": "Formannskapet",
+      "category": "fsk",
+      "day": "Onsdag"
+    },
+    {
+      "date": "2026-09-02",
+      "time": "10:00",
+      "municipality": "lesja",
+      "committee": "Formannskapet",
+      "category": "fsk",
+      "day": "Onsdag"
+    },
+    {
+      "date": "2026-09-02",
+      "time": "10:00",
+      "municipality": "storelvdal",
+      "committee": "Planutvalget",
+      "category": "utvalg",
+      "day": "Onsdag"
+    },
+    {
+      "date": "2026-09-02",
+      "time": "10:00",
+      "municipality": "vaga",
+      "committee": "Råd for eldre og personar med funksjonsnedsetting",
+      "category": "andre",
+      "day": "Onsdag"
+    },
+    {
+      "date": "2026-09-02",
+      "time": "10:15",
+      "municipality": "storelvdal",
       "committee": "Formannskapet",
       "category": "fsk",
       "day": "Onsdag"
@@ -188,6 +413,14 @@
     },
     {
       "date": "2026-09-02",
+      "time": "13:00",
+      "municipality": "skjak",
+      "committee": "Arbeidsgruppe for trafikktryggingsutval",
+      "category": "utvalg",
+      "day": "Onsdag"
+    },
+    {
+      "date": "2026-09-02",
       "time": "14:00",
       "municipality": "vestretoten",
       "committee": "Internasjonalt råd",
@@ -205,8 +438,24 @@
     {
       "date": "2026-09-03",
       "time": "09:00",
+      "municipality": "trysil",
+      "committee": "Hovedutvalg for drift og forvaltning",
+      "category": "utvalg",
+      "day": "Torsdag"
+    },
+    {
+      "date": "2026-09-03",
+      "time": "09:00",
       "municipality": "vestretoten",
       "committee": "Eldrerådet",
+      "category": "andre",
+      "day": "Torsdag"
+    },
+    {
+      "date": "2026-09-03",
+      "time": "10:00",
+      "municipality": "skjak",
+      "committee": "Brukarråd",
       "category": "andre",
       "day": "Torsdag"
     },
@@ -221,10 +470,34 @@
     {
       "date": "2026-09-03",
       "time": "12:00",
+      "municipality": "skjak",
+      "committee": "Eldreråd",
+      "category": "andre",
+      "day": "Torsdag"
+    },
+    {
+      "date": "2026-09-03",
+      "time": "12:00",
       "municipality": "vestretoten",
       "committee": "Rådet for mennesker med nedsatt funksjonsevne",
       "category": "andre",
       "day": "Torsdag"
+    },
+    {
+      "date": "2026-09-04",
+      "time": "08:00",
+      "municipality": "trysil",
+      "committee": "Femund-/Trysilvassdraget fiskefond",
+      "category": "andre",
+      "day": "Fredag"
+    },
+    {
+      "date": "2026-09-04",
+      "time": "08:30",
+      "municipality": "ipr_ng",
+      "committee": "Regionstyret for Interkommunalt politisk råd i Nord-Gudbrandsdal",
+      "category": "ipr",
+      "day": "Fredag"
     },
     {
       "date": "2026-09-04",
@@ -233,6 +506,14 @@
       "committee": "Rådet for personer med funksjonsnedsettelse",
       "category": "andre",
       "day": "Fredag"
+    },
+    {
+      "date": "2026-09-07",
+      "time": "09:00",
+      "municipality": "amot",
+      "committee": "Rådet for personer med nedsatt funksjonsevne",
+      "category": "andre",
+      "day": "Mandag"
     },
     {
       "date": "2026-09-07",
@@ -253,6 +534,14 @@
     {
       "date": "2026-09-07",
       "time": "10:00",
+      "municipality": "amot",
+      "committee": "Eldrerådet",
+      "category": "andre",
+      "day": "Mandag"
+    },
+    {
+      "date": "2026-09-07",
+      "time": "10:00",
       "municipality": "ringsaker",
       "committee": "Eldrerådet",
       "category": "andre",
@@ -264,6 +553,14 @@
       "municipality": "lillehammer",
       "committee": "Eldreråd",
       "category": "andre",
+      "day": "Mandag"
+    },
+    {
+      "date": "2026-09-07",
+      "time": "12:00",
+      "municipality": "sel",
+      "committee": "Kontrollutvalget i Lom",
+      "category": "utvalg",
       "day": "Mandag"
     },
     {
@@ -283,6 +580,22 @@
       "day": "Mandag"
     },
     {
+      "date": "2026-09-07",
+      "time": "18:00",
+      "municipality": "sel",
+      "committee": "Driftsutvalget",
+      "category": "utvalg",
+      "day": "Mandag"
+    },
+    {
+      "date": "2026-09-08",
+      "time": "",
+      "municipality": "asnes",
+      "committee": "Råd for personer med funksjonsnedsettelse",
+      "category": "andre",
+      "day": "Tirsdag"
+    },
+    {
       "date": "2026-09-08",
       "time": "09:00",
       "municipality": "gjovik",
@@ -300,6 +613,70 @@
     },
     {
       "date": "2026-09-08",
+      "time": "09:00",
+      "municipality": "sel",
+      "committee": "Formannskapet",
+      "category": "fsk",
+      "day": "Tirsdag"
+    },
+    {
+      "date": "2026-09-08",
+      "time": "09:00",
+      "municipality": "trysil",
+      "committee": "Formannskapet",
+      "category": "fsk",
+      "day": "Tirsdag"
+    },
+    {
+      "date": "2026-09-08",
+      "time": "09:00",
+      "municipality": "vaga",
+      "committee": "Hovudutval for oppvekst, kultur og omsorg",
+      "category": "utvalg",
+      "day": "Tirsdag"
+    },
+    {
+      "date": "2026-09-08",
+      "time": "09:30",
+      "municipality": "sel",
+      "committee": "Kontrollutvalget i Skjåk",
+      "category": "utvalg",
+      "day": "Tirsdag"
+    },
+    {
+      "date": "2026-09-08",
+      "time": "10:00",
+      "municipality": "lom",
+      "committee": "Formannskapet",
+      "category": "fsk",
+      "day": "Tirsdag"
+    },
+    {
+      "date": "2026-09-08",
+      "time": "10:00",
+      "municipality": "skjak",
+      "committee": "Hovedutval for miljø og samfunnsutvikling",
+      "category": "utvalg",
+      "day": "Tirsdag"
+    },
+    {
+      "date": "2026-09-08",
+      "time": "10:00",
+      "municipality": "storelvdal",
+      "committee": "Råd for likestilling av funksjonshemmede",
+      "category": "andre",
+      "day": "Tirsdag"
+    },
+    {
+      "date": "2026-09-08",
+      "time": "15:00",
+      "municipality": "engerdal",
+      "committee": "Ungdomsrådet",
+      "category": "andre",
+      "day": "Tirsdag"
+    },
+    {
+      "date": "2026-09-08",
       "time": "18:00",
       "municipality": "elverum",
       "committee": "Kommunestyrekomité for utdanning",
@@ -312,6 +689,14 @@
       "municipality": "kongsvinger",
       "committee": "Kommunestyret",
       "category": "kst",
+      "day": "Onsdag"
+    },
+    {
+      "date": "2026-09-09",
+      "time": "",
+      "municipality": "vestreslidre",
+      "committee": "Råd for brukarmedverknad",
+      "category": "andre",
       "day": "Onsdag"
     },
     {
@@ -365,6 +750,14 @@
     {
       "date": "2026-09-09",
       "time": "09:00",
+      "municipality": "lom",
+      "committee": "Sakkunnig nemnd",
+      "category": "utvalg",
+      "day": "Onsdag"
+    },
+    {
+      "date": "2026-09-09",
+      "time": "09:00",
       "municipality": "nordre_land",
       "committee": "Ad hoc-utvalg Oppvekst",
       "category": "utvalg",
@@ -396,6 +789,22 @@
     },
     {
       "date": "2026-09-09",
+      "time": "09:00",
+      "municipality": "vaga",
+      "committee": "Hovudutval for teknisk, landbruk og naturforvaltning",
+      "category": "utvalg",
+      "day": "Onsdag"
+    },
+    {
+      "date": "2026-09-09",
+      "time": "10:00",
+      "municipality": "oystreslidre",
+      "committee": "Eldreråd",
+      "category": "andre",
+      "day": "Onsdag"
+    },
+    {
+      "date": "2026-09-09",
       "time": "10:00",
       "municipality": "sondre_land",
       "committee": "Formannskapet",
@@ -419,6 +828,14 @@
       "day": "Onsdag"
     },
     {
+      "date": "2026-09-09",
+      "time": "18:00",
+      "municipality": "eidskog",
+      "committee": "Helseutvalget",
+      "category": "utvalg",
+      "day": "Onsdag"
+    },
+    {
       "date": "2026-09-10",
       "time": "",
       "municipality": "ipr_kv",
@@ -428,9 +845,73 @@
     },
     {
       "date": "2026-09-10",
+      "time": "",
+      "municipality": "nordodal",
+      "committee": "Kommuneskogutvalget",
+      "category": "utvalg",
+      "day": "Torsdag"
+    },
+    {
+      "date": "2026-09-10",
+      "time": "",
+      "municipality": "sorodal",
+      "committee": "Kommunestyret",
+      "category": "kst",
+      "day": "Torsdag"
+    },
+    {
+      "date": "2026-09-10",
+      "time": "",
+      "municipality": "vestreslidre",
+      "committee": "Kommunestyret",
+      "category": "kst",
+      "day": "Torsdag"
+    },
+    {
+      "date": "2026-09-10",
+      "time": "08:00",
+      "municipality": "ringebu",
+      "committee": "Formannskapet",
+      "category": "fsk",
+      "day": "Torsdag"
+    },
+    {
+      "date": "2026-09-10",
+      "time": "08:00",
+      "municipality": "skjak",
+      "committee": "Hovedutval for helse, oppvekst, omsorg og kultur",
+      "category": "utvalg",
+      "day": "Torsdag"
+    },
+    {
+      "date": "2026-09-10",
       "time": "08:30",
       "municipality": "hamar",
       "committee": "Utvalg for miljø og oppvekst",
+      "category": "utvalg",
+      "day": "Torsdag"
+    },
+    {
+      "date": "2026-09-10",
+      "time": "09:00",
+      "municipality": "alvdal",
+      "committee": "Formannskapet",
+      "category": "fsk",
+      "day": "Torsdag"
+    },
+    {
+      "date": "2026-09-10",
+      "time": "09:00",
+      "municipality": "eidskog",
+      "committee": "Sakkyndig nemnd for eiendomsskatt",
+      "category": "utvalg",
+      "day": "Torsdag"
+    },
+    {
+      "date": "2026-09-10",
+      "time": "09:00",
+      "municipality": "eidskog",
+      "committee": "Klagenemnd for eiendomsskatt",
       "category": "utvalg",
       "day": "Torsdag"
     },
@@ -464,6 +945,30 @@
       "municipality": "stange",
       "committee": "Eldrerådet",
       "category": "andre",
+      "day": "Torsdag"
+    },
+    {
+      "date": "2026-09-10",
+      "time": "09:00",
+      "municipality": "tynset",
+      "committee": "Formannskapet",
+      "category": "fsk",
+      "day": "Torsdag"
+    },
+    {
+      "date": "2026-09-10",
+      "time": "09:30",
+      "municipality": "etnedal",
+      "committee": "Kommunestyret",
+      "category": "kst",
+      "day": "Torsdag"
+    },
+    {
+      "date": "2026-09-10",
+      "time": "10:00",
+      "municipality": "oystreslidre",
+      "committee": "Kommunestyret",
+      "category": "kst",
       "day": "Torsdag"
     },
     {
@@ -523,6 +1028,22 @@
       "day": "Torsdag"
     },
     {
+      "date": "2026-09-10",
+      "time": "18:00",
+      "municipality": "storelvdal",
+      "committee": "Eldrerådet",
+      "category": "andre",
+      "day": "Torsdag"
+    },
+    {
+      "date": "2026-09-10",
+      "time": "19:00",
+      "municipality": "lesja",
+      "committee": "Kommunestyret",
+      "category": "kst",
+      "day": "Torsdag"
+    },
+    {
       "date": "2026-09-11",
       "time": "09:00",
       "municipality": "elverum",
@@ -556,6 +1077,22 @@
     },
     {
       "date": "2026-09-11",
+      "time": "10:00",
+      "municipality": "lom",
+      "committee": "Formannskapet",
+      "category": "fsk",
+      "day": "Fredag"
+    },
+    {
+      "date": "2026-09-11",
+      "time": "10:00",
+      "municipality": "storelvdal",
+      "committee": "Utvalg for skole, kultur og omsorg / SKO-utvalget",
+      "category": "utvalg",
+      "day": "Fredag"
+    },
+    {
+      "date": "2026-09-11",
       "time": "12:00",
       "municipality": "ostretoten",
       "committee": "Formannskapet (FSK)",
@@ -572,6 +1109,54 @@
     },
     {
       "date": "2026-09-14",
+      "time": "",
+      "municipality": "asnes",
+      "committee": "Formannskap",
+      "category": "fsk",
+      "day": "Mandag"
+    },
+    {
+      "date": "2026-09-14",
+      "time": "",
+      "municipality": "grue",
+      "committee": "Kommunestyret",
+      "category": "kst",
+      "day": "Mandag"
+    },
+    {
+      "date": "2026-09-14",
+      "time": "",
+      "municipality": "ipr_valdres",
+      "committee": "Regionrådet i Valdres IPR",
+      "category": "ipr",
+      "day": "Mandag"
+    },
+    {
+      "date": "2026-09-14",
+      "time": "",
+      "municipality": "nordodal",
+      "committee": "Nord-Odal ungdomsråd",
+      "category": "andre",
+      "day": "Mandag"
+    },
+    {
+      "date": "2026-09-14",
+      "time": "",
+      "municipality": "nordodal",
+      "committee": "Utvalg for samfunns- og næringsutvikling",
+      "category": "utvalg",
+      "day": "Mandag"
+    },
+    {
+      "date": "2026-09-14",
+      "time": "09:00",
+      "municipality": "eidskog",
+      "committee": "Trafikksikkerhetsutvalg",
+      "category": "utvalg",
+      "day": "Mandag"
+    },
+    {
+      "date": "2026-09-14",
       "time": "09:00",
       "municipality": "gjovik",
       "committee": "Eldrerådet",
@@ -583,6 +1168,38 @@
       "time": "09:00",
       "municipality": "ostretoten",
       "committee": "Kontrollutvalget (KONT)",
+      "category": "utvalg",
+      "day": "Mandag"
+    },
+    {
+      "date": "2026-09-14",
+      "time": "09:00",
+      "municipality": "sel",
+      "committee": "Kontrollutvalget i Lesja",
+      "category": "utvalg",
+      "day": "Mandag"
+    },
+    {
+      "date": "2026-09-14",
+      "time": "09:00",
+      "municipality": "trysil",
+      "committee": "Eldrerådet",
+      "category": "andre",
+      "day": "Mandag"
+    },
+    {
+      "date": "2026-09-14",
+      "time": "10:00",
+      "municipality": "ipr_no",
+      "committee": "Interkommunalt politisk råd Nord-Østerdal",
+      "category": "ipr",
+      "day": "Mandag"
+    },
+    {
+      "date": "2026-09-14",
+      "time": "10:00",
+      "municipality": "storelvdal",
+      "committee": "Kontrollutvalget",
       "category": "utvalg",
       "day": "Mandag"
     },
@@ -612,6 +1229,14 @@
     },
     {
       "date": "2026-09-14",
+      "time": "13:00",
+      "municipality": "sorfron",
+      "committee": "Ungdomsråd",
+      "category": "andre",
+      "day": "Mandag"
+    },
+    {
+      "date": "2026-09-14",
       "time": "14:00",
       "municipality": "gjovik",
       "committee": "Studentrådet",
@@ -629,9 +1254,33 @@
     {
       "date": "2026-09-14",
       "time": "17:00",
+      "municipality": "eidskog",
+      "committee": "Plan og samfunnsutvalget",
+      "category": "utvalg",
+      "day": "Mandag"
+    },
+    {
+      "date": "2026-09-14",
+      "time": "17:00",
+      "municipality": "sel",
+      "committee": "Kommunestyret",
+      "category": "kst",
+      "day": "Mandag"
+    },
+    {
+      "date": "2026-09-14",
+      "time": "17:00",
       "municipality": "sondre_land",
       "committee": "Kommunestyret",
       "category": "kst",
+      "day": "Mandag"
+    },
+    {
+      "date": "2026-09-14",
+      "time": "18:00",
+      "municipality": "dovre",
+      "committee": "Oppvekst-, kultur- og omsorgsutvalget",
+      "category": "utvalg",
       "day": "Mandag"
     },
     {
@@ -652,8 +1301,48 @@
     },
     {
       "date": "2026-09-15",
+      "time": "",
+      "municipality": "nordodal",
+      "committee": "Eldres råd",
+      "category": "andre",
+      "day": "Tirsdag"
+    },
+    {
+      "date": "2026-09-15",
+      "time": "",
+      "municipality": "nordodal",
+      "committee": "Råd for personer med funksjonsnedsettelse",
+      "category": "andre",
+      "day": "Tirsdag"
+    },
+    {
+      "date": "2026-09-15",
+      "time": "",
+      "municipality": "sorodal",
+      "committee": "Formannskapet",
+      "category": "fsk",
+      "day": "Tirsdag"
+    },
+    {
+      "date": "2026-09-15",
+      "time": "08:00",
+      "municipality": "skjak",
+      "committee": "Budsjettnemd",
+      "category": "utvalg",
+      "day": "Tirsdag"
+    },
+    {
+      "date": "2026-09-15",
       "time": "08:30",
       "municipality": "oyer",
+      "committee": "Formannskapet",
+      "category": "fsk",
+      "day": "Tirsdag"
+    },
+    {
+      "date": "2026-09-15",
+      "time": "09:00",
+      "municipality": "eidskog",
       "committee": "Formannskapet",
       "category": "fsk",
       "day": "Tirsdag"
@@ -671,6 +1360,30 @@
       "time": "09:00",
       "municipality": "lillehammer",
       "committee": "Formannskapet",
+      "category": "fsk",
+      "day": "Tirsdag"
+    },
+    {
+      "date": "2026-09-15",
+      "time": "09:00",
+      "municipality": "nordfron",
+      "committee": "Kontrollutval (KU)",
+      "category": "utvalg",
+      "day": "Tirsdag"
+    },
+    {
+      "date": "2026-09-15",
+      "time": "09:00",
+      "municipality": "vaga",
+      "committee": "Formannskapet",
+      "category": "fsk",
+      "day": "Tirsdag"
+    },
+    {
+      "date": "2026-09-15",
+      "time": "09:30",
+      "municipality": "skjak",
+      "committee": "Formannskap",
       "category": "fsk",
       "day": "Tirsdag"
     },
@@ -715,11 +1428,43 @@
       "day": "Tirsdag"
     },
     {
+      "date": "2026-09-15",
+      "time": "18:00",
+      "municipality": "dovre",
+      "committee": "Plan-, nærings- og utviklingsutvalget",
+      "category": "utvalg",
+      "day": "Tirsdag"
+    },
+    {
+      "date": "2026-09-15",
+      "time": "18:00",
+      "municipality": "engerdal",
+      "committee": "Kommunestyret",
+      "category": "kst",
+      "day": "Tirsdag"
+    },
+    {
       "date": "2026-09-16",
       "time": "",
       "municipality": "kongsvinger",
       "committee": "Formannskap",
       "category": "fsk",
+      "day": "Onsdag"
+    },
+    {
+      "date": "2026-09-16",
+      "time": "",
+      "municipality": "nordodal",
+      "committee": "Utvalg for oppvekst, frivillighet og kultur",
+      "category": "utvalg",
+      "day": "Onsdag"
+    },
+    {
+      "date": "2026-09-16",
+      "time": "",
+      "municipality": "vestreslidre",
+      "committee": "Ungdomsråd",
+      "category": "andre",
       "day": "Onsdag"
     },
     {
@@ -735,6 +1480,14 @@
       "time": "08:00",
       "municipality": "ringsaker",
       "committee": "Planutvalget",
+      "category": "utvalg",
+      "day": "Onsdag"
+    },
+    {
+      "date": "2026-09-16",
+      "time": "09:00",
+      "municipality": "eidskog",
+      "committee": "Arbeidsmiljøutvalg",
       "category": "utvalg",
       "day": "Onsdag"
     },
@@ -765,9 +1518,33 @@
     {
       "date": "2026-09-16",
       "time": "09:00",
+      "municipality": "sel",
+      "committee": "Kontrollutvalget i Vågå",
+      "category": "utvalg",
+      "day": "Onsdag"
+    },
+    {
+      "date": "2026-09-16",
+      "time": "09:00",
       "municipality": "sondre_land",
       "committee": "Kontrollutvalget",
       "category": "utvalg",
+      "day": "Onsdag"
+    },
+    {
+      "date": "2026-09-16",
+      "time": "09:30",
+      "municipality": "skjak",
+      "committee": "Arbeidsmiljøutval",
+      "category": "utvalg",
+      "day": "Onsdag"
+    },
+    {
+      "date": "2026-09-16",
+      "time": "10:00",
+      "municipality": "dovre",
+      "committee": "Fellesråd for mennesker med nedsatt funksjonsevne og eldreråd",
+      "category": "andre",
       "day": "Onsdag"
     },
     {
@@ -812,8 +1589,32 @@
     },
     {
       "date": "2026-09-16",
+      "time": "14:30",
+      "municipality": "eidskog",
+      "committee": "Partssammensatt utvalg",
+      "category": "utvalg",
+      "day": "Onsdag"
+    },
+    {
+      "date": "2026-09-16",
       "time": "17:00",
       "municipality": "stange",
+      "committee": "Kommunestyret",
+      "category": "kst",
+      "day": "Onsdag"
+    },
+    {
+      "date": "2026-09-16",
+      "time": "17:00",
+      "municipality": "storelvdal",
+      "committee": "Kommunestyret",
+      "category": "kst",
+      "day": "Onsdag"
+    },
+    {
+      "date": "2026-09-16",
+      "time": "18:00",
+      "municipality": "amot",
       "committee": "Kommunestyret",
       "category": "kst",
       "day": "Onsdag"
@@ -825,6 +1626,14 @@
       "committee": "Kommunestyret",
       "category": "kst",
       "day": "Onsdag"
+    },
+    {
+      "date": "2026-09-17",
+      "time": "",
+      "municipality": "nordodal",
+      "committee": "Utvalg for helse og mestring",
+      "category": "utvalg",
+      "day": "Torsdag"
     },
     {
       "date": "2026-09-17",
@@ -853,6 +1662,14 @@
     {
       "date": "2026-09-17",
       "time": "09:00",
+      "municipality": "nordfron",
+      "committee": "Formannskapet (FOR)",
+      "category": "fsk",
+      "day": "Torsdag"
+    },
+    {
+      "date": "2026-09-17",
+      "time": "09:00",
       "municipality": "ostretoten",
       "committee": "Tjenesteutvalg (TU)",
       "category": "utvalg",
@@ -876,9 +1693,57 @@
     },
     {
       "date": "2026-09-17",
+      "time": "09:00",
+      "municipality": "sel",
+      "committee": "Kontrollutvalget i Sel",
+      "category": "utvalg",
+      "day": "Torsdag"
+    },
+    {
+      "date": "2026-09-17",
+      "time": "09:30",
+      "municipality": "vang",
+      "committee": "Arbeidsmiljøutvalet",
+      "category": "utvalg",
+      "day": "Torsdag"
+    },
+    {
+      "date": "2026-09-17",
+      "time": "10:00",
+      "municipality": "folldal",
+      "committee": "Formannskapet",
+      "category": "fsk",
+      "day": "Torsdag"
+    },
+    {
+      "date": "2026-09-17",
       "time": "10:00",
       "municipality": "nordre_land",
       "committee": "Hovedutvalg for Landbruk, miljø og teknisk",
+      "category": "utvalg",
+      "day": "Torsdag"
+    },
+    {
+      "date": "2026-09-17",
+      "time": "10:00",
+      "municipality": "oystreslidre",
+      "committee": "Formannskapet",
+      "category": "fsk",
+      "day": "Torsdag"
+    },
+    {
+      "date": "2026-09-17",
+      "time": "13:00",
+      "municipality": "tolga",
+      "committee": "Kontrollutvalget",
+      "category": "utvalg",
+      "day": "Torsdag"
+    },
+    {
+      "date": "2026-09-17",
+      "time": "14:00",
+      "municipality": "alvdal",
+      "committee": "Arbeidsmiljøutvalget",
       "category": "utvalg",
       "day": "Torsdag"
     },
@@ -899,6 +1764,54 @@
       "day": "Torsdag"
     },
     {
+      "date": "2026-09-17",
+      "time": "18:00",
+      "municipality": "sorfron",
+      "committee": "Kommunestyre",
+      "category": "kst",
+      "day": "Torsdag"
+    },
+    {
+      "date": "2026-09-17",
+      "time": "19:00",
+      "municipality": "os",
+      "committee": "Kommunestyret",
+      "category": "kst",
+      "day": "Torsdag"
+    },
+    {
+      "date": "2026-09-17",
+      "time": "19:00",
+      "municipality": "rendalen",
+      "committee": "Kommunestyret",
+      "category": "kst",
+      "day": "Torsdag"
+    },
+    {
+      "date": "2026-09-18",
+      "time": "09:00",
+      "municipality": "ipr_ng",
+      "committee": "Representantskapet for Interkommunalt politisk råd i Nord-Gudbrandsdal",
+      "category": "ipr",
+      "day": "Fredag"
+    },
+    {
+      "date": "2026-09-18",
+      "time": "09:00",
+      "municipality": "nordfron",
+      "committee": "Administrasjonsutvalet (ADM)",
+      "category": "utvalg",
+      "day": "Fredag"
+    },
+    {
+      "date": "2026-09-18",
+      "time": "09:30",
+      "municipality": "vang",
+      "committee": "Ungdomsrådet",
+      "category": "andre",
+      "day": "Fredag"
+    },
+    {
       "date": "2026-09-18",
       "time": "11:30",
       "municipality": "ipr",
@@ -913,6 +1826,46 @@
       "committee": "Kommunestyrekomité for vekst og utvikling",
       "category": "kst",
       "day": "Fredag"
+    },
+    {
+      "date": "2026-09-18",
+      "time": "14:30",
+      "municipality": "tolga",
+      "committee": "Verdensarvrådet, lokalt",
+      "category": "andre",
+      "day": "Fredag"
+    },
+    {
+      "date": "2026-09-21",
+      "time": "",
+      "municipality": "asnes",
+      "committee": "Kommunestyre",
+      "category": "kst",
+      "day": "Mandag"
+    },
+    {
+      "date": "2026-09-21",
+      "time": "",
+      "municipality": "nordodal",
+      "committee": "Formannskapet",
+      "category": "fsk",
+      "day": "Mandag"
+    },
+    {
+      "date": "2026-09-21",
+      "time": "08:00",
+      "municipality": "amot",
+      "committee": "Hovedutvalget for landbruk og utmark",
+      "category": "utvalg",
+      "day": "Mandag"
+    },
+    {
+      "date": "2026-09-21",
+      "time": "08:30",
+      "municipality": "amot",
+      "committee": "Hovedutvalg for oppvekst og kultur",
+      "category": "utvalg",
+      "day": "Mandag"
     },
     {
       "date": "2026-09-21",
@@ -971,11 +1924,51 @@
       "day": "Mandag"
     },
     {
+      "date": "2026-09-21",
+      "time": "12:00",
+      "municipality": "trysil",
+      "committee": "Partssammensatt utvalg",
+      "category": "utvalg",
+      "day": "Mandag"
+    },
+    {
+      "date": "2026-09-21",
+      "time": "13:00",
+      "municipality": "tolga",
+      "committee": "Kontrollutvalget",
+      "category": "utvalg",
+      "day": "Mandag"
+    },
+    {
+      "date": "2026-09-22",
+      "time": "",
+      "municipality": "vestreslidre",
+      "committee": "Arbeidsmiljøutvalet",
+      "category": "utvalg",
+      "day": "Tirsdag"
+    },
+    {
+      "date": "2026-09-22",
+      "time": "08:30",
+      "municipality": "amot",
+      "committee": "Hovedutvalg kommunalteknikk og arealplanlegging",
+      "category": "utvalg",
+      "day": "Tirsdag"
+    },
+    {
       "date": "2026-09-22",
       "time": "08:30",
       "municipality": "nordre_land",
       "committee": "Administrasjonsutvalget",
       "category": "utvalg",
+      "day": "Tirsdag"
+    },
+    {
+      "date": "2026-09-22",
+      "time": "09:00",
+      "municipality": "trysil",
+      "committee": "Kommunestyret",
+      "category": "kst",
       "day": "Tirsdag"
     },
     {
@@ -995,11 +1988,91 @@
       "day": "Tirsdag"
     },
     {
+      "date": "2026-09-22",
+      "time": "17:00",
+      "municipality": "lom",
+      "committee": "Kommunestyret",
+      "category": "kst",
+      "day": "Tirsdag"
+    },
+    {
+      "date": "2026-09-22",
+      "time": "18:00",
+      "municipality": "eidskog",
+      "committee": "Kommunestyret",
+      "category": "kst",
+      "day": "Tirsdag"
+    },
+    {
+      "date": "2026-09-22",
+      "time": "18:00",
+      "municipality": "tynset",
+      "committee": "Kommunestyret",
+      "category": "kst",
+      "day": "Tirsdag"
+    },
+    {
+      "date": "2026-09-22",
+      "time": "18:00",
+      "municipality": "vaga",
+      "committee": "Kommunestyret",
+      "category": "kst",
+      "day": "Tirsdag"
+    },
+    {
+      "date": "2026-09-22",
+      "time": "18:30",
+      "municipality": "ringebu",
+      "committee": "Kommunestyret",
+      "category": "kst",
+      "day": "Tirsdag"
+    },
+    {
+      "date": "2026-09-23",
+      "time": "08:00",
+      "municipality": "ringebu",
+      "committee": "Administrasjonsutvalget",
+      "category": "utvalg",
+      "day": "Onsdag"
+    },
+    {
+      "date": "2026-09-23",
+      "time": "08:00",
+      "municipality": "ringebu",
+      "committee": "Formannskapet",
+      "category": "fsk",
+      "day": "Onsdag"
+    },
+    {
+      "date": "2026-09-23",
+      "time": "09:00",
+      "municipality": "dovre",
+      "committee": "Partssammensatt utvalg",
+      "category": "utvalg",
+      "day": "Onsdag"
+    },
+    {
       "date": "2026-09-23",
       "time": "09:00",
       "municipality": "ostretoten",
       "committee": "Formannskapet (FSK)",
       "category": "fsk",
+      "day": "Onsdag"
+    },
+    {
+      "date": "2026-09-23",
+      "time": "09:00",
+      "municipality": "rendalen",
+      "committee": "Styret for Rendalen kommuneskoger KF",
+      "category": "andre",
+      "day": "Onsdag"
+    },
+    {
+      "date": "2026-09-23",
+      "time": "09:00",
+      "municipality": "trysil",
+      "committee": "Ungdomsråd",
+      "category": "andre",
       "day": "Onsdag"
     },
     {
@@ -1013,9 +2086,25 @@
     {
       "date": "2026-09-23",
       "time": "10:00",
+      "municipality": "dovre",
+      "committee": "Formannskapet",
+      "category": "fsk",
+      "day": "Onsdag"
+    },
+    {
+      "date": "2026-09-23",
+      "time": "10:00",
       "municipality": "gjovik",
       "committee": "Formannskapet",
       "category": "fsk",
+      "day": "Onsdag"
+    },
+    {
+      "date": "2026-09-23",
+      "time": "12:30",
+      "municipality": "trysil",
+      "committee": "Arbeidsmiljøutvalget",
+      "category": "utvalg",
       "day": "Onsdag"
     },
     {
@@ -1041,6 +2130,14 @@
       "committee": "Kommunestyret",
       "category": "kst",
       "day": "Onsdag"
+    },
+    {
+      "date": "2026-09-24",
+      "time": "",
+      "municipality": "sorodal",
+      "committee": "Kommunestyret",
+      "category": "kst",
+      "day": "Torsdag"
     },
     {
       "date": "2026-09-24",
@@ -1077,6 +2174,38 @@
     {
       "date": "2026-09-24",
       "time": "09:00",
+      "municipality": "rendalen",
+      "committee": "Formannskapet",
+      "category": "fsk",
+      "day": "Torsdag"
+    },
+    {
+      "date": "2026-09-24",
+      "time": "09:00",
+      "municipality": "sorfron",
+      "committee": "Partssammensatt utvalg",
+      "category": "utvalg",
+      "day": "Torsdag"
+    },
+    {
+      "date": "2026-09-24",
+      "time": "09:00",
+      "municipality": "trysil",
+      "committee": "Hovedutvalg for drift og forvaltning",
+      "category": "utvalg",
+      "day": "Torsdag"
+    },
+    {
+      "date": "2026-09-24",
+      "time": "09:00",
+      "municipality": "vang",
+      "committee": "Kommunestyret",
+      "category": "kst",
+      "day": "Torsdag"
+    },
+    {
+      "date": "2026-09-24",
+      "time": "09:00",
       "municipality": "vestretoten",
       "committee": "Kommunestyret",
       "category": "kst",
@@ -1092,9 +2221,33 @@
     },
     {
       "date": "2026-09-24",
+      "time": "15:00",
+      "municipality": "tolga",
+      "committee": "Inkluderingsutvalg Tolga",
+      "category": "utvalg",
+      "day": "Torsdag"
+    },
+    {
+      "date": "2026-09-24",
+      "time": "16:00",
+      "municipality": "soraurdal",
+      "committee": "Formannskapet",
+      "category": "fsk",
+      "day": "Torsdag"
+    },
+    {
+      "date": "2026-09-24",
       "time": "16:30",
       "municipality": "gjovik",
       "committee": "Kommunestyret",
+      "category": "kst",
+      "day": "Torsdag"
+    },
+    {
+      "date": "2026-09-24",
+      "time": "16:30",
+      "municipality": "nordfron",
+      "committee": "Kommunestyret (KOM)",
       "category": "kst",
       "day": "Torsdag"
     },
@@ -1107,12 +2260,36 @@
       "day": "Torsdag"
     },
     {
+      "date": "2026-09-24",
+      "time": "18:00",
+      "municipality": "skjak",
+      "committee": "Kommunestyret",
+      "category": "kst",
+      "day": "Torsdag"
+    },
+    {
+      "date": "2026-09-25",
+      "time": "09:00",
+      "municipality": "nordfron",
+      "committee": "Utval for trafikksikkerheit (TSU)",
+      "category": "utvalg",
+      "day": "Fredag"
+    },
+    {
       "date": "2026-09-26",
       "time": "09:00",
       "municipality": "sondre_land",
       "committee": "Sakkyndig nemnd eiendomsskatt",
       "category": "utvalg",
       "day": "Lørdag"
+    },
+    {
+      "date": "2026-09-28",
+      "time": "",
+      "municipality": "asnes",
+      "committee": "Partsammensatt utvalg",
+      "category": "utvalg",
+      "day": "Mandag"
     },
     {
       "date": "2026-09-28",
@@ -1127,6 +2304,38 @@
       "time": "",
       "municipality": "kongsvinger",
       "committee": "Funksjonsnedsattes råd",
+      "category": "andre",
+      "day": "Mandag"
+    },
+    {
+      "date": "2026-09-28",
+      "time": "10:00",
+      "municipality": "soraurdal",
+      "committee": "Eldreråd",
+      "category": "andre",
+      "day": "Mandag"
+    },
+    {
+      "date": "2026-09-28",
+      "time": "13:00",
+      "municipality": "soraurdal",
+      "committee": "Råd for mennesker med nedsatt funksjonsevne",
+      "category": "andre",
+      "day": "Mandag"
+    },
+    {
+      "date": "2026-09-28",
+      "time": "15:00",
+      "municipality": "lesja",
+      "committee": "Felles råd for eldre og mennesker med funksjonsnedsettelse",
+      "category": "andre",
+      "day": "Mandag"
+    },
+    {
+      "date": "2026-09-28",
+      "time": "15:00",
+      "municipality": "lesja",
+      "committee": "Ungdomsrådet",
       "category": "andre",
       "day": "Mandag"
     },
@@ -1156,6 +2365,22 @@
     },
     {
       "date": "2026-09-29",
+      "time": "10:00",
+      "municipality": "lom",
+      "committee": "Formannskapet",
+      "category": "fsk",
+      "day": "Tirsdag"
+    },
+    {
+      "date": "2026-09-29",
+      "time": "11:00",
+      "municipality": "amot",
+      "committee": "Hovedutvalg for helse og velferd",
+      "category": "utvalg",
+      "day": "Tirsdag"
+    },
+    {
+      "date": "2026-09-29",
       "time": "12:00",
       "municipality": "innlandet",
       "committee": "Fylkesutvalget",
@@ -1168,6 +2393,46 @@
       "municipality": "ringsaker",
       "committee": "Ungdomsrådet",
       "category": "andre",
+      "day": "Tirsdag"
+    },
+    {
+      "date": "2026-09-29",
+      "time": "16:15",
+      "municipality": "soraurdal",
+      "committee": "Ungdomsråd",
+      "category": "andre",
+      "day": "Tirsdag"
+    },
+    {
+      "date": "2026-09-29",
+      "time": "17:00",
+      "municipality": "dovre",
+      "committee": "Ungdomsrådet",
+      "category": "andre",
+      "day": "Tirsdag"
+    },
+    {
+      "date": "2026-09-29",
+      "time": "18:00",
+      "municipality": "lesja",
+      "committee": "Forvaltningsutvalget",
+      "category": "utvalg",
+      "day": "Tirsdag"
+    },
+    {
+      "date": "2026-09-29",
+      "time": "18:00",
+      "municipality": "lesja",
+      "committee": "Livsløpsutvalget",
+      "category": "utvalg",
+      "day": "Tirsdag"
+    },
+    {
+      "date": "2026-09-29",
+      "time": "18:30",
+      "municipality": "ringebu",
+      "committee": "Levekårsutvalget",
+      "category": "utvalg",
       "day": "Tirsdag"
     },
     {
@@ -1196,6 +2461,22 @@
     },
     {
       "date": "2026-09-30",
+      "time": "",
+      "municipality": "nordodal",
+      "committee": "Kommunestyret",
+      "category": "kst",
+      "day": "Onsdag"
+    },
+    {
+      "date": "2026-09-30",
+      "time": "08:00",
+      "municipality": "ringebu",
+      "committee": "Utvalg for plan og teknisk",
+      "category": "utvalg",
+      "day": "Onsdag"
+    },
+    {
+      "date": "2026-09-30",
       "time": "08:00",
       "municipality": "sondre_land",
       "committee": "Ordførerens koordineringsutvalg",
@@ -1213,9 +2494,25 @@
     {
       "date": "2026-09-30",
       "time": "09:00",
+      "municipality": "amot",
+      "committee": "Formannskapet",
+      "category": "fsk",
+      "day": "Onsdag"
+    },
+    {
+      "date": "2026-09-30",
+      "time": "09:00",
       "municipality": "hamar",
       "committee": "Kommunestyre",
       "category": "kst",
+      "day": "Onsdag"
+    },
+    {
+      "date": "2026-09-30",
+      "time": "09:00",
+      "municipality": "lesja",
+      "committee": "Formannskapet",
+      "category": "fsk",
       "day": "Onsdag"
     },
     {
@@ -1276,10 +2573,66 @@
     },
     {
       "date": "2026-10-01",
+      "time": "",
+      "municipality": "vestreslidre",
+      "committee": "Formannskapet",
+      "category": "fsk",
+      "day": "Torsdag"
+    },
+    {
+      "date": "2026-10-01",
+      "time": "09:00",
+      "municipality": "alvdal",
+      "committee": "Kommunestyret",
+      "category": "kst",
+      "day": "Torsdag"
+    },
+    {
+      "date": "2026-10-01",
       "time": "09:00",
       "municipality": "hamar",
       "committee": "Administrasjonsutvalget",
       "category": "utvalg",
+      "day": "Torsdag"
+    },
+    {
+      "date": "2026-10-01",
+      "time": "09:00",
+      "municipality": "os",
+      "committee": "Formannskapet",
+      "category": "fsk",
+      "day": "Torsdag"
+    },
+    {
+      "date": "2026-10-01",
+      "time": "09:00",
+      "municipality": "soraurdal",
+      "committee": "Kommunestyret",
+      "category": "kst",
+      "day": "Torsdag"
+    },
+    {
+      "date": "2026-10-01",
+      "time": "09:00",
+      "municipality": "vang",
+      "committee": "Formannskapet",
+      "category": "fsk",
+      "day": "Torsdag"
+    },
+    {
+      "date": "2026-10-01",
+      "time": "09:30",
+      "municipality": "tolga",
+      "committee": "Formannskapet",
+      "category": "fsk",
+      "day": "Torsdag"
+    },
+    {
+      "date": "2026-10-01",
+      "time": "10:00",
+      "municipality": "oystreslidre",
+      "committee": "Kommunestyret",
+      "category": "kst",
       "day": "Torsdag"
     },
     {
@@ -1300,6 +2653,14 @@
     },
     {
       "date": "2026-10-01",
+      "time": "13:00",
+      "municipality": "dovre",
+      "committee": "Arbeidsmiljøutvalg",
+      "category": "utvalg",
+      "day": "Torsdag"
+    },
+    {
+      "date": "2026-10-01",
       "time": "17:30",
       "municipality": "nordre_land",
       "committee": "Kommunestyret",
@@ -1307,10 +2668,66 @@
       "day": "Torsdag"
     },
     {
+      "date": "2026-10-01",
+      "time": "18:30",
+      "municipality": "ringebu",
+      "committee": "Utvalg for miljø, utmark og landbruk",
+      "category": "utvalg",
+      "day": "Torsdag"
+    },
+    {
+      "date": "2026-10-01",
+      "time": "18:30",
+      "municipality": "sorfron",
+      "committee": "Utvalg for miljø, utmark og landbruk i Ringebu",
+      "category": "utvalg",
+      "day": "Torsdag"
+    },
+    {
+      "date": "2026-10-01",
+      "time": "19:00",
+      "municipality": "folldal",
+      "committee": "Kommunestyret",
+      "category": "kst",
+      "day": "Torsdag"
+    },
+    {
+      "date": "2026-10-02",
+      "time": "08:00",
+      "municipality": "eidskog",
+      "committee": "Kontrollutvalget",
+      "category": "utvalg",
+      "day": "Fredag"
+    },
+    {
+      "date": "2026-10-02",
+      "time": "09:00",
+      "municipality": "nordfron",
+      "committee": "Formannskapet (FOR)",
+      "category": "fsk",
+      "day": "Fredag"
+    },
+    {
+      "date": "2026-10-05",
+      "time": "",
+      "municipality": "sorodal",
+      "committee": "Kontrollutvalget",
+      "category": "utvalg",
+      "day": "Mandag"
+    },
+    {
       "date": "2026-10-05",
       "time": "12:00",
       "municipality": "loten",
       "committee": "Eldrerådet",
+      "category": "andre",
+      "day": "Mandag"
+    },
+    {
+      "date": "2026-10-05",
+      "time": "12:00",
+      "municipality": "trysil",
+      "committee": "Råd for personer med funksjonsvariasjoner",
       "category": "andre",
       "day": "Mandag"
     },
@@ -1323,12 +2740,124 @@
       "day": "Mandag"
     },
     {
+      "date": "2026-10-05",
+      "time": "13:30",
+      "municipality": "alvdal",
+      "committee": "Råd for eldre og personer med funksjonsnedsettelse",
+      "category": "andre",
+      "day": "Mandag"
+    },
+    {
+      "date": "2026-10-06",
+      "time": "",
+      "municipality": "grue",
+      "committee": "Kontrollutvalget - Grue",
+      "category": "utvalg",
+      "day": "Tirsdag"
+    },
+    {
+      "date": "2026-10-06",
+      "time": "08:00",
+      "municipality": "skjak",
+      "committee": "Budsjettnemd",
+      "category": "utvalg",
+      "day": "Tirsdag"
+    },
+    {
+      "date": "2026-10-06",
+      "time": "09:00",
+      "municipality": "ringebu",
+      "committee": "Kontrollutvalget",
+      "category": "utvalg",
+      "day": "Tirsdag"
+    },
+    {
       "date": "2026-10-06",
       "time": "10:00",
       "municipality": "hamar",
       "committee": "Eldreråd",
       "category": "andre",
       "day": "Tirsdag"
+    },
+    {
+      "date": "2026-10-06",
+      "time": "13:00",
+      "municipality": "sorfron",
+      "committee": "Kontrollutvalg",
+      "category": "utvalg",
+      "day": "Tirsdag"
+    },
+    {
+      "date": "2026-10-06",
+      "time": "19:00",
+      "municipality": "tolga",
+      "committee": "Kommunestyret",
+      "category": "kst",
+      "day": "Tirsdag"
+    },
+    {
+      "date": "2026-10-07",
+      "time": "",
+      "municipality": "asnes",
+      "committee": "Kontrollutvalg",
+      "category": "utvalg",
+      "day": "Onsdag"
+    },
+    {
+      "date": "2026-10-07",
+      "time": "09:00",
+      "municipality": "nordfron",
+      "committee": "Kontrollutval (KU)",
+      "category": "utvalg",
+      "day": "Onsdag"
+    },
+    {
+      "date": "2026-10-07",
+      "time": "10:00",
+      "municipality": "amot",
+      "committee": "Eldrerådet",
+      "category": "andre",
+      "day": "Onsdag"
+    },
+    {
+      "date": "2026-10-07",
+      "time": "12:00",
+      "municipality": "rendalen",
+      "committee": "Råd for eldre og mennesker med nedsatt funksjonsevne",
+      "category": "andre",
+      "day": "Onsdag"
+    },
+    {
+      "date": "2026-10-07",
+      "time": "18:00",
+      "municipality": "valer",
+      "committee": "Planutvalget",
+      "category": "utvalg",
+      "day": "Onsdag"
+    },
+    {
+      "date": "2026-10-08",
+      "time": "09:00",
+      "municipality": "tynset",
+      "committee": "Formannskapet",
+      "category": "fsk",
+      "day": "Torsdag"
+    },
+    {
+      "date": "2026-10-08",
+      "time": "09:30",
+      "municipality": "etnedal",
+      "committee": "Formannskapet",
+      "category": "fsk",
+      "day": "Torsdag"
+    },
+    {
+      "date": "2026-10-08",
+      "time": "09:30",
+      "municipality": "etnedal",
+      "committee": "Administrasjonsutvalget",
+      "category": "utvalg",
+      "day": "Torsdag"
     },
     {
       "date": "2026-10-08",
@@ -1348,6 +2877,38 @@
     },
     {
       "date": "2026-10-12",
+      "time": "",
+      "municipality": "asnes",
+      "committee": "Formannskap",
+      "category": "fsk",
+      "day": "Mandag"
+    },
+    {
+      "date": "2026-10-12",
+      "time": "",
+      "municipality": "grue",
+      "committee": "Eldrerådet",
+      "category": "andre",
+      "day": "Mandag"
+    },
+    {
+      "date": "2026-10-12",
+      "time": "",
+      "municipality": "grue",
+      "committee": "Råd for personer med funksjonsnedsettelse",
+      "category": "andre",
+      "day": "Mandag"
+    },
+    {
+      "date": "2026-10-12",
+      "time": "",
+      "municipality": "nordodal",
+      "committee": "Formannskapet",
+      "category": "fsk",
+      "day": "Mandag"
+    },
+    {
+      "date": "2026-10-12",
       "time": "09:00",
       "municipality": "gjovik",
       "committee": "Eldrerådet",
@@ -1360,6 +2921,22 @@
       "municipality": "lillehammer",
       "committee": "Rådet for personer med funksjonsnedsettelse",
       "category": "andre",
+      "day": "Mandag"
+    },
+    {
+      "date": "2026-10-12",
+      "time": "09:00",
+      "municipality": "sel",
+      "committee": "Kontrollutvalget i Lom",
+      "category": "utvalg",
+      "day": "Mandag"
+    },
+    {
+      "date": "2026-10-12",
+      "time": "09:00",
+      "municipality": "sorfron",
+      "committee": "Miljø-, areal- og landbruksutvalg",
+      "category": "utvalg",
       "day": "Mandag"
     },
     {
@@ -1420,6 +2997,14 @@
     },
     {
       "date": "2026-10-12",
+      "time": "14:00",
+      "municipality": "valer",
+      "committee": "Eldrerådet",
+      "category": "andre",
+      "day": "Mandag"
+    },
+    {
+      "date": "2026-10-12",
       "time": "15:45",
       "municipality": "gjovik",
       "committee": "Ungdomsrådet",
@@ -1428,9 +3013,33 @@
     },
     {
       "date": "2026-10-12",
+      "time": "17:00",
+      "municipality": "valer",
+      "committee": "Råd for personer med nedsatt funksjonsevne",
+      "category": "andre",
+      "day": "Mandag"
+    },
+    {
+      "date": "2026-10-12",
+      "time": "18:00",
+      "municipality": "dovre",
+      "committee": "Kommunestyret",
+      "category": "kst",
+      "day": "Mandag"
+    },
+    {
+      "date": "2026-10-12",
       "time": "18:00",
       "municipality": "gjovik",
       "committee": "Internasjonalt råd",
+      "category": "andre",
+      "day": "Mandag"
+    },
+    {
+      "date": "2026-10-12",
+      "time": "18:00",
+      "municipality": "valer",
+      "committee": "Ungdomsrådet",
       "category": "andre",
       "day": "Mandag"
     },
@@ -1444,10 +3053,26 @@
     },
     {
       "date": "2026-10-13",
+      "time": "",
+      "municipality": "sorodal",
+      "committee": "Formannskapet",
+      "category": "fsk",
+      "day": "Tirsdag"
+    },
+    {
+      "date": "2026-10-13",
       "time": "08:00",
       "municipality": "elverum",
       "committee": "Viltfaglig utvalg",
       "category": "utvalg",
+      "day": "Tirsdag"
+    },
+    {
+      "date": "2026-10-13",
+      "time": "09:00",
+      "municipality": "engerdal",
+      "committee": "Formannskapet",
+      "category": "fsk",
       "day": "Tirsdag"
     },
     {
@@ -1477,9 +3102,73 @@
     {
       "date": "2026-10-13",
       "time": "09:00",
+      "municipality": "nordaurdal",
+      "committee": "Omstillingsprosjektet",
+      "category": "andre",
+      "day": "Tirsdag"
+    },
+    {
+      "date": "2026-10-13",
+      "time": "09:00",
+      "municipality": "sel",
+      "committee": "Kontrollutvalget i Sel",
+      "category": "utvalg",
+      "day": "Tirsdag"
+    },
+    {
+      "date": "2026-10-13",
+      "time": "09:00",
+      "municipality": "skjak",
+      "committee": "Hovedutval for miljø og samfunnsutvikling",
+      "category": "utvalg",
+      "day": "Tirsdag"
+    },
+    {
+      "date": "2026-10-13",
+      "time": "09:00",
+      "municipality": "sorfron",
+      "committee": "Formannskap",
+      "category": "fsk",
+      "day": "Tirsdag"
+    },
+    {
+      "date": "2026-10-13",
+      "time": "09:00",
+      "municipality": "trysil",
+      "committee": "Formannskapet",
+      "category": "fsk",
+      "day": "Tirsdag"
+    },
+    {
+      "date": "2026-10-13",
+      "time": "09:00",
+      "municipality": "vaga",
+      "committee": "Administrasjonsutvalet",
+      "category": "utvalg",
+      "day": "Tirsdag"
+    },
+    {
+      "date": "2026-10-13",
+      "time": "09:00",
+      "municipality": "vaga",
+      "committee": "Formannskapet",
+      "category": "fsk",
+      "day": "Tirsdag"
+    },
+    {
+      "date": "2026-10-13",
+      "time": "09:00",
       "municipality": "vestretoten",
       "committee": "Oppvekst- og velferdsutvalget",
       "category": "utvalg",
+      "day": "Tirsdag"
+    },
+    {
+      "date": "2026-10-13",
+      "time": "10:00",
+      "municipality": "lom",
+      "committee": "Formannskapet",
+      "category": "fsk",
       "day": "Tirsdag"
     },
     {
@@ -1488,6 +3177,14 @@
       "municipality": "innlandet",
       "committee": "Fylkesutvalget",
       "category": "fsk",
+      "day": "Tirsdag"
+    },
+    {
+      "date": "2026-10-13",
+      "time": "12:00",
+      "municipality": "nordfron",
+      "committee": "Ungdomsrådet (UDR)",
+      "category": "andre",
       "day": "Tirsdag"
     },
     {
@@ -1532,10 +3229,26 @@
     },
     {
       "date": "2026-10-13",
+      "time": "17:00",
+      "municipality": "valer",
+      "committee": "Hovedutvalg for Helse- og Oppvekst",
+      "category": "utvalg",
+      "day": "Tirsdag"
+    },
+    {
+      "date": "2026-10-13",
       "time": "18:00",
       "municipality": "ostretoten",
       "committee": "Østre Toten ungdomsråd (ØTU)",
       "category": "andre",
+      "day": "Tirsdag"
+    },
+    {
+      "date": "2026-10-13",
+      "time": "18:30",
+      "municipality": "ringebu",
+      "committee": "Formannskapet",
+      "category": "fsk",
       "day": "Tirsdag"
     },
     {
@@ -1597,6 +3310,14 @@
     {
       "date": "2026-10-14",
       "time": "09:00",
+      "municipality": "ipr_no",
+      "committee": "Interkommunalt politisk råd Nord-Østerdal",
+      "category": "ipr",
+      "day": "Onsdag"
+    },
+    {
+      "date": "2026-10-14",
+      "time": "09:00",
       "municipality": "lillehammer",
       "committee": "Utvalg for helse og velferd",
       "category": "utvalg",
@@ -1606,6 +3327,14 @@
       "date": "2026-10-14",
       "time": "09:00",
       "municipality": "loten",
+      "committee": "Formannskapet",
+      "category": "fsk",
+      "day": "Onsdag"
+    },
+    {
+      "date": "2026-10-14",
+      "time": "09:00",
+      "municipality": "nordaurdal",
       "committee": "Formannskapet",
       "category": "fsk",
       "day": "Onsdag"
@@ -1632,6 +3361,38 @@
       "municipality": "stange",
       "committee": "Formannskapet",
       "category": "fsk",
+      "day": "Onsdag"
+    },
+    {
+      "date": "2026-10-14",
+      "time": "09:00",
+      "municipality": "storelvdal",
+      "committee": "Formannskapet",
+      "category": "fsk",
+      "day": "Onsdag"
+    },
+    {
+      "date": "2026-10-14",
+      "time": "09:00",
+      "municipality": "storelvdal",
+      "committee": "Planutvalget",
+      "category": "utvalg",
+      "day": "Onsdag"
+    },
+    {
+      "date": "2026-10-14",
+      "time": "09:00",
+      "municipality": "trysil",
+      "committee": "Kontrollutvalget",
+      "category": "utvalg",
+      "day": "Onsdag"
+    },
+    {
+      "date": "2026-10-14",
+      "time": "09:00",
+      "municipality": "vaga",
+      "committee": "Hovudutval for teknisk, landbruk og naturforvaltning",
+      "category": "utvalg",
       "day": "Onsdag"
     },
     {
@@ -1692,6 +3453,14 @@
     },
     {
       "date": "2026-10-14",
+      "time": "15:45",
+      "municipality": "alvdal",
+      "committee": "Ungdomsrådet",
+      "category": "andre",
+      "day": "Onsdag"
+    },
+    {
+      "date": "2026-10-14",
       "time": "16:00",
       "municipality": "lillehammer",
       "committee": "Ungdomsråd",
@@ -1707,11 +3476,35 @@
       "day": "Onsdag"
     },
     {
+      "date": "2026-10-14",
+      "time": "18:00",
+      "municipality": "amot",
+      "committee": "Kommunestyret",
+      "category": "kst",
+      "day": "Onsdag"
+    },
+    {
       "date": "2026-10-15",
       "time": "",
       "municipality": "ipr_se",
       "committee": "Representantskapet – Sør-Østerdal IPR",
       "category": "ipr",
+      "day": "Torsdag"
+    },
+    {
+      "date": "2026-10-15",
+      "time": "",
+      "municipality": "nordodal",
+      "committee": "Kontrollutvalget",
+      "category": "utvalg",
+      "day": "Torsdag"
+    },
+    {
+      "date": "2026-10-15",
+      "time": "08:00",
+      "municipality": "skjak",
+      "committee": "Hovedutval for helse, oppvekst, omsorg og kultur",
+      "category": "utvalg",
       "day": "Torsdag"
     },
     {
@@ -1752,6 +3545,22 @@
       "municipality": "lillehammer",
       "committee": "Utvalg for oppvekst, utdanning og kultur",
       "category": "utvalg",
+      "day": "Torsdag"
+    },
+    {
+      "date": "2026-10-15",
+      "time": "09:00",
+      "municipality": "nordaurdal",
+      "committee": "Planutvalget",
+      "category": "utvalg",
+      "day": "Torsdag"
+    },
+    {
+      "date": "2026-10-15",
+      "time": "09:00",
+      "municipality": "rendalen",
+      "committee": "Formannskapet",
+      "category": "fsk",
       "day": "Torsdag"
     },
     {
@@ -1811,12 +3620,68 @@
       "day": "Torsdag"
     },
     {
+      "date": "2026-10-15",
+      "time": "18:00",
+      "municipality": "valer",
+      "committee": "Formannskapet",
+      "category": "fsk",
+      "day": "Torsdag"
+    },
+    {
+      "date": "2026-10-15",
+      "time": "19:00",
+      "municipality": "lesja",
+      "committee": "Kommunestyret",
+      "category": "kst",
+      "day": "Torsdag"
+    },
+    {
       "date": "2026-10-16",
       "time": "09:00",
       "municipality": "elverum",
       "committee": "Kontrollutvalget",
       "category": "utvalg",
       "day": "Fredag"
+    },
+    {
+      "date": "2026-10-16",
+      "time": "09:30",
+      "municipality": "vang",
+      "committee": "Ungdomsrådet",
+      "category": "andre",
+      "day": "Fredag"
+    },
+    {
+      "date": "2026-10-19",
+      "time": "",
+      "municipality": "grue",
+      "committee": "Driftsutvalg",
+      "category": "utvalg",
+      "day": "Mandag"
+    },
+    {
+      "date": "2026-10-19",
+      "time": "",
+      "municipality": "ipr_valdres",
+      "committee": "Regionrådet i Valdres IPR",
+      "category": "ipr",
+      "day": "Mandag"
+    },
+    {
+      "date": "2026-10-19",
+      "time": "",
+      "municipality": "ipr_valdres",
+      "committee": "Valdres Natur- og Kulturpark - KO",
+      "category": "andre",
+      "day": "Mandag"
+    },
+    {
+      "date": "2026-10-19",
+      "time": "",
+      "municipality": "ipr_valdres",
+      "committee": "Valdres friluftsråd",
+      "category": "andre",
+      "day": "Mandag"
     },
     {
       "date": "2026-10-19",
@@ -1832,6 +3697,14 @@
       "municipality": "nordre_land",
       "committee": "Rådet for mennesker med nedsatt funksjonsevne",
       "category": "andre",
+      "day": "Mandag"
+    },
+    {
+      "date": "2026-10-19",
+      "time": "09:00",
+      "municipality": "sel",
+      "committee": "Kontrollutvalget i Lesja",
+      "category": "utvalg",
       "day": "Mandag"
     },
     {
@@ -1853,9 +3726,33 @@
     {
       "date": "2026-10-19",
       "time": "10:00",
+      "municipality": "nordfron",
+      "committee": "Eldreråd (ER)",
+      "category": "andre",
+      "day": "Mandag"
+    },
+    {
+      "date": "2026-10-19",
+      "time": "10:00",
+      "municipality": "nordfron",
+      "committee": "Råd for menneske med nedsett funksjonsevne (RNF)",
+      "category": "andre",
+      "day": "Mandag"
+    },
+    {
+      "date": "2026-10-19",
+      "time": "10:00",
       "municipality": "nordre_land",
       "committee": "Kirkelig fellesråd",
       "category": "andre",
+      "day": "Mandag"
+    },
+    {
+      "date": "2026-10-19",
+      "time": "17:00",
+      "municipality": "lom",
+      "committee": "Kommunestyret",
+      "category": "kst",
       "day": "Mandag"
     },
     {
@@ -1869,9 +3766,33 @@
     {
       "date": "2026-10-20",
       "time": "09:00",
+      "municipality": "dovre",
+      "committee": "Plan-, nærings- og utviklingsutvalget",
+      "category": "utvalg",
+      "day": "Tirsdag"
+    },
+    {
+      "date": "2026-10-20",
+      "time": "09:00",
       "municipality": "hamar",
       "committee": "Kontrollutvalg",
       "category": "utvalg",
+      "day": "Tirsdag"
+    },
+    {
+      "date": "2026-10-20",
+      "time": "09:00",
+      "municipality": "sel",
+      "committee": "Formannskapet",
+      "category": "fsk",
+      "day": "Tirsdag"
+    },
+    {
+      "date": "2026-10-20",
+      "time": "09:00",
+      "municipality": "skjak",
+      "committee": "Formannskap",
+      "category": "fsk",
       "day": "Tirsdag"
     },
     {
@@ -1895,6 +3816,14 @@
       "time": "13:00",
       "municipality": "elverum",
       "committee": "Arbeidsmiljøutvalget",
+      "category": "utvalg",
+      "day": "Tirsdag"
+    },
+    {
+      "date": "2026-10-20",
+      "time": "13:00",
+      "municipality": "skjak",
+      "committee": "Budsjettnemd",
       "category": "utvalg",
       "day": "Tirsdag"
     },
@@ -1964,6 +3893,30 @@
     },
     {
       "date": "2026-10-21",
+      "time": "12:00",
+      "municipality": "oystreslidre",
+      "committee": "Eldreråd",
+      "category": "andre",
+      "day": "Onsdag"
+    },
+    {
+      "date": "2026-10-21",
+      "time": "12:00",
+      "municipality": "sorfron",
+      "committee": "Administrativt styre for interkommunale ordninger",
+      "category": "andre",
+      "day": "Onsdag"
+    },
+    {
+      "date": "2026-10-21",
+      "time": "12:00",
+      "municipality": "sorfron",
+      "committee": "Felles folkevalgt nemd for vertskommunesamarbeid",
+      "category": "utvalg",
+      "day": "Onsdag"
+    },
+    {
+      "date": "2026-10-21",
       "time": "13:00",
       "municipality": "nordre_land",
       "committee": "Arbeidsmiljøutvalget",
@@ -1976,6 +3929,30 @@
       "municipality": "ipr_kv",
       "committee": "Styret - Kongsvingerregionen IPR",
       "category": "ipr",
+      "day": "Torsdag"
+    },
+    {
+      "date": "2026-10-22",
+      "time": "",
+      "municipality": "nordodal",
+      "committee": "Kommunestyret",
+      "category": "kst",
+      "day": "Torsdag"
+    },
+    {
+      "date": "2026-10-22",
+      "time": "",
+      "municipality": "sorodal",
+      "committee": "Kommunestyret",
+      "category": "kst",
+      "day": "Torsdag"
+    },
+    {
+      "date": "2026-10-22",
+      "time": "",
+      "municipality": "vestreslidre",
+      "committee": "Kommunestyret",
+      "category": "kst",
       "day": "Torsdag"
     },
     {
@@ -2012,10 +3989,82 @@
     },
     {
       "date": "2026-10-22",
+      "time": "09:00",
+      "municipality": "os",
+      "committee": "Kommunestyret",
+      "category": "kst",
+      "day": "Torsdag"
+    },
+    {
+      "date": "2026-10-22",
+      "time": "09:00",
+      "municipality": "sel",
+      "committee": "Kontrollutvalget i Dovre",
+      "category": "utvalg",
+      "day": "Torsdag"
+    },
+    {
+      "date": "2026-10-22",
+      "time": "09:00",
+      "municipality": "tynset",
+      "committee": "Formannskapet",
+      "category": "fsk",
+      "day": "Torsdag"
+    },
+    {
+      "date": "2026-10-22",
+      "time": "09:00",
+      "municipality": "vang",
+      "committee": "Kommunestyret",
+      "category": "kst",
+      "day": "Torsdag"
+    },
+    {
+      "date": "2026-10-22",
+      "time": "09:30",
+      "municipality": "etnedal",
+      "committee": "Kommunestyret",
+      "category": "kst",
+      "day": "Torsdag"
+    },
+    {
+      "date": "2026-10-22",
+      "time": "10:00",
+      "municipality": "folldal",
+      "committee": "Formannskapet",
+      "category": "fsk",
+      "day": "Torsdag"
+    },
+    {
+      "date": "2026-10-22",
+      "time": "10:00",
+      "municipality": "oystreslidre",
+      "committee": "Formannskapet",
+      "category": "fsk",
+      "day": "Torsdag"
+    },
+    {
+      "date": "2026-10-22",
       "time": "12:00",
       "municipality": "elverum",
       "committee": "Kommunestyrekomité for vekst og utvikling",
       "category": "kst",
+      "day": "Torsdag"
+    },
+    {
+      "date": "2026-10-22",
+      "time": "16:30",
+      "municipality": "alvdal",
+      "committee": "Partsammensatt utvalg",
+      "category": "utvalg",
+      "day": "Torsdag"
+    },
+    {
+      "date": "2026-10-22",
+      "time": "18:00",
+      "municipality": "alvdal",
+      "committee": "Formannskapet",
+      "category": "fsk",
       "day": "Torsdag"
     },
     {
@@ -2027,6 +4076,54 @@
       "day": "Torsdag"
     },
     {
+      "date": "2026-10-22",
+      "time": "18:00",
+      "municipality": "sorfron",
+      "committee": "Kommunestyre",
+      "category": "kst",
+      "day": "Torsdag"
+    },
+    {
+      "date": "2026-10-22",
+      "time": "18:00",
+      "municipality": "valer",
+      "committee": "Kommunestyret",
+      "category": "kst",
+      "day": "Torsdag"
+    },
+    {
+      "date": "2026-10-23",
+      "time": "08:30",
+      "municipality": "nordaurdal",
+      "committee": "Valgnemnda",
+      "category": "utvalg",
+      "day": "Fredag"
+    },
+    {
+      "date": "2026-10-23",
+      "time": "09:00",
+      "municipality": "ipr_ng",
+      "committee": "Regionstyret for Interkommunalt politisk råd i Nord-Gudbrandsdal",
+      "category": "ipr",
+      "day": "Fredag"
+    },
+    {
+      "date": "2026-10-23",
+      "time": "09:00",
+      "municipality": "nordaurdal",
+      "committee": "Kommunestyret",
+      "category": "kst",
+      "day": "Fredag"
+    },
+    {
+      "date": "2026-10-23",
+      "time": "09:00",
+      "municipality": "rendalen",
+      "committee": "Styret for Rendalen kommuneskoger KF",
+      "category": "andre",
+      "day": "Fredag"
+    },
+    {
       "date": "2026-10-23",
       "time": "09:00",
       "municipality": "stange",
@@ -2036,11 +4133,27 @@
     },
     {
       "date": "2026-10-23",
+      "time": "10:00",
+      "municipality": "ipr_mg",
+      "committee": "Midt-Gudbrandsdal Interkommunale politiske råd (MGIPR)",
+      "category": "ipr",
+      "day": "Fredag"
+    },
+    {
+      "date": "2026-10-23",
       "time": "11:30",
       "municipality": "ipr",
       "committee": "Gjøvikregionen interkommunale politiske råd - koordineringsutvalg",
       "category": "utvalg",
       "day": "Fredag"
+    },
+    {
+      "date": "2026-10-26",
+      "time": "",
+      "municipality": "asnes",
+      "committee": "Kommunestyre",
+      "category": "kst",
+      "day": "Mandag"
     },
     {
       "date": "2026-10-26",
@@ -2056,6 +4169,22 @@
       "municipality": "kongsvinger",
       "committee": "Funksjonsnedsattes råd",
       "category": "andre",
+      "day": "Mandag"
+    },
+    {
+      "date": "2026-10-26",
+      "time": "",
+      "municipality": "nordodal",
+      "committee": "Nord-Odal ungdomsråd",
+      "category": "andre",
+      "day": "Mandag"
+    },
+    {
+      "date": "2026-10-26",
+      "time": "",
+      "municipality": "nordodal",
+      "committee": "Utvalg for samfunns- og næringsutvikling",
+      "category": "utvalg",
       "day": "Mandag"
     },
     {
@@ -2091,10 +4220,50 @@
       "day": "Mandag"
     },
     {
+      "date": "2026-10-26",
+      "time": "10:00",
+      "municipality": "ringebu",
+      "committee": "Eldrerådet",
+      "category": "andre",
+      "day": "Mandag"
+    },
+    {
+      "date": "2026-10-26",
+      "time": "18:00",
+      "municipality": "sel",
+      "committee": "Kommunestyret",
+      "category": "kst",
+      "day": "Mandag"
+    },
+    {
       "date": "2026-10-27",
       "time": "",
       "municipality": "kongsvinger",
       "committee": "Planutvalget",
+      "category": "utvalg",
+      "day": "Tirsdag"
+    },
+    {
+      "date": "2026-10-27",
+      "time": "",
+      "municipality": "sorodal",
+      "committee": "Helse-, omsorg- og livsmestringsutvalget",
+      "category": "utvalg",
+      "day": "Tirsdag"
+    },
+    {
+      "date": "2026-10-27",
+      "time": "",
+      "municipality": "sorodal",
+      "committee": "Næring-, miljø- og klimautvalget",
+      "category": "utvalg",
+      "day": "Tirsdag"
+    },
+    {
+      "date": "2026-10-27",
+      "time": "",
+      "municipality": "sorodal",
+      "committee": "Oppvekst-, kultur- og mangfoldsutvalget",
       "category": "utvalg",
       "day": "Tirsdag"
     },
@@ -2116,6 +4285,30 @@
     },
     {
       "date": "2026-10-27",
+      "time": "09:00",
+      "municipality": "trysil",
+      "committee": "Kommunestyret",
+      "category": "kst",
+      "day": "Tirsdag"
+    },
+    {
+      "date": "2026-10-27",
+      "time": "09:30",
+      "municipality": "sel",
+      "committee": "Kontrollutvalget i Skjåk",
+      "category": "utvalg",
+      "day": "Tirsdag"
+    },
+    {
+      "date": "2026-10-27",
+      "time": "10:00",
+      "municipality": "lom",
+      "committee": "Formannskapet",
+      "category": "fsk",
+      "day": "Tirsdag"
+    },
+    {
+      "date": "2026-10-27",
       "time": "12:00",
       "municipality": "innlandet",
       "committee": "Fylkesutvalget",
@@ -2127,6 +4320,30 @@
       "time": "13:00",
       "municipality": "elverum",
       "committee": "Kommunestyrekomité for helse og omsorg",
+      "category": "kst",
+      "day": "Tirsdag"
+    },
+    {
+      "date": "2026-10-27",
+      "time": "18:00",
+      "municipality": "engerdal",
+      "committee": "Kommunestyret",
+      "category": "kst",
+      "day": "Tirsdag"
+    },
+    {
+      "date": "2026-10-27",
+      "time": "18:00",
+      "municipality": "tynset",
+      "committee": "Kommunestyret",
+      "category": "kst",
+      "day": "Tirsdag"
+    },
+    {
+      "date": "2026-10-27",
+      "time": "18:00",
+      "municipality": "vaga",
+      "committee": "Kommunestyret",
       "category": "kst",
       "day": "Tirsdag"
     },
@@ -2156,8 +4373,24 @@
     },
     {
       "date": "2026-10-28",
+      "time": "",
+      "municipality": "nordodal",
+      "committee": "Utvalg for oppvekst, frivillighet og kultur",
+      "category": "utvalg",
+      "day": "Onsdag"
+    },
+    {
+      "date": "2026-10-28",
       "time": "08:30",
       "municipality": "elverum",
+      "committee": "Administrasjonsutvalget",
+      "category": "utvalg",
+      "day": "Onsdag"
+    },
+    {
+      "date": "2026-10-28",
+      "time": "09:00",
+      "municipality": "amot",
       "committee": "Administrasjonsutvalget",
       "category": "utvalg",
       "day": "Onsdag"
@@ -2181,7 +4414,23 @@
     {
       "date": "2026-10-28",
       "time": "09:00",
+      "municipality": "ipr_mg",
+      "committee": "Midt-Gudbrandsdal Interkommunale politiske råd (MGIPR)",
+      "category": "ipr",
+      "day": "Onsdag"
+    },
+    {
+      "date": "2026-10-28",
+      "time": "09:00",
       "municipality": "loten",
+      "committee": "Kommunestyret",
+      "category": "kst",
+      "day": "Onsdag"
+    },
+    {
+      "date": "2026-10-28",
+      "time": "09:00",
+      "municipality": "rendalen",
       "committee": "Kommunestyret",
       "category": "kst",
       "day": "Onsdag"
@@ -2213,6 +4462,14 @@
     {
       "date": "2026-10-28",
       "time": "10:00",
+      "municipality": "amot",
+      "committee": "Formannskapet",
+      "category": "fsk",
+      "day": "Onsdag"
+    },
+    {
+      "date": "2026-10-28",
+      "time": "10:00",
       "municipality": "gjovik",
       "committee": "Trepartssamarbeidet",
       "category": "andre",
@@ -2227,6 +4484,22 @@
       "day": "Onsdag"
     },
     {
+      "date": "2026-10-28",
+      "time": "17:00",
+      "municipality": "storelvdal",
+      "committee": "Kommunestyret",
+      "category": "kst",
+      "day": "Onsdag"
+    },
+    {
+      "date": "2026-10-28",
+      "time": "18:00",
+      "municipality": "skjak",
+      "committee": "Ungdomsråd",
+      "category": "andre",
+      "day": "Onsdag"
+    },
+    {
       "date": "2026-10-29",
       "time": "",
       "municipality": "ipr_se",
@@ -2236,10 +4509,50 @@
     },
     {
       "date": "2026-10-29",
+      "time": "",
+      "municipality": "nordodal",
+      "committee": "Utvalg for helse og mestring",
+      "category": "utvalg",
+      "day": "Torsdag"
+    },
+    {
+      "date": "2026-10-29",
+      "time": "09:00",
+      "municipality": "alvdal",
+      "committee": "Kommunestyret",
+      "category": "kst",
+      "day": "Torsdag"
+    },
+    {
+      "date": "2026-10-29",
+      "time": "09:00",
+      "municipality": "sel",
+      "committee": "Kontrollutvalget i Vågå",
+      "category": "utvalg",
+      "day": "Torsdag"
+    },
+    {
+      "date": "2026-10-29",
+      "time": "09:00",
+      "municipality": "soraurdal",
+      "committee": "Formannskapet",
+      "category": "fsk",
+      "day": "Torsdag"
+    },
+    {
+      "date": "2026-10-29",
       "time": "09:00",
       "municipality": "vestretoten",
       "committee": "Kommunestyret",
       "category": "kst",
+      "day": "Torsdag"
+    },
+    {
+      "date": "2026-10-29",
+      "time": "10:00",
+      "municipality": "dovre",
+      "committee": "Formannskapet",
+      "category": "fsk",
       "day": "Torsdag"
     },
     {
@@ -2260,8 +4573,56 @@
     },
     {
       "date": "2026-10-29",
+      "time": "12:00",
+      "municipality": "lesja",
+      "committee": "Felles formannskap Lesja og Dovre",
+      "category": "fsk",
+      "day": "Torsdag"
+    },
+    {
+      "date": "2026-10-29",
+      "time": "13:00",
+      "municipality": "dovre",
+      "committee": "Felles formannskap",
+      "category": "fsk",
+      "day": "Torsdag"
+    },
+    {
+      "date": "2026-10-29",
+      "time": "13:00",
+      "municipality": "oystreslidre",
+      "committee": "Kommunestyrekomité for opplæring og kultur",
+      "category": "kst",
+      "day": "Torsdag"
+    },
+    {
+      "date": "2026-10-29",
       "time": "18:00",
       "municipality": "oyer",
+      "committee": "Kommunestyret",
+      "category": "kst",
+      "day": "Torsdag"
+    },
+    {
+      "date": "2026-10-29",
+      "time": "18:00",
+      "municipality": "skjak",
+      "committee": "Kommunestyret",
+      "category": "kst",
+      "day": "Torsdag"
+    },
+    {
+      "date": "2026-10-29",
+      "time": "19:00",
+      "municipality": "rendalen",
+      "committee": "Kommunestyret",
+      "category": "kst",
+      "day": "Torsdag"
+    },
+    {
+      "date": "2026-10-29",
+      "time": "19:00",
+      "municipality": "tolga",
       "committee": "Kommunestyret",
       "category": "kst",
       "day": "Torsdag"
@@ -2281,6 +4642,62 @@
       "committee": "Interkommunalt politisk råd",
       "category": "ipr",
       "day": "Fredag"
+    },
+    {
+      "date": "2026-11-02",
+      "time": "",
+      "municipality": "asnes",
+      "committee": "Utvalg for helse og mestring",
+      "category": "utvalg",
+      "day": "Mandag"
+    },
+    {
+      "date": "2026-11-02",
+      "time": "",
+      "municipality": "asnes",
+      "committee": "Utvalg for oppvekst og forebygging",
+      "category": "utvalg",
+      "day": "Mandag"
+    },
+    {
+      "date": "2026-11-02",
+      "time": "",
+      "municipality": "asnes",
+      "committee": "Utvalg for samfunn og infrastruktur",
+      "category": "utvalg",
+      "day": "Mandag"
+    },
+    {
+      "date": "2026-11-02",
+      "time": "",
+      "municipality": "grue",
+      "committee": "Formannskapet",
+      "category": "fsk",
+      "day": "Mandag"
+    },
+    {
+      "date": "2026-11-02",
+      "time": "",
+      "municipality": "sorodal",
+      "committee": "Eldres råd",
+      "category": "andre",
+      "day": "Mandag"
+    },
+    {
+      "date": "2026-11-02",
+      "time": "",
+      "municipality": "sorodal",
+      "committee": "Råd for mennesker med funksjonsnedsettelse",
+      "category": "andre",
+      "day": "Mandag"
+    },
+    {
+      "date": "2026-11-02",
+      "time": "",
+      "municipality": "sorodal",
+      "committee": "SOBUR - Sør-Odal Barne- og ungdomsråd",
+      "category": "andre",
+      "day": "Mandag"
     },
     {
       "date": "2026-11-02",
@@ -2324,10 +4741,26 @@
     },
     {
       "date": "2026-11-03",
+      "time": "",
+      "municipality": "sorodal",
+      "committee": "Formannskapet",
+      "category": "fsk",
+      "day": "Tirsdag"
+    },
+    {
+      "date": "2026-11-03",
       "time": "08:30",
       "municipality": "nordre_land",
       "committee": "Administrasjonsutvalget",
       "category": "utvalg",
+      "day": "Tirsdag"
+    },
+    {
+      "date": "2026-11-03",
+      "time": "09:00",
+      "municipality": "engerdal",
+      "committee": "Formannskapet",
+      "category": "fsk",
       "day": "Tirsdag"
     },
     {
@@ -2341,8 +4774,32 @@
     {
       "date": "2026-11-03",
       "time": "09:00",
+      "municipality": "sel",
+      "committee": "Formannskapet",
+      "category": "fsk",
+      "day": "Tirsdag"
+    },
+    {
+      "date": "2026-11-03",
+      "time": "09:00",
       "municipality": "vestretoten",
       "committee": "Oppvekst- og velferdsutvalget",
+      "category": "utvalg",
+      "day": "Tirsdag"
+    },
+    {
+      "date": "2026-11-03",
+      "time": "09:30",
+      "municipality": "etnedal",
+      "committee": "Formannskapet",
+      "category": "fsk",
+      "day": "Tirsdag"
+    },
+    {
+      "date": "2026-11-03",
+      "time": "09:30",
+      "municipality": "etnedal",
+      "committee": "Næringsutvalg",
       "category": "utvalg",
       "day": "Tirsdag"
     },
@@ -2365,6 +4822,14 @@
     {
       "date": "2026-11-04",
       "time": "",
+      "municipality": "grue",
+      "committee": "Ungdomsrådet",
+      "category": "andre",
+      "day": "Onsdag"
+    },
+    {
+      "date": "2026-11-04",
+      "time": "",
       "municipality": "kongsvinger",
       "committee": "Formannskap",
       "category": "fsk",
@@ -2381,7 +4846,31 @@
     {
       "date": "2026-11-04",
       "time": "09:00",
+      "municipality": "ipr_no",
+      "committee": "Interkommunalt politisk råd Nord-Østerdal",
+      "category": "ipr",
+      "day": "Onsdag"
+    },
+    {
+      "date": "2026-11-04",
+      "time": "09:00",
+      "municipality": "lesja",
+      "committee": "Kraftfondstyret",
+      "category": "andre",
+      "day": "Onsdag"
+    },
+    {
+      "date": "2026-11-04",
+      "time": "09:00",
       "municipality": "stange",
+      "committee": "Formannskapet",
+      "category": "fsk",
+      "day": "Onsdag"
+    },
+    {
+      "date": "2026-11-04",
+      "time": "09:00",
+      "municipality": "vang",
       "committee": "Formannskapet",
       "category": "fsk",
       "day": "Onsdag"
@@ -2398,6 +4887,14 @@
       "date": "2026-11-04",
       "time": "10:00",
       "municipality": "gjovik",
+      "committee": "Formannskapet",
+      "category": "fsk",
+      "day": "Onsdag"
+    },
+    {
+      "date": "2026-11-04",
+      "time": "10:00",
+      "municipality": "lesja",
       "committee": "Formannskapet",
       "category": "fsk",
       "day": "Onsdag"
@@ -2444,10 +4941,74 @@
     },
     {
       "date": "2026-11-05",
+      "time": "",
+      "municipality": "nordodal",
+      "committee": "Formannskapet",
+      "category": "fsk",
+      "day": "Torsdag"
+    },
+    {
+      "date": "2026-11-05",
+      "time": "08:00",
+      "municipality": "oystreslidre",
+      "committee": "Administrasjonsutval",
+      "category": "utvalg",
+      "day": "Torsdag"
+    },
+    {
+      "date": "2026-11-05",
       "time": "09:00",
       "municipality": "gausdal",
       "committee": "Kommunestyrets handlings- og økonomiplanseminaret",
       "category": "kst",
+      "day": "Torsdag"
+    },
+    {
+      "date": "2026-11-05",
+      "time": "09:00",
+      "municipality": "rendalen",
+      "committee": "Formannskapet",
+      "category": "fsk",
+      "day": "Torsdag"
+    },
+    {
+      "date": "2026-11-05",
+      "time": "09:00",
+      "municipality": "trysil",
+      "committee": "Hovedutvalg for drift og forvaltning",
+      "category": "utvalg",
+      "day": "Torsdag"
+    },
+    {
+      "date": "2026-11-05",
+      "time": "09:00",
+      "municipality": "tynset",
+      "committee": "Formannskapet",
+      "category": "fsk",
+      "day": "Torsdag"
+    },
+    {
+      "date": "2026-11-05",
+      "time": "09:30",
+      "municipality": "tolga",
+      "committee": "Administrasjonsutvalget",
+      "category": "utvalg",
+      "day": "Torsdag"
+    },
+    {
+      "date": "2026-11-05",
+      "time": "10:00",
+      "municipality": "oystreslidre",
+      "committee": "Formannskapet",
+      "category": "fsk",
+      "day": "Torsdag"
+    },
+    {
+      "date": "2026-11-05",
+      "time": "10:30",
+      "municipality": "tolga",
+      "committee": "Formannskapet",
+      "category": "fsk",
       "day": "Torsdag"
     },
     {
@@ -2483,6 +5044,38 @@
       "day": "Torsdag"
     },
     {
+      "date": "2026-11-05",
+      "time": "17:00",
+      "municipality": "valer",
+      "committee": "Partssammensattutvalget",
+      "category": "utvalg",
+      "day": "Torsdag"
+    },
+    {
+      "date": "2026-11-05",
+      "time": "19:00",
+      "municipality": "folldal",
+      "committee": "Kommunestyret",
+      "category": "kst",
+      "day": "Torsdag"
+    },
+    {
+      "date": "2026-11-09",
+      "time": "",
+      "municipality": "asnes",
+      "committee": "Formannskap",
+      "category": "fsk",
+      "day": "Mandag"
+    },
+    {
+      "date": "2026-11-09",
+      "time": "",
+      "municipality": "nordodal",
+      "committee": "Formannskapet",
+      "category": "fsk",
+      "day": "Mandag"
+    },
+    {
       "date": "2026-11-09",
       "time": "09:00",
       "municipality": "gjovik",
@@ -2511,6 +5104,14 @@
       "time": "12:00",
       "municipality": "gjovik",
       "committee": "Råd for personer med nedsatt funksjonsevne",
+      "category": "andre",
+      "day": "Mandag"
+    },
+    {
+      "date": "2026-11-09",
+      "time": "13:30",
+      "municipality": "alvdal",
+      "committee": "Råd for eldre og personer med funksjonsnedsettelse",
       "category": "andre",
       "day": "Mandag"
     },
@@ -2557,6 +5158,14 @@
     {
       "date": "2026-11-10",
       "time": "09:00",
+      "municipality": "alvdal",
+      "committee": "Kontrollutvalget",
+      "category": "utvalg",
+      "day": "Tirsdag"
+    },
+    {
+      "date": "2026-11-10",
+      "time": "09:00",
       "municipality": "gjovik",
       "committee": "Utvalg for oppvekst, kultur og idrett",
       "category": "utvalg",
@@ -2581,9 +5190,81 @@
     {
       "date": "2026-11-10",
       "time": "09:00",
+      "municipality": "skjak",
+      "committee": "Hovedutval for miljø og samfunnsutvikling",
+      "category": "utvalg",
+      "day": "Tirsdag"
+    },
+    {
+      "date": "2026-11-10",
+      "time": "09:00",
+      "municipality": "trysil",
+      "committee": "Formannskapet",
+      "category": "fsk",
+      "day": "Tirsdag"
+    },
+    {
+      "date": "2026-11-10",
+      "time": "09:00",
+      "municipality": "vaga",
+      "committee": "Formannskapet",
+      "category": "fsk",
+      "day": "Tirsdag"
+    },
+    {
+      "date": "2026-11-10",
+      "time": "09:00",
+      "municipality": "vang",
+      "committee": "Hovudutval for utvikling",
+      "category": "utvalg",
+      "day": "Tirsdag"
+    },
+    {
+      "date": "2026-11-10",
+      "time": "09:00",
+      "municipality": "vang",
+      "committee": "Råd for menneske med nedsett funksjonsevne",
+      "category": "andre",
+      "day": "Tirsdag"
+    },
+    {
+      "date": "2026-11-10",
+      "time": "09:00",
+      "municipality": "vang",
+      "committee": "Eldrerådet",
+      "category": "andre",
+      "day": "Tirsdag"
+    },
+    {
+      "date": "2026-11-10",
+      "time": "09:00",
       "municipality": "vestretoten",
       "committee": "Administrasjonsutvalget",
       "category": "utvalg",
+      "day": "Tirsdag"
+    },
+    {
+      "date": "2026-11-10",
+      "time": "10:00",
+      "municipality": "lom",
+      "committee": "Formannskapet",
+      "category": "fsk",
+      "day": "Tirsdag"
+    },
+    {
+      "date": "2026-11-10",
+      "time": "10:00",
+      "municipality": "storelvdal",
+      "committee": "Eldrerådet",
+      "category": "andre",
+      "day": "Tirsdag"
+    },
+    {
+      "date": "2026-11-10",
+      "time": "10:00",
+      "municipality": "storelvdal",
+      "committee": "Råd for likestilling av funksjonshemmede",
+      "category": "andre",
       "day": "Tirsdag"
     },
     {
@@ -2693,6 +5374,14 @@
     {
       "date": "2026-11-11",
       "time": "09:00",
+      "municipality": "ipr_no",
+      "committee": "Interkommunalt politisk råd Nord-Østerdal",
+      "category": "ipr",
+      "day": "Onsdag"
+    },
+    {
+      "date": "2026-11-11",
+      "time": "09:00",
       "municipality": "lillehammer",
       "committee": "Utvalg for helse og velferd",
       "category": "utvalg",
@@ -2717,6 +5406,14 @@
     {
       "date": "2026-11-11",
       "time": "10:00",
+      "municipality": "dovre",
+      "committee": "Fellesråd for mennesker med nedsatt funksjonsevne og eldreråd",
+      "category": "andre",
+      "day": "Onsdag"
+    },
+    {
+      "date": "2026-11-11",
+      "time": "10:00",
       "municipality": "innlandet",
       "committee": "Hovedutvalg for næring",
       "category": "utvalg",
@@ -2735,6 +5432,14 @@
       "time": "10:00",
       "municipality": "innlandet",
       "committee": "Hovedutvalg for kultur",
+      "category": "utvalg",
+      "day": "Onsdag"
+    },
+    {
+      "date": "2026-11-11",
+      "time": "10:00",
+      "municipality": "storelvdal",
+      "committee": "Utvalg for skole, kultur og omsorg / SKO-utvalget",
       "category": "utvalg",
       "day": "Onsdag"
     },
@@ -2777,6 +5482,30 @@
       "committee": "Kommunestyret",
       "category": "kst",
       "day": "Onsdag"
+    },
+    {
+      "date": "2026-11-11",
+      "time": "18:00",
+      "municipality": "amot",
+      "committee": "Kommunestyret",
+      "category": "kst",
+      "day": "Onsdag"
+    },
+    {
+      "date": "2026-11-12",
+      "time": "",
+      "municipality": "sorodal",
+      "committee": "Kommunestyret",
+      "category": "kst",
+      "day": "Torsdag"
+    },
+    {
+      "date": "2026-11-12",
+      "time": "08:00",
+      "municipality": "skjak",
+      "committee": "Hovedutval for helse, oppvekst, omsorg og kultur",
+      "category": "utvalg",
+      "day": "Torsdag"
     },
     {
       "date": "2026-11-12",
@@ -2829,6 +5558,22 @@
     {
       "date": "2026-11-12",
       "time": "09:00",
+      "municipality": "nordaurdal",
+      "committee": "Kommunestyret",
+      "category": "kst",
+      "day": "Torsdag"
+    },
+    {
+      "date": "2026-11-12",
+      "time": "09:00",
+      "municipality": "os",
+      "committee": "Formannskapet",
+      "category": "fsk",
+      "day": "Torsdag"
+    },
+    {
+      "date": "2026-11-12",
+      "time": "09:00",
       "municipality": "ostretoten",
       "committee": "Tjenesteutvalg (TU)",
       "category": "utvalg",
@@ -2845,6 +5590,14 @@
     {
       "date": "2026-11-12",
       "time": "09:00",
+      "municipality": "soraurdal",
+      "committee": "Kommunestyret",
+      "category": "kst",
+      "day": "Torsdag"
+    },
+    {
+      "date": "2026-11-12",
+      "time": "09:00",
       "municipality": "vestretoten",
       "committee": "Eldrerådet",
       "category": "andre",
@@ -2856,6 +5609,14 @@
       "municipality": "innlandet",
       "committee": "Hovedutvalg for samferdsel",
       "category": "utvalg",
+      "day": "Torsdag"
+    },
+    {
+      "date": "2026-11-12",
+      "time": "10:00",
+      "municipality": "oystreslidre",
+      "committee": "Kommunestyret",
+      "category": "kst",
       "day": "Torsdag"
     },
     {
@@ -2891,12 +5652,100 @@
       "day": "Torsdag"
     },
     {
+      "date": "2026-11-12",
+      "time": "19:00",
+      "municipality": "lesja",
+      "committee": "Kommunestyret",
+      "category": "kst",
+      "day": "Torsdag"
+    },
+    {
       "date": "2026-11-13",
       "time": "09:00",
       "municipality": "gausdal",
       "committee": "Planutvalget",
       "category": "utvalg",
       "day": "Fredag"
+    },
+    {
+      "date": "2026-11-16",
+      "time": "",
+      "municipality": "asnes",
+      "committee": "Partsammensatt utvalg",
+      "category": "utvalg",
+      "day": "Mandag"
+    },
+    {
+      "date": "2026-11-16",
+      "time": "",
+      "municipality": "asnes",
+      "committee": "Utvalg for helse og mestring",
+      "category": "utvalg",
+      "day": "Mandag"
+    },
+    {
+      "date": "2026-11-16",
+      "time": "",
+      "municipality": "asnes",
+      "committee": "Utvalg for oppvekst og forebygging",
+      "category": "utvalg",
+      "day": "Mandag"
+    },
+    {
+      "date": "2026-11-16",
+      "time": "",
+      "municipality": "asnes",
+      "committee": "Utvalg for samfunn og infrastruktur",
+      "category": "utvalg",
+      "day": "Mandag"
+    },
+    {
+      "date": "2026-11-16",
+      "time": "",
+      "municipality": "grue",
+      "committee": "Kommunestyret",
+      "category": "kst",
+      "day": "Mandag"
+    },
+    {
+      "date": "2026-11-16",
+      "time": "",
+      "municipality": "ipr_valdres",
+      "committee": "Valdresrådet",
+      "category": "ipr",
+      "day": "Mandag"
+    },
+    {
+      "date": "2026-11-16",
+      "time": "09:00",
+      "municipality": "dovre",
+      "committee": "Oppvekst-, kultur- og omsorgsutvalget",
+      "category": "utvalg",
+      "day": "Mandag"
+    },
+    {
+      "date": "2026-11-16",
+      "time": "12:00",
+      "municipality": "trysil",
+      "committee": "Partssammensatt utvalg",
+      "category": "utvalg",
+      "day": "Mandag"
+    },
+    {
+      "date": "2026-11-16",
+      "time": "13:00",
+      "municipality": "lom",
+      "committee": "Eldrerådet",
+      "category": "andre",
+      "day": "Mandag"
+    },
+    {
+      "date": "2026-11-16",
+      "time": "13:00",
+      "municipality": "lom",
+      "committee": "Råd for personar med funksjonsnedsetting",
+      "category": "andre",
+      "day": "Mandag"
     },
     {
       "date": "2026-11-16",
@@ -2916,6 +5765,30 @@
     },
     {
       "date": "2026-11-16",
+      "time": "16:00",
+      "municipality": "soraurdal",
+      "committee": "Råd for mennesker med nedsatt funksjonsevne",
+      "category": "andre",
+      "day": "Mandag"
+    },
+    {
+      "date": "2026-11-16",
+      "time": "16:00",
+      "municipality": "soraurdal",
+      "committee": "Eldreråd",
+      "category": "andre",
+      "day": "Mandag"
+    },
+    {
+      "date": "2026-11-16",
+      "time": "16:00",
+      "municipality": "soraurdal",
+      "committee": "Ungdomsråd",
+      "category": "andre",
+      "day": "Mandag"
+    },
+    {
+      "date": "2026-11-16",
       "time": "17:00",
       "municipality": "sondre_land",
       "committee": "Kommunestyret",
@@ -2924,11 +5797,91 @@
     },
     {
       "date": "2026-11-17",
+      "time": "",
+      "municipality": "asnes",
+      "committee": "Nærings- og utviklingsfond",
+      "category": "andre",
+      "day": "Tirsdag"
+    },
+    {
+      "date": "2026-11-17",
+      "time": "09:00",
+      "municipality": "nordaurdal",
+      "committee": "Kommunalt råd for brukermedvirkning",
+      "category": "andre",
+      "day": "Tirsdag"
+    },
+    {
+      "date": "2026-11-17",
+      "time": "09:00",
+      "municipality": "sel",
+      "committee": "Formannskapet",
+      "category": "fsk",
+      "day": "Tirsdag"
+    },
+    {
+      "date": "2026-11-17",
+      "time": "09:00",
+      "municipality": "skjak",
+      "committee": "Formannskap",
+      "category": "fsk",
+      "day": "Tirsdag"
+    },
+    {
+      "date": "2026-11-17",
+      "time": "09:00",
+      "municipality": "vaga",
+      "committee": "Formannskapet",
+      "category": "fsk",
+      "day": "Tirsdag"
+    },
+    {
+      "date": "2026-11-17",
+      "time": "09:30",
+      "municipality": "trysil",
+      "committee": "Råd for personer med funksjonsvariasjoner",
+      "category": "andre",
+      "day": "Tirsdag"
+    },
+    {
+      "date": "2026-11-17",
+      "time": "10:00",
+      "municipality": "lom",
+      "committee": "Formannskapet",
+      "category": "fsk",
+      "day": "Tirsdag"
+    },
+    {
+      "date": "2026-11-17",
       "time": "12:00",
       "municipality": "hamar",
       "committee": "Administrasjonsutvalget",
       "category": "utvalg",
       "day": "Tirsdag"
+    },
+    {
+      "date": "2026-11-17",
+      "time": "17:00",
+      "municipality": "dovre",
+      "committee": "Ungdomsrådet",
+      "category": "andre",
+      "day": "Tirsdag"
+    },
+    {
+      "date": "2026-11-17",
+      "time": "17:00",
+      "municipality": "lom",
+      "committee": "Kommunestyret",
+      "category": "kst",
+      "day": "Tirsdag"
+    },
+    {
+      "date": "2026-11-18",
+      "time": "",
+      "municipality": "asnes",
+      "committee": "Trafikksikkerhetsutvalget",
+      "category": "utvalg",
+      "day": "Onsdag"
     },
     {
       "date": "2026-11-18",
@@ -2944,6 +5897,22 @@
       "municipality": "kongsvinger",
       "committee": "Formannskap",
       "category": "fsk",
+      "day": "Onsdag"
+    },
+    {
+      "date": "2026-11-18",
+      "time": "",
+      "municipality": "nordodal",
+      "committee": "Kommunestyret",
+      "category": "kst",
+      "day": "Onsdag"
+    },
+    {
+      "date": "2026-11-18",
+      "time": "08:00",
+      "municipality": "storelvdal",
+      "committee": "Administrasjonsutvalget",
+      "category": "utvalg",
       "day": "Onsdag"
     },
     {
@@ -3003,10 +5972,82 @@
       "day": "Onsdag"
     },
     {
+      "date": "2026-11-18",
+      "time": "13:00",
+      "municipality": "skjak",
+      "committee": "Arbeidsmiljøutval",
+      "category": "utvalg",
+      "day": "Onsdag"
+    },
+    {
+      "date": "2026-11-18",
+      "time": "18:00",
+      "municipality": "valer",
+      "committee": "Planutvalget",
+      "category": "utvalg",
+      "day": "Onsdag"
+    },
+    {
+      "date": "2026-11-19",
+      "time": "",
+      "municipality": "vestreslidre",
+      "committee": "Formannskapet",
+      "category": "fsk",
+      "day": "Torsdag"
+    },
+    {
+      "date": "2026-11-19",
+      "time": "09:00",
+      "municipality": "dovre",
+      "committee": "Partssammensatt utvalg",
+      "category": "utvalg",
+      "day": "Torsdag"
+    },
+    {
       "date": "2026-11-19",
       "time": "09:00",
       "municipality": "gjovik",
       "committee": "Styret for Gjøvik gård",
+      "category": "andre",
+      "day": "Torsdag"
+    },
+    {
+      "date": "2026-11-19",
+      "time": "09:30",
+      "municipality": "etnedal",
+      "committee": "Kommunestyret",
+      "category": "kst",
+      "day": "Torsdag"
+    },
+    {
+      "date": "2026-11-19",
+      "time": "10:00",
+      "municipality": "dovre",
+      "committee": "Formannskapet",
+      "category": "fsk",
+      "day": "Torsdag"
+    },
+    {
+      "date": "2026-11-19",
+      "time": "10:00",
+      "municipality": "folldal",
+      "committee": "Formannskapet",
+      "category": "fsk",
+      "day": "Torsdag"
+    },
+    {
+      "date": "2026-11-19",
+      "time": "10:00",
+      "municipality": "skjak",
+      "committee": "Brukarråd",
+      "category": "andre",
+      "day": "Torsdag"
+    },
+    {
+      "date": "2026-11-19",
+      "time": "12:00",
+      "municipality": "skjak",
+      "committee": "Eldreråd",
       "category": "andre",
       "day": "Torsdag"
     },
@@ -3027,6 +6068,22 @@
       "day": "Torsdag"
     },
     {
+      "date": "2026-11-19",
+      "time": "18:00",
+      "municipality": "valer",
+      "committee": "Formannskapet",
+      "category": "fsk",
+      "day": "Torsdag"
+    },
+    {
+      "date": "2026-11-19",
+      "time": "19:00",
+      "municipality": "rendalen",
+      "committee": "Kommunestyret",
+      "category": "kst",
+      "day": "Torsdag"
+    },
+    {
       "date": "2026-11-20",
       "time": "11:30",
       "municipality": "ipr",
@@ -3035,10 +6092,146 @@
       "day": "Fredag"
     },
     {
+      "date": "2026-11-23",
+      "time": "",
+      "municipality": "asnes",
+      "committee": "Formannskap",
+      "category": "fsk",
+      "day": "Mandag"
+    },
+    {
+      "date": "2026-11-23",
+      "time": "",
+      "municipality": "nordodal",
+      "committee": "Eldres råd",
+      "category": "andre",
+      "day": "Mandag"
+    },
+    {
+      "date": "2026-11-23",
+      "time": "",
+      "municipality": "nordodal",
+      "committee": "Kommuneskogutvalget",
+      "category": "utvalg",
+      "day": "Mandag"
+    },
+    {
+      "date": "2026-11-23",
+      "time": "",
+      "municipality": "nordodal",
+      "committee": "Nord-Odal ungdomsråd",
+      "category": "andre",
+      "day": "Mandag"
+    },
+    {
+      "date": "2026-11-23",
+      "time": "",
+      "municipality": "nordodal",
+      "committee": "Råd for personer med funksjonsnedsettelse",
+      "category": "andre",
+      "day": "Mandag"
+    },
+    {
+      "date": "2026-11-23",
+      "time": "",
+      "municipality": "nordodal",
+      "committee": "Utvalg for helse og mestring",
+      "category": "utvalg",
+      "day": "Mandag"
+    },
+    {
+      "date": "2026-11-23",
+      "time": "",
+      "municipality": "nordodal",
+      "committee": "Utvalg for oppvekst, frivillighet og kultur",
+      "category": "utvalg",
+      "day": "Mandag"
+    },
+    {
+      "date": "2026-11-23",
+      "time": "",
+      "municipality": "nordodal",
+      "committee": "Utvalg for samfunns- og næringsutvikling",
+      "category": "utvalg",
+      "day": "Mandag"
+    },
+    {
+      "date": "2026-11-23",
+      "time": "10:00",
+      "municipality": "storelvdal",
+      "committee": "Kontrollutvalget",
+      "category": "utvalg",
+      "day": "Mandag"
+    },
+    {
+      "date": "2026-11-23",
+      "time": "12:00",
+      "municipality": "skjak",
+      "committee": "Utval for vilt og fisk",
+      "category": "utvalg",
+      "day": "Mandag"
+    },
+    {
+      "date": "2026-11-23",
+      "time": "14:00",
+      "municipality": "valer",
+      "committee": "Eldrerådet",
+      "category": "andre",
+      "day": "Mandag"
+    },
+    {
+      "date": "2026-11-23",
+      "time": "17:00",
+      "municipality": "valer",
+      "committee": "Råd for personer med nedsatt funksjonsevne",
+      "category": "andre",
+      "day": "Mandag"
+    },
+    {
+      "date": "2026-11-23",
+      "time": "18:00",
+      "municipality": "dovre",
+      "committee": "Kommunestyret",
+      "category": "kst",
+      "day": "Mandag"
+    },
+    {
+      "date": "2026-11-23",
+      "time": "18:00",
+      "municipality": "valer",
+      "committee": "Ungdomsrådet",
+      "category": "andre",
+      "day": "Mandag"
+    },
+    {
       "date": "2026-11-24",
       "time": "",
       "municipality": "kongsvinger",
       "committee": "Kontrollutvalget",
+      "category": "utvalg",
+      "day": "Tirsdag"
+    },
+    {
+      "date": "2026-11-24",
+      "time": "",
+      "municipality": "sorodal",
+      "committee": "Helse-, omsorg- og livsmestringsutvalget",
+      "category": "utvalg",
+      "day": "Tirsdag"
+    },
+    {
+      "date": "2026-11-24",
+      "time": "",
+      "municipality": "sorodal",
+      "committee": "Næring-, miljø- og klimautvalget",
+      "category": "utvalg",
+      "day": "Tirsdag"
+    },
+    {
+      "date": "2026-11-24",
+      "time": "",
+      "municipality": "sorodal",
+      "committee": "Oppvekst-, kultur- og mangfoldsutvalget",
       "category": "utvalg",
       "day": "Tirsdag"
     },
@@ -3053,7 +6246,31 @@
     {
       "date": "2026-11-24",
       "time": "09:00",
+      "municipality": "engerdal",
+      "committee": "Formannskapet",
+      "category": "fsk",
+      "day": "Tirsdag"
+    },
+    {
+      "date": "2026-11-24",
+      "time": "09:00",
       "municipality": "lillehammer",
+      "committee": "Formannskapet",
+      "category": "fsk",
+      "day": "Tirsdag"
+    },
+    {
+      "date": "2026-11-24",
+      "time": "09:00",
+      "municipality": "trysil",
+      "committee": "Kommunestyret",
+      "category": "kst",
+      "day": "Tirsdag"
+    },
+    {
+      "date": "2026-11-24",
+      "time": "09:30",
+      "municipality": "etnedal",
       "committee": "Formannskapet",
       "category": "fsk",
       "day": "Tirsdag"
@@ -3068,10 +6285,42 @@
     },
     {
       "date": "2026-11-24",
+      "time": "10:00",
+      "municipality": "lom",
+      "committee": "Formannskapet",
+      "category": "fsk",
+      "day": "Tirsdag"
+    },
+    {
+      "date": "2026-11-24",
       "time": "13:00",
       "municipality": "elverum",
       "committee": "Kommunestyrekomité for helse og omsorg",
       "category": "kst",
+      "day": "Tirsdag"
+    },
+    {
+      "date": "2026-11-24",
+      "time": "17:00",
+      "municipality": "valer",
+      "committee": "Hovedutvalg for Helse- og Oppvekst",
+      "category": "utvalg",
+      "day": "Tirsdag"
+    },
+    {
+      "date": "2026-11-24",
+      "time": "18:00",
+      "municipality": "lesja",
+      "committee": "Forvaltningsutvalget",
+      "category": "utvalg",
+      "day": "Tirsdag"
+    },
+    {
+      "date": "2026-11-24",
+      "time": "18:00",
+      "municipality": "lesja",
+      "committee": "Livsløpsutvalget",
+      "category": "utvalg",
       "day": "Tirsdag"
     },
     {
@@ -3080,6 +6329,22 @@
       "municipality": "kongsvinger",
       "committee": "Kommunestyret",
       "category": "kst",
+      "day": "Onsdag"
+    },
+    {
+      "date": "2026-11-25",
+      "time": "",
+      "municipality": "vestreslidre",
+      "committee": "Råd for brukarmedverknad",
+      "category": "andre",
+      "day": "Onsdag"
+    },
+    {
+      "date": "2026-11-25",
+      "time": "",
+      "municipality": "vestreslidre",
+      "committee": "Ungdomsråd",
+      "category": "andre",
       "day": "Onsdag"
     },
     {
@@ -3101,6 +6366,14 @@
     {
       "date": "2026-11-25",
       "time": "09:00",
+      "municipality": "lesja",
+      "committee": "Formannskapet",
+      "category": "fsk",
+      "day": "Onsdag"
+    },
+    {
+      "date": "2026-11-25",
+      "time": "09:00",
       "municipality": "loten",
       "committee": "Formannskapet",
       "category": "fsk",
@@ -3111,6 +6384,22 @@
       "time": "09:00",
       "municipality": "stange",
       "committee": "Planutvalget",
+      "category": "utvalg",
+      "day": "Onsdag"
+    },
+    {
+      "date": "2026-11-25",
+      "time": "09:00",
+      "municipality": "trysil",
+      "committee": "Kontrollutvalget",
+      "category": "utvalg",
+      "day": "Onsdag"
+    },
+    {
+      "date": "2026-11-25",
+      "time": "09:00",
+      "municipality": "vaga",
+      "committee": "Hovudutval for teknisk, landbruk og naturforvaltning",
       "category": "utvalg",
       "day": "Onsdag"
     },
@@ -3140,6 +6429,14 @@
     },
     {
       "date": "2026-11-25",
+      "time": "13:00",
+      "municipality": "os",
+      "committee": "Råd for eldre og funksjonshindra",
+      "category": "andre",
+      "day": "Onsdag"
+    },
+    {
+      "date": "2026-11-25",
       "time": "17:00",
       "municipality": "ostretoten",
       "committee": "Kommunestyret (KST)",
@@ -3164,10 +6461,34 @@
     },
     {
       "date": "2026-11-26",
+      "time": "",
+      "municipality": "vestreslidre",
+      "committee": "Administrasjonsutvalet",
+      "category": "utvalg",
+      "day": "Torsdag"
+    },
+    {
+      "date": "2026-11-26",
+      "time": "09:00",
+      "municipality": "nordaurdal",
+      "committee": "Formannskapet",
+      "category": "fsk",
+      "day": "Torsdag"
+    },
+    {
+      "date": "2026-11-26",
       "time": "09:00",
       "municipality": "stange",
       "committee": "Ungdomsrådet",
       "category": "andre",
+      "day": "Torsdag"
+    },
+    {
+      "date": "2026-11-26",
+      "time": "09:00",
+      "municipality": "trysil",
+      "committee": "Hovedutvalg for drift og forvaltning",
+      "category": "utvalg",
       "day": "Torsdag"
     },
     {
@@ -3180,9 +6501,25 @@
     },
     {
       "date": "2026-11-26",
+      "time": "09:30",
+      "municipality": "tolga",
+      "committee": "Formannskapet",
+      "category": "fsk",
+      "day": "Torsdag"
+    },
+    {
+      "date": "2026-11-26",
       "time": "10:00",
       "municipality": "nordre_land",
       "committee": "Hovedutvalg for Landbruk, miljø og teknisk",
+      "category": "utvalg",
+      "day": "Torsdag"
+    },
+    {
+      "date": "2026-11-26",
+      "time": "13:00",
+      "municipality": "dovre",
+      "committee": "Arbeidsmiljøutvalg",
       "category": "utvalg",
       "day": "Torsdag"
     },
@@ -3211,6 +6548,30 @@
       "day": "Torsdag"
     },
     {
+      "date": "2026-11-26",
+      "time": "18:00",
+      "municipality": "skjak",
+      "committee": "Kommunestyret",
+      "category": "kst",
+      "day": "Torsdag"
+    },
+    {
+      "date": "2026-11-26",
+      "time": "18:00",
+      "municipality": "valer",
+      "committee": "Formannskapet",
+      "category": "fsk",
+      "day": "Torsdag"
+    },
+    {
+      "date": "2026-11-26",
+      "time": "19:00",
+      "municipality": "os",
+      "committee": "Kommunestyret",
+      "category": "kst",
+      "day": "Torsdag"
+    },
+    {
       "date": "2026-11-27",
       "time": "09:00",
       "municipality": "elverum",
@@ -3227,6 +6588,14 @@
       "day": "Fredag"
     },
     {
+      "date": "2026-11-27",
+      "time": "09:00",
+      "municipality": "ipr_ng",
+      "committee": "Regionstyret for Interkommunalt politisk råd i Nord-Gudbrandsdal",
+      "category": "ipr",
+      "day": "Fredag"
+    },
+    {
       "date": "2026-11-30",
       "time": "",
       "municipality": "kongsvinger",
@@ -3240,6 +6609,46 @@
       "municipality": "kongsvinger",
       "committee": "Funksjonsnedsattes råd",
       "category": "andre",
+      "day": "Mandag"
+    },
+    {
+      "date": "2026-11-30",
+      "time": "",
+      "municipality": "nordodal",
+      "committee": "Formannskapet",
+      "category": "fsk",
+      "day": "Mandag"
+    },
+    {
+      "date": "2026-11-30",
+      "time": "",
+      "municipality": "sorodal",
+      "committee": "Eldres råd",
+      "category": "andre",
+      "day": "Mandag"
+    },
+    {
+      "date": "2026-11-30",
+      "time": "",
+      "municipality": "sorodal",
+      "committee": "Råd for mennesker med funksjonsnedsettelse",
+      "category": "andre",
+      "day": "Mandag"
+    },
+    {
+      "date": "2026-11-30",
+      "time": "",
+      "municipality": "sorodal",
+      "committee": "SOBUR - Sør-Odal Barne- og ungdomsråd",
+      "category": "andre",
+      "day": "Mandag"
+    },
+    {
+      "date": "2026-11-30",
+      "time": "08:30",
+      "municipality": "amot",
+      "committee": "Hovedutvalg for oppvekst og kultur",
+      "category": "utvalg",
       "day": "Mandag"
     },
     {
@@ -3261,6 +6670,22 @@
     {
       "date": "2026-11-30",
       "time": "09:00",
+      "municipality": "sel",
+      "committee": "Kontrollutvalget i Dovre",
+      "category": "utvalg",
+      "day": "Mandag"
+    },
+    {
+      "date": "2026-11-30",
+      "time": "09:00",
+      "municipality": "trysil",
+      "committee": "Formannskapet",
+      "category": "fsk",
+      "day": "Mandag"
+    },
+    {
+      "date": "2026-11-30",
+      "time": "09:00",
       "municipality": "vestretoten",
       "committee": "Kontrollutvalget",
       "category": "utvalg",
@@ -3271,6 +6696,14 @@
       "time": "09:00",
       "municipality": "vestretoten",
       "committee": "Utvalg for teknisk drift og plansaker",
+      "category": "utvalg",
+      "day": "Mandag"
+    },
+    {
+      "date": "2026-11-30",
+      "time": "10:00",
+      "municipality": "amot",
+      "committee": "Hovedutvalget for landbruk og utmark",
       "category": "utvalg",
       "day": "Mandag"
     },
@@ -3317,6 +6750,14 @@
     {
       "date": "2026-11-30",
       "time": "18:00",
+      "municipality": "dovre",
+      "committee": "Oppvekst-, kultur- og omsorgsutvalget",
+      "category": "utvalg",
+      "day": "Mandag"
+    },
+    {
+      "date": "2026-11-30",
+      "time": "18:00",
       "municipality": "ostretoten",
       "committee": "Østre Toten ungdomsråd (ØTU)",
       "category": "andre",
@@ -3324,9 +6765,49 @@
     },
     {
       "date": "2026-12-01",
+      "time": "",
+      "municipality": "asnes",
+      "committee": "Råd for personer med funksjonsnedsettelse",
+      "category": "andre",
+      "day": "Tirsdag"
+    },
+    {
+      "date": "2026-12-01",
+      "time": "",
+      "municipality": "sorodal",
+      "committee": "Formannskapet",
+      "category": "fsk",
+      "day": "Tirsdag"
+    },
+    {
+      "date": "2026-12-01",
+      "time": "",
+      "municipality": "sorodal",
+      "committee": "Partssammensatt utvalg",
+      "category": "utvalg",
+      "day": "Tirsdag"
+    },
+    {
+      "date": "2026-12-01",
       "time": "08:00",
       "municipality": "elverum",
       "committee": "Viltfaglig utvalg",
+      "category": "utvalg",
+      "day": "Tirsdag"
+    },
+    {
+      "date": "2026-12-01",
+      "time": "08:30",
+      "municipality": "amot",
+      "committee": "Hovedutvalg for helse og velferd",
+      "category": "utvalg",
+      "day": "Tirsdag"
+    },
+    {
+      "date": "2026-12-01",
+      "time": "08:30",
+      "municipality": "amot",
+      "committee": "Hovedutvalg kommunalteknikk og arealplanlegging",
       "category": "utvalg",
       "day": "Tirsdag"
     },
@@ -3360,6 +6841,22 @@
       "municipality": "lillehammer",
       "committee": "Formannskapet",
       "category": "fsk",
+      "day": "Tirsdag"
+    },
+    {
+      "date": "2026-12-01",
+      "time": "09:00",
+      "municipality": "sel",
+      "committee": "Kontrollutvalget i Sel",
+      "category": "utvalg",
+      "day": "Tirsdag"
+    },
+    {
+      "date": "2026-12-01",
+      "time": "09:00",
+      "municipality": "valer",
+      "committee": "Arbeidsmiljøutvalget",
+      "category": "utvalg",
       "day": "Tirsdag"
     },
     {
@@ -3420,9 +6917,25 @@
     },
     {
       "date": "2026-12-01",
+      "time": "13:00",
+      "municipality": "sel",
+      "committee": "Kontrollutvalget i Vågå",
+      "category": "utvalg",
+      "day": "Tirsdag"
+    },
+    {
+      "date": "2026-12-01",
       "time": "14:00",
       "municipality": "oyer",
       "committee": "Plan- og miljøutvalget",
+      "category": "utvalg",
+      "day": "Tirsdag"
+    },
+    {
+      "date": "2026-12-01",
+      "time": "18:00",
+      "municipality": "dovre",
+      "committee": "Plan-, nærings- og utviklingsutvalget",
       "category": "utvalg",
       "day": "Tirsdag"
     },
@@ -3433,6 +6946,30 @@
       "committee": "Kommunestyrekomité for utdanning",
       "category": "kst",
       "day": "Tirsdag"
+    },
+    {
+      "date": "2026-12-02",
+      "time": "",
+      "municipality": "asnes",
+      "committee": "Eldrerådet",
+      "category": "andre",
+      "day": "Onsdag"
+    },
+    {
+      "date": "2026-12-02",
+      "time": "",
+      "municipality": "asnes",
+      "committee": "Kontrollutvalg",
+      "category": "utvalg",
+      "day": "Onsdag"
+    },
+    {
+      "date": "2026-12-02",
+      "time": "09:00",
+      "municipality": "amot",
+      "committee": "Administrasjonsutvalget",
+      "category": "utvalg",
+      "day": "Onsdag"
     },
     {
       "date": "2026-12-02",
@@ -3501,6 +7038,14 @@
     {
       "date": "2026-12-02",
       "time": "10:00",
+      "municipality": "amot",
+      "committee": "Formannskapet",
+      "category": "fsk",
+      "day": "Onsdag"
+    },
+    {
+      "date": "2026-12-02",
+      "time": "10:00",
       "municipality": "gjovik",
       "committee": "Eierutvalg",
       "category": "utvalg",
@@ -3512,6 +7057,22 @@
       "municipality": "gjovik",
       "committee": "Personalpolitisk utvalg",
       "category": "utvalg",
+      "day": "Onsdag"
+    },
+    {
+      "date": "2026-12-02",
+      "time": "12:30",
+      "municipality": "trysil",
+      "committee": "Arbeidsmiljøutvalget",
+      "category": "utvalg",
+      "day": "Onsdag"
+    },
+    {
+      "date": "2026-12-02",
+      "time": "13:00",
+      "municipality": "etnedal",
+      "committee": "Eldrerådet/råd for mennesker med nedsatt funksjonsevne",
+      "category": "andre",
       "day": "Onsdag"
     },
     {
@@ -3539,6 +7100,14 @@
       "day": "Onsdag"
     },
     {
+      "date": "2026-12-02",
+      "time": "17:00",
+      "municipality": "storelvdal",
+      "committee": "Kommunestyret",
+      "category": "kst",
+      "day": "Onsdag"
+    },
+    {
       "date": "2026-12-03",
       "time": "",
       "municipality": "ipr_kv",
@@ -3548,10 +7117,26 @@
     },
     {
       "date": "2026-12-03",
+      "time": "",
+      "municipality": "nordodal",
+      "committee": "Kontrollutvalget",
+      "category": "utvalg",
+      "day": "Torsdag"
+    },
+    {
+      "date": "2026-12-03",
       "time": "09:00",
       "municipality": "loten",
       "committee": "Formannskapet",
       "category": "fsk",
+      "day": "Torsdag"
+    },
+    {
+      "date": "2026-12-03",
+      "time": "09:00",
+      "municipality": "nordaurdal",
+      "committee": "Planutvalget",
+      "category": "utvalg",
       "day": "Torsdag"
     },
     {
@@ -3596,6 +7181,14 @@
     },
     {
       "date": "2026-12-03",
+      "time": "12:00",
+      "municipality": "valer",
+      "committee": "Kommunestyret",
+      "category": "kst",
+      "day": "Torsdag"
+    },
+    {
+      "date": "2026-12-03",
       "time": "15:45",
       "municipality": "gausdal",
       "committee": "Ungdomsrådet",
@@ -3608,6 +7201,14 @@
       "municipality": "gjovik",
       "committee": "Kulturrådet",
       "category": "andre",
+      "day": "Torsdag"
+    },
+    {
+      "date": "2026-12-03",
+      "time": "19:00",
+      "municipality": "os",
+      "committee": "Kommunestyret",
+      "category": "kst",
       "day": "Torsdag"
     },
     {
@@ -3628,6 +7229,46 @@
     },
     {
       "date": "2026-12-07",
+      "time": "",
+      "municipality": "grue",
+      "committee": "Formannskapet",
+      "category": "fsk",
+      "day": "Mandag"
+    },
+    {
+      "date": "2026-12-07",
+      "time": "",
+      "municipality": "ipr_valdres",
+      "committee": "Regionrådet i Valdres IPR",
+      "category": "ipr",
+      "day": "Mandag"
+    },
+    {
+      "date": "2026-12-07",
+      "time": "",
+      "municipality": "ipr_valdres",
+      "committee": "Valdres Natur- og Kulturpark - KO",
+      "category": "andre",
+      "day": "Mandag"
+    },
+    {
+      "date": "2026-12-07",
+      "time": "",
+      "municipality": "ipr_valdres",
+      "committee": "Valdres friluftsråd",
+      "category": "andre",
+      "day": "Mandag"
+    },
+    {
+      "date": "2026-12-07",
+      "time": "",
+      "municipality": "sorodal",
+      "committee": "Kontrollutvalget",
+      "category": "utvalg",
+      "day": "Mandag"
+    },
+    {
+      "date": "2026-12-07",
       "time": "09:00",
       "municipality": "gjovik",
       "committee": "Eldrerådet",
@@ -3639,6 +7280,22 @@
       "time": "09:00",
       "municipality": "lillehammer",
       "committee": "Rådet for personer med funksjonsnedsettelse",
+      "category": "andre",
+      "day": "Mandag"
+    },
+    {
+      "date": "2026-12-07",
+      "time": "09:00",
+      "municipality": "sel",
+      "committee": "Kontrollutvalget i Lom",
+      "category": "utvalg",
+      "day": "Mandag"
+    },
+    {
+      "date": "2026-12-07",
+      "time": "09:00",
+      "municipality": "trysil",
+      "committee": "Eldrerådet",
       "category": "andre",
       "day": "Mandag"
     },
@@ -3656,6 +7313,14 @@
       "municipality": "gjovik",
       "committee": "Råd for personer med nedsatt funksjonsevne",
       "category": "andre",
+      "day": "Mandag"
+    },
+    {
+      "date": "2026-12-07",
+      "time": "13:00",
+      "municipality": "sel",
+      "committee": "Kontrollutvalget i Skjåk",
+      "category": "utvalg",
       "day": "Mandag"
     },
     {
@@ -3692,10 +7357,50 @@
     },
     {
       "date": "2026-12-08",
+      "time": "",
+      "municipality": "grue",
+      "committee": "Kontrollutvalget - Grue",
+      "category": "utvalg",
+      "day": "Tirsdag"
+    },
+    {
+      "date": "2026-12-08",
+      "time": "09:00",
+      "municipality": "engerdal",
+      "committee": "Kommunestyret",
+      "category": "kst",
+      "day": "Tirsdag"
+    },
+    {
+      "date": "2026-12-08",
       "time": "09:00",
       "municipality": "gjovik",
       "committee": "Utvalg for oppvekst, kultur og idrett",
       "category": "utvalg",
+      "day": "Tirsdag"
+    },
+    {
+      "date": "2026-12-08",
+      "time": "09:00",
+      "municipality": "nordaurdal",
+      "committee": "Kommunalt råd for brukermedvirkning",
+      "category": "andre",
+      "day": "Tirsdag"
+    },
+    {
+      "date": "2026-12-08",
+      "time": "09:00",
+      "municipality": "sel",
+      "committee": "Formannskapet",
+      "category": "fsk",
+      "day": "Tirsdag"
+    },
+    {
+      "date": "2026-12-08",
+      "time": "10:00",
+      "municipality": "lom",
+      "committee": "Formannskapet",
+      "category": "fsk",
       "day": "Tirsdag"
     },
     {
@@ -3805,6 +7510,22 @@
     {
       "date": "2026-12-09",
       "time": "10:00",
+      "municipality": "amot",
+      "committee": "Eldrerådet",
+      "category": "andre",
+      "day": "Onsdag"
+    },
+    {
+      "date": "2026-12-09",
+      "time": "10:00",
+      "municipality": "dovre",
+      "committee": "Fellesråd for mennesker med nedsatt funksjonsevne og eldreråd",
+      "category": "andre",
+      "day": "Onsdag"
+    },
+    {
+      "date": "2026-12-09",
+      "time": "10:00",
       "municipality": "gjovik",
       "committee": "Formannskapet",
       "category": "fsk",
@@ -3843,11 +7564,27 @@
       "day": "Onsdag"
     },
     {
+      "date": "2026-12-09",
+      "time": "16:00",
+      "municipality": "storelvdal",
+      "committee": "Kommunestyret",
+      "category": "kst",
+      "day": "Onsdag"
+    },
+    {
       "date": "2026-12-10",
       "time": "",
       "municipality": "ipr_se",
       "committee": "Styret – Sør-Østerdal IPR",
       "category": "ipr",
+      "day": "Torsdag"
+    },
+    {
+      "date": "2026-12-10",
+      "time": "",
+      "municipality": "sorodal",
+      "committee": "Kommunestyret",
+      "category": "kst",
       "day": "Torsdag"
     },
     {
@@ -3864,6 +7601,14 @@
       "municipality": "elverum",
       "committee": "Eldrerådet",
       "category": "andre",
+      "day": "Torsdag"
+    },
+    {
+      "date": "2026-12-10",
+      "time": "09:00",
+      "municipality": "folldal",
+      "committee": "Kommunestyret",
+      "category": "kst",
       "day": "Torsdag"
     },
     {
@@ -3916,6 +7661,22 @@
     },
     {
       "date": "2026-12-10",
+      "time": "09:00",
+      "municipality": "os",
+      "committee": "Formannskapet",
+      "category": "fsk",
+      "day": "Torsdag"
+    },
+    {
+      "date": "2026-12-10",
+      "time": "09:30",
+      "municipality": "etnedal",
+      "committee": "Kommunestyret",
+      "category": "kst",
+      "day": "Torsdag"
+    },
+    {
+      "date": "2026-12-10",
       "time": "12:00",
       "municipality": "elverum",
       "committee": "Kommunestyret",
@@ -3957,10 +7718,50 @@
     {
       "date": "2026-12-11",
       "time": "09:00",
+      "municipality": "ipr_ng",
+      "committee": "Representantskapet for Interkommunalt politisk råd i Nord-Gudbrandsdal",
+      "category": "ipr",
+      "day": "Fredag"
+    },
+    {
+      "date": "2026-12-11",
+      "time": "09:00",
       "municipality": "lillehammer",
       "committee": "Interkommunalt politisk råd",
       "category": "ipr",
       "day": "Fredag"
+    },
+    {
+      "date": "2026-12-11",
+      "time": "10:00",
+      "municipality": "ipr_mg",
+      "committee": "Midt-Gudbrandsdal Interkommunale politiske råd (MGIPR)",
+      "category": "ipr",
+      "day": "Fredag"
+    },
+    {
+      "date": "2026-12-14",
+      "time": "",
+      "municipality": "asnes",
+      "committee": "Kommunestyre",
+      "category": "kst",
+      "day": "Mandag"
+    },
+    {
+      "date": "2026-12-14",
+      "time": "",
+      "municipality": "grue",
+      "committee": "Kommunestyret",
+      "category": "kst",
+      "day": "Mandag"
+    },
+    {
+      "date": "2026-12-14",
+      "time": "",
+      "municipality": "vestreslidre",
+      "committee": "Arbeidsmiljøutvalet",
+      "category": "utvalg",
+      "day": "Mandag"
     },
     {
       "date": "2026-12-14",
@@ -3972,11 +7773,51 @@
     },
     {
       "date": "2026-12-14",
+      "time": "09:00",
+      "municipality": "sel",
+      "committee": "Kommunestyret",
+      "category": "kst",
+      "day": "Mandag"
+    },
+    {
+      "date": "2026-12-14",
+      "time": "09:00",
+      "municipality": "trysil",
+      "committee": "Kommunestyret",
+      "category": "kst",
+      "day": "Mandag"
+    },
+    {
+      "date": "2026-12-14",
       "time": "10:00",
       "municipality": "nordre_land",
       "committee": "Kirkelig fellesråd",
       "category": "andre",
       "day": "Mandag"
+    },
+    {
+      "date": "2026-12-14",
+      "time": "17:00",
+      "municipality": "lom",
+      "committee": "Kommunestyret",
+      "category": "kst",
+      "day": "Mandag"
+    },
+    {
+      "date": "2026-12-14",
+      "time": "18:00",
+      "municipality": "dovre",
+      "committee": "Kommunestyret",
+      "category": "kst",
+      "day": "Mandag"
+    },
+    {
+      "date": "2026-12-15",
+      "time": "09:00",
+      "municipality": "vaga",
+      "committee": "Kommunestyret",
+      "category": "kst",
+      "day": "Tirsdag"
     },
     {
       "date": "2026-12-15",
@@ -3998,6 +7839,22 @@
       "date": "2026-12-16",
       "time": "",
       "municipality": "kongsvinger",
+      "committee": "Kommunestyret",
+      "category": "kst",
+      "day": "Onsdag"
+    },
+    {
+      "date": "2026-12-16",
+      "time": "",
+      "municipality": "nordodal",
+      "committee": "Kommunestyret",
+      "category": "kst",
+      "day": "Onsdag"
+    },
+    {
+      "date": "2026-12-16",
+      "time": "09:00",
+      "municipality": "amot",
       "committee": "Kommunestyret",
       "category": "kst",
       "day": "Onsdag"
@@ -4060,6 +7917,22 @@
     },
     {
       "date": "2026-12-17",
+      "time": "",
+      "municipality": "sorodal",
+      "committee": "Kommunestyret",
+      "category": "kst",
+      "day": "Torsdag"
+    },
+    {
+      "date": "2026-12-17",
+      "time": "",
+      "municipality": "vestreslidre",
+      "committee": "Kommunestyret",
+      "category": "kst",
+      "day": "Torsdag"
+    },
+    {
+      "date": "2026-12-17",
       "time": "09:00",
       "municipality": "elverum",
       "committee": "Kommunestyrekomité for plan og eiendom",
@@ -4085,6 +7958,14 @@
     {
       "date": "2026-12-17",
       "time": "09:00",
+      "municipality": "lesja",
+      "committee": "Kommunestyret",
+      "category": "kst",
+      "day": "Torsdag"
+    },
+    {
+      "date": "2026-12-17",
+      "time": "09:00",
       "municipality": "ostretoten",
       "committee": "Kommunestyret (KST)",
       "category": "kst",
@@ -4096,6 +7977,14 @@
       "municipality": "vestretoten",
       "committee": "Kommunestyret",
       "category": "kst",
+      "day": "Torsdag"
+    },
+    {
+      "date": "2026-12-17",
+      "time": "10:00",
+      "municipality": "folldal",
+      "committee": "Formannskapet",
+      "category": "fsk",
       "day": "Torsdag"
     },
     {
