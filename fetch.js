@@ -148,9 +148,18 @@ async function hentBkInnsyn(page, url, mun, iprRegex = null, iprMun = 'ipr') {
 
 /** ElementsCloud: navigerer måned for måned, aria-label på lenker */
 async function hentElementsCloud(page, url, mun) {
-  await page.goto(url, { waitUntil:'networkidle', timeout:NAV_TIMEOUT });
-  await page.waitForSelector('a.dmb-class', { timeout:PAGE_TIMEOUT }).catch(() => {});
-  await page.waitForTimeout(2500);
+  // 'domcontentloaded' i stedet for 'networkidle' - ElementsCloud kan ha
+  // vedvarende bakgrunnstrafikk (polling/websockets) som aldri gjør siden "idle"
+  await page.goto(url, { waitUntil:'domcontentloaded', timeout:NAV_TIMEOUT });
+  // Lengre og mer tålmodig venting før vi sjekker om innholdet kom
+  try {
+    await page.waitForSelector('a.dmb-class', { timeout: 45000 });
+  } catch {
+    // Prøv én gang til med en ekstra reload før vi gir opp helt
+    await page.reload({ waitUntil:'domcontentloaded', timeout:NAV_TIMEOUT });
+    await page.waitForSelector('a.dmb-class', { timeout: 45000 }).catch(() => {});
+  }
+  await page.waitForTimeout(3000);
 
   const alle = new Set();
   const hentSide = () => page.evaluate(() =>
@@ -222,7 +231,14 @@ async function hentWfInnsynTabell(page, url, mun, aar, iprRegex = null, iprMun =
 
 /** WF-innsyn: per-utvalg visning (h2 + lenker med dato/tid) — for Ringsaker */
 async function hentWfInnsynPerUtvalg(page, baseUrl, mun, maksUtvalg = 25) {
-  await page.goto(baseUrl, { waitUntil:'domcontentloaded', timeout:NAV_TIMEOUT });
+  // Ringsaker-serveren kan være treg fra CI-miljøer - dobbel timeout og en ekstra retry
+  const laasteTimeout = NAV_TIMEOUT * 2;
+  try {
+    await page.goto(baseUrl, { waitUntil:'domcontentloaded', timeout:laasteTimeout });
+  } catch {
+    await page.waitForTimeout(5000);
+    await page.goto(baseUrl, { waitUntil:'domcontentloaded', timeout:laasteTimeout });
+  }
 
   const raa = await page.evaluate(async (maks) => {
     const ut = [];
@@ -513,9 +529,38 @@ const WF_TABELL_KILDER = [
   alle.push(...iprValdres);
 
   // ── Samle, sortere, validere ──
-  const moter = dedupliser(alle).sort((a, b) => a.date.localeCompare(b.date) || a.time.localeCompare(b.time));
-  const teller = {};
+  let moter = dedupliser(alle).sort((a, b) => a.date.localeCompare(b.date) || a.time.localeCompare(b.time));
+  let teller = {};
   moter.forEach(m => { teller[m.municipality] = (teller[m.municipality] || 0) + 1; });
+
+  // Behold forrige ukes data for kilder som ga 0 treff denne kjøringen -
+  // en midlertidig nede kilde skal ikke tømme kolonnen på nettsiden.
+  const utfilForMerge = path.join(__dirname, 'meetings.json');
+  if (fs.existsSync(utfilForMerge)) {
+    const forrigeData = JSON.parse(fs.readFileSync(utfilForMerge, 'utf8'));
+    const forrigeMoterPerKilde = {};
+    (forrigeData.meetings || []).forEach(m => {
+      (forrigeMoterPerKilde[m.municipality] ||= []).push(m);
+    });
+    let gjenbrukt = 0;
+    for (const mun of Object.keys(FORVENTET)) {
+      if ((teller[mun] || 0) === 0 && forrigeMoterPerKilde[mun]?.length) {
+        // behold kun møter som fortsatt er i fremtiden
+        const fortsattFremtidige = forrigeMoterPerKilde[mun].filter(m => m.date >= MIN_DATO);
+        if (fortsattFremtidige.length) {
+          moter.push(...fortsattFremtidige);
+          gjenbrukt += fortsattFremtidige.length;
+          log('warn', `  ↻ ${mun}: gjenbruker ${fortsattFremtidige.length} møter fra forrige kjøring (kilden feilet nå)`);
+        }
+      }
+    }
+    if (gjenbrukt > 0) {
+      moter = dedupliser(moter).sort((a, b) => a.date.localeCompare(b.date) || a.time.localeCompare(b.time));
+      teller = {};
+      moter.forEach(m => { teller[m.municipality] = (teller[m.municipality] || 0) + 1; });
+      log('info', `\nGjenbrukte totalt ${gjenbrukt} møter fra forrige kjøring for feilede kilder.`);
+    }
+  }
 
   log('info', '\n═══════════════════════════════════════════');
   log('info', 'KVALITETSSJEKK');
@@ -557,9 +602,13 @@ const WF_TABELL_KILDER = [
   fs.writeFileSync(path.join(__dirname, 'fetch-log.txt'), logg.join('\n') + '\n');
 
   if (tomme > 0) {
-    log('error', `${tomme} kilder returnerte ingen møter — se loggen over.`);
-    process.exit(1);
+    log('warn', `${tomme} kilder returnerte ingen møter denne gangen — se ✗-linjene over.`);
+    log('warn', 'meetings.json ble likevel oppdatert siden totalen var over sikkerhetsgrensen.');
+    log('warn', 'Disse kildene beholder forrige ukes data til de svarer igjen (bruk raw/-filene til feilsøking).');
   }
+  // Jobben feiler kun ved katastrofalt datatap (håndtert over, exit(1) der).
+  // Enkeltkilder som feiler midlertidig skal ikke gi rød kryss i Actions hver uke -
+  // det drukner de reelle varslene. Se fetch-log.txt / raw/ for detaljer.
 })().catch(err => {
   console.error('Uventet feil:', err);
   process.exit(1);
