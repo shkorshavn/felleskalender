@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-09T14:50:57.333560",
+  "generated": "2026-09-09T16:21:32.041709",
   "totalCount": 1018,
   "sources": {
     "sel": {
@@ -54,7 +54,7 @@
       "count": 5
     },
     "lillehammer": {
-      "count": 36
+      "count": 33
     },
     "ringsaker": {
       "count": 20
@@ -109,6 +109,9 @@
     },
     "oyer": {
       "count": 19
+    },
+    "ipr_lhm": {
+      "count": 3
     },
     "grue": {
       "count": 11
@@ -1062,7 +1065,7 @@
     {
       "date": "2026-09-11",
       "time": "09:00",
-      "municipality": "lillehammer",
+      "municipality": "ipr_lhm",
       "committee": "Interkommunalt politisk råd",
       "category": "ipr",
       "day": "Fredag"
@@ -4638,7 +4641,7 @@
     {
       "date": "2026-10-30",
       "time": "09:00",
-      "municipality": "lillehammer",
+      "municipality": "ipr_lhm",
       "committee": "Interkommunalt politisk råd",
       "category": "ipr",
       "day": "Fredag"
@@ -7726,7 +7729,7 @@
     {
       "date": "2026-12-11",
       "time": "09:00",
-      "municipality": "lillehammer",
+      "municipality": "ipr_lhm",
       "committee": "Interkommunalt politisk råd",
       "category": "ipr",
       "day": "Fredag"
