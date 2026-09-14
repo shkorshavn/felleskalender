@@ -229,15 +229,33 @@ async function hentWfInnsynTabell(page, url, mun, aar, iprRegex = null, iprMun =
     .filter(Boolean);
 }
 
-/** WF-innsyn: per-utvalg visning (h2 + lenker med dato/tid) — for Ringsaker */
+/**
+ * WF-innsyn: per-utvalg visning (h2 + lenker med dato/tid) — for Ringsaker.
+ *
+ * MERK: innsyn.ringsaker.kommune.no ser ut til å blokkere/throttle trafikk fra
+ * datasenter-IP-er (som GitHub Actions bruker) — page.goto gir ofte
+ * ERR_CONNECTION_TIMED_OUT herfra, selv om siden svarer fint fra vanlige
+ * forbrukerlinjer. Vi prøver tre ganger med økende ventetid mellom forsøkene,
+ * men hvis alle feiler er det trygt å anta at kilden er utilgjengelig fra CI
+ * akkurat nå — funksjonen returnerer da tom liste og hovedprogrammet
+ * gjenbruker forrige ukes data for Ringsaker automatisk (se merge-logikken
+ * i hovedprogrammet).
+ */
 async function hentWfInnsynPerUtvalg(page, baseUrl, mun, maksUtvalg = 25) {
-  // Ringsaker-serveren kan være treg fra CI-miljøer - dobbel timeout og en ekstra retry
-  const laasteTimeout = NAV_TIMEOUT * 2;
-  try {
-    await page.goto(baseUrl, { waitUntil:'domcontentloaded', timeout:laasteTimeout });
-  } catch {
-    await page.waitForTimeout(5000);
-    await page.goto(baseUrl, { waitUntil:'domcontentloaded', timeout:laasteTimeout });
+  const forsokTimeouts = [NAV_TIMEOUT, NAV_TIMEOUT * 2, NAV_TIMEOUT * 2];
+  let lastet = false;
+  for (let i = 0; i < forsokTimeouts.length && !lastet; i++) {
+    try {
+      await page.goto(baseUrl, { waitUntil:'domcontentloaded', timeout: forsokTimeouts[i] });
+      lastet = true;
+    } catch (err) {
+      log('warn', `  ${mun}: navigasjonsforsøk ${i+1}/${forsokTimeouts.length} feilet (${err.message.split('\n')[0]})`);
+      if (i < forsokTimeouts.length - 1) await new Promise(r => setTimeout(r, 8000));
+    }
+  }
+  if (!lastet) {
+    log('warn', `  ${mun}: kilden nås ikke fra dette miljøet akkurat nå (kjent CI-begrensning — se README). Bruker forrige ukes data.`);
+    return [];
   }
 
   const raa = await page.evaluate(async (maks) => {
@@ -507,7 +525,21 @@ const WF_TABELL_KILDER = [
 
   // ── Spesialkilder ──
   alle.push(...await kjor('innlandet (innlandetfylke.no)', hentInnlandet));
-  alle.push(...await kjor('ringsaker (WF-innsyn per utvalg)', p => hentWfInnsynPerUtvalg(p, 'https://innsyn.ringsaker.kommune.no/wfinnsyn.ashx?response=moteplan_utvalg&fradato=2026-01-01T00:00:00&utvalg=1&', 'ringsaker')));
+  // Ringsaker har egen retry-logikk inne i funksjonen (se kommentar der) -
+  // kjøres direkte uten medRetry-wrapperen for å unngå dobbel ventetid
+  log('info', '\n── ringsaker (WF-innsyn per utvalg) ──');
+  {
+    const page = await ctx.newPage();
+    page.setDefaultTimeout(PAGE_TIMEOUT);
+    const moterRingsaker = dedupliser(await hentWfInnsynPerUtvalg(
+      page,
+      'https://innsyn.ringsaker.kommune.no/wfinnsyn.ashx?response=moteplan_utvalg&fradato=2026-01-01T00:00:00&utvalg=1&',
+      'ringsaker'
+    ));
+    await page.close();
+    log('info', `  → ${moterRingsaker.length} møter`);
+    alle.push(...moterRingsaker);
+  }
   alle.push(...await kjor('kongsvinger + ipr_kv (WF-innsyn)', hentKongsvinger));
   alle.push(...await kjor('sel (ElementsCloud, inkl. felles kontrollutvalg)', hentSel));
   alle.push(...await kjor('ipr_ng (ElementsCloud)', hentIprNg));
