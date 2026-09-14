@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-09T16:21:32.041709",
+  "generated": "2026-09-14T14:14:24.896550",
   "totalCount": 1018,
   "sources": {
     "sel": {
@@ -55,9 +55,6 @@
     },
     "lillehammer": {
       "count": 33
-    },
-    "ringsaker": {
-      "count": 20
     },
     "gjovik": {
       "count": 68
@@ -130,6 +127,9 @@
     },
     "innlandet": {
       "count": 60
+    },
+    "ringsaker": {
+      "count": 20
     },
     "vang": {
       "count": 10
@@ -538,14 +538,6 @@
       "date": "2026-09-07",
       "time": "10:00",
       "municipality": "amot",
-      "committee": "Eldrerådet",
-      "category": "andre",
-      "day": "Mandag"
-    },
-    {
-      "date": "2026-09-07",
-      "time": "10:00",
-      "municipality": "ringsaker",
       "committee": "Eldrerådet",
       "category": "andre",
       "day": "Mandag"
@@ -2395,7 +2387,7 @@
       "time": "16:00",
       "municipality": "ringsaker",
       "committee": "Ungdomsrådet",
-      "category": "andre",
+      "category": "utvalg",
       "day": "Tirsdag"
     },
     {
@@ -2912,6 +2904,14 @@
     },
     {
       "date": "2026-10-12",
+      "time": "08:00",
+      "municipality": "ringsaker",
+      "committee": "Klagenemnda",
+      "category": "utvalg",
+      "day": "Mandag"
+    },
+    {
+      "date": "2026-10-12",
       "time": "09:00",
       "municipality": "gjovik",
       "committee": "Eldrerådet",
@@ -2971,7 +2971,7 @@
       "time": "10:00",
       "municipality": "ringsaker",
       "committee": "Eldrerådet",
-      "category": "andre",
+      "category": "utvalg",
       "day": "Mandag"
     },
     {
@@ -6715,7 +6715,7 @@
       "time": "10:00",
       "municipality": "ringsaker",
       "committee": "Eldrerådet",
-      "category": "andre",
+      "category": "utvalg",
       "day": "Mandag"
     },
     {
@@ -7721,16 +7721,16 @@
     {
       "date": "2026-12-11",
       "time": "09:00",
-      "municipality": "ipr_ng",
-      "committee": "Representantskapet for Interkommunalt politisk råd i Nord-Gudbrandsdal",
+      "municipality": "ipr_lhm",
+      "committee": "Interkommunalt politisk råd",
       "category": "ipr",
       "day": "Fredag"
     },
     {
       "date": "2026-12-11",
       "time": "09:00",
-      "municipality": "ipr_lhm",
-      "committee": "Interkommunalt politisk råd",
+      "municipality": "ipr_ng",
+      "committee": "Representantskapet for Interkommunalt politisk råd i Nord-Gudbrandsdal",
       "category": "ipr",
       "day": "Fredag"
     },

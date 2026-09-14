@@ -230,53 +230,126 @@ async function hentWfInnsynTabell(page, url, mun, aar, iprRegex = null, iprMun =
 }
 
 /**
+ * Enkelt GET via Node sin innebygde https-modul, helt uten nettleser.
+ * Brukes som siste forsøk for kilder der Chromium/Playwright sin
+ * nettverksstack (TLS-/HTTP2-fingerprint) ser ut til å bli blokkert,
+ * men en ren HTTP-klient slipper gjennom.
+ */
+function hentRaHttps(url, timeoutMs = 20000) {
+  return new Promise((resolve, reject) => {
+    const https = require('https');
+    const req = https.get(url, {
+      headers: {
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0 Safari/537.36',
+        'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+        'Accept-Language': 'nb-NO,nb;q=0.9,no;q=0.8,en;q=0.7',
+      },
+      timeout: timeoutMs,
+    }, (res) => {
+      // Følg redirects manuelt (302/301)
+      if (res.statusCode >= 300 && res.statusCode < 400 && res.headers.location) {
+        res.resume();
+        return resolve(hentRaHttps(new URL(res.headers.location, url).toString(), timeoutMs));
+      }
+      let data = '';
+      res.setEncoding('utf8');
+      res.on('data', chunk => { data += chunk; });
+      res.on('end', () => resolve({ status: res.statusCode, body: data }));
+    });
+    req.on('timeout', () => { req.destroy(); reject(new Error('timeout')); });
+    req.on('error', reject);
+  });
+}
+
+/** Parser WF-innsyn sin per-utvalg HTML (samme struktur som i page.evaluate-varianten) */
+function parseWfInnsynUtvalgHtml(html) {
+  const h2m = /<h2[^>]*>([\s\S]*?)<\/h2>/i.exec(html);
+  if (!h2m) return null;
+  const navn = h2m[1].replace(/<[^>]+>/g, '').trim();
+  if (!navn || navn.length < 2) return null;
+  const treff = [];
+  const linkRe = /<a[^>]*>([\s\S]*?)<\/a>/gi;
+  let m;
+  while ((m = linkRe.exec(html))) {
+    const tekst = m[1].replace(/<[^>]+>/g, '').trim();
+    const dm = /(\d{2})\.(\d{2})\.(\d{4})\s+(\d{2}:\d{2})/.exec(tekst);
+    if (dm) treff.push({ dato: `${dm[3]}-${dm[2]}-${dm[1]}`, tid: dm[4], navn });
+  }
+  return treff;
+}
+
+/**
  * WF-innsyn: per-utvalg visning (h2 + lenker med dato/tid) — for Ringsaker.
  *
  * MERK: innsyn.ringsaker.kommune.no ser ut til å blokkere/throttle trafikk fra
- * datasenter-IP-er (som GitHub Actions bruker) — page.goto gir ofte
- * ERR_CONNECTION_TIMED_OUT herfra, selv om siden svarer fint fra vanlige
- * forbrukerlinjer. Vi prøver tre ganger med økende ventetid mellom forsøkene,
- * men hvis alle feiler er det trygt å anta at kilden er utilgjengelig fra CI
- * akkurat nå — funksjonen returnerer da tom liste og hovedprogrammet
- * gjenbruker forrige ukes data for Ringsaker automatisk (se merge-logikken
- * i hovedprogrammet).
+ * datasenter-IP-er (som GitHub Actions bruker) når forespørselen kommer fra
+ * Chromium/Playwright — dette kan skyldes TLS-/HTTP2-fingerprinting eller
+ * ren IP-basert bot-deteksjon. Vi prøver først normal nettleser-navigering
+ * (3 forsøk), og faller deretter tilbake til en ren Node.js HTTP-klient
+ * (`hentRaHttps`) som har en helt annen nettverkssignatur og ofte slipper
+ * gjennom slike sperrer. Hvis begge veier feiler, gjenbrukes forrige ukes
+ * data automatisk (se merge-logikken i hovedprogrammet).
  */
 async function hentWfInnsynPerUtvalg(page, baseUrl, mun, maksUtvalg = 25) {
-  const forsokTimeouts = [NAV_TIMEOUT, NAV_TIMEOUT * 2, NAV_TIMEOUT * 2];
+  const forsokTimeouts = [NAV_TIMEOUT, NAV_TIMEOUT * 2];
   let lastet = false;
   for (let i = 0; i < forsokTimeouts.length && !lastet; i++) {
     try {
       await page.goto(baseUrl, { waitUntil:'domcontentloaded', timeout: forsokTimeouts[i] });
       lastet = true;
     } catch (err) {
-      log('warn', `  ${mun}: navigasjonsforsøk ${i+1}/${forsokTimeouts.length} feilet (${err.message.split('\n')[0]})`);
-      if (i < forsokTimeouts.length - 1) await new Promise(r => setTimeout(r, 8000));
+      log('warn', `  ${mun}: nettleser-navigering ${i+1}/${forsokTimeouts.length} feilet (${err.message.split('\n')[0]})`);
+      if (i < forsokTimeouts.length - 1) await new Promise(r => setTimeout(r, 5000));
     }
   }
-  if (!lastet) {
-    log('warn', `  ${mun}: kilden nås ikke fra dette miljøet akkurat nå (kjent CI-begrensning — se README). Bruker forrige ukes data.`);
+
+  if (lastet) {
+    const raa = await page.evaluate(async (maks) => {
+      const ut = [];
+      for (let id = 1; id <= maks; id++) {
+        try {
+          const r = await fetch(`/wfinnsyn.ashx?response=moteplan_utvalg&fradato=2026-01-01T00:00:00&utvalg=${id}&`);
+          const doc = new DOMParser().parseFromString(await r.text(), 'text/html');
+          const h2 = doc.querySelector('h2');
+          if (!h2 || h2.innerText.trim().length < 2) continue;
+          const navn = h2.innerText.trim();
+          doc.querySelectorAll('a').forEach(a => {
+            const m = /(\d{2})\.(\d{2})\.(\d{4})\s+(\d{2}:\d{2})/.exec(a.innerText.trim());
+            if (m) ut.push({ dato:`${m[3]}-${m[2]}-${m[1]}`, tid:m[4], navn });
+          });
+        } catch { /* tomt utvalg */ }
+      }
+      return ut;
+    }, maksUtvalg);
+
+    if (raa.length > 0) return raa.map(r => lagMote(r.dato, r.navn, r.tid, mun)).filter(Boolean);
+    log('warn', `  ${mun}: nettleseren lastet siden, men fant ingen møter — prøver ren HTTP-forespørsel i stedet.`);
+  }
+
+  // ── Fallback: ren Node.js https-forespørsel, uten Chromium ──
+  log('info', `  ${mun}: prøver ren HTTP-klient (uten nettleser) som siste forsøk...`);
+  const base = new URL(baseUrl);
+  const alle = [];
+  let httpsFeil = 0;
+  for (let id = 1; id <= maksUtvalg; id++) {
+    const url = `${base.origin}/wfinnsyn.ashx?response=moteplan_utvalg&fradato=2026-01-01T00:00:00&utvalg=${id}&`;
+    try {
+      const res = await hentRaHttps(url, 15000);
+      if (res.status !== 200) continue;
+      const treff = parseWfInnsynUtvalgHtml(res.body);
+      if (treff) alle.push(...treff);
+    } catch {
+      httpsFeil++;
+    }
+  }
+
+  if (alle.length === 0) {
+    log('warn', `  ${mun}: kilden nås ikke fra dette miljøet akkurat nå, verken via nettleser eller ren HTTP (kjent CI-begrensning — se README). Bruker forrige ukes data.`);
     return [];
   }
 
-  const raa = await page.evaluate(async (maks) => {
-    const ut = [];
-    for (let id = 1; id <= maks; id++) {
-      try {
-        const r = await fetch(`/wfinnsyn.ashx?response=moteplan_utvalg&fradato=2026-01-01T00:00:00&utvalg=${id}&`);
-        const doc = new DOMParser().parseFromString(await r.text(), 'text/html');
-        const h2 = doc.querySelector('h2');
-        if (!h2 || h2.innerText.trim().length < 2) continue;
-        const navn = h2.innerText.trim();
-        doc.querySelectorAll('a').forEach(a => {
-          const m = /(\d{2})\.(\d{2})\.(\d{4})\s+(\d{2}:\d{2})/.exec(a.innerText.trim());
-          if (m) ut.push({ dato:`${m[3]}-${m[2]}-${m[1]}`, tid:m[4], navn });
-        });
-      } catch { /* tomt utvalg */ }
-    }
-    return ut;
-  }, maksUtvalg);
-
-  return raa.map(r => lagMote(r.dato, r.navn, r.tid, mun)).filter(Boolean);
+  log('info', `  ${mun}: ren HTTP-forespørsel lyktes (${alle.length} treff, ${httpsFeil} tomme utvalg).`);
+  return alle.map(r => lagMote(r.dato, r.navn, r.tid, mun)).filter(Boolean);
 }
 
 // ─────────────────────────────────────────────
@@ -565,8 +638,11 @@ const WF_TABELL_KILDER = [
   let teller = {};
   moter.forEach(m => { teller[m.municipality] = (teller[m.municipality] || 0) + 1; });
 
-  // Behold forrige ukes data for kilder som ga 0 treff denne kjøringen -
-  // en midlertidig nede kilde skal ikke tømme kolonnen på nettsiden.
+  // Behold forrige ukes data for kilder som ga 0 treff, ELLER vesentlig færre
+  // treff enn forventet minimum, denne kjøringen. En midlertidig nede eller
+  // delvis mislykket kilde skal ikke tømme eller forringe kolonnen på
+  // nettsiden — vi stoler på forrige kjørings data til kilden er tilbake
+  // til normalt nivå igjen.
   const utfilForMerge = path.join(__dirname, 'meetings.json');
   if (fs.existsSync(utfilForMerge)) {
     const forrigeData = JSON.parse(fs.readFileSync(utfilForMerge, 'utf8'));
@@ -575,14 +651,22 @@ const WF_TABELL_KILDER = [
       (forrigeMoterPerKilde[m.municipality] ||= []).push(m);
     });
     let gjenbrukt = 0;
-    for (const mun of Object.keys(FORVENTET)) {
-      if ((teller[mun] || 0) === 0 && forrigeMoterPerKilde[mun]?.length) {
-        // behold kun møter som fortsatt er i fremtiden
-        const fortsattFremtidige = forrigeMoterPerKilde[mun].filter(m => m.date >= MIN_DATO);
-        if (fortsattFremtidige.length) {
+    for (const [mun, min] of Object.entries(FORVENTET)) {
+      const naaAntall = teller[mun] || 0;
+      const forrige = forrigeMoterPerKilde[mun] || [];
+      // Trigger gjenbruk hvis: ingen treff nå, ELLER treff nå er under
+      // halvparten av forventet minimum mens forrige kjøring hadde mer data.
+      const mistenkeligLavt = naaAntall > 0 && naaAntall < min * 0.5 && forrige.length > naaAntall;
+      if ((naaAntall === 0 || mistenkeligLavt) && forrige.length) {
+        const fortsattFremtidige = forrige.filter(m => m.date >= MIN_DATO);
+        if (fortsattFremtidige.length > naaAntall) {
+          // Fjern de få (mulig ufullstendige) møtene vi akkurat hentet for denne kilden,
+          // og erstatt med hele forrige ukes datasett for kilden
+          moter = moter.filter(m => m.municipality !== mun);
           moter.push(...fortsattFremtidige);
           gjenbrukt += fortsattFremtidige.length;
-          log('warn', `  ↻ ${mun}: gjenbruker ${fortsattFremtidige.length} møter fra forrige kjøring (kilden feilet nå)`);
+          const arsak = naaAntall === 0 ? 'kilden feilet helt' : `kun ${naaAntall} treff nå (mistenkelig lavt mot ${forrige.length} forrige uke)`;
+          log('warn', `  ↻ ${mun}: gjenbruker ${fortsattFremtidige.length} møter fra forrige kjøring (${arsak})`);
         }
       }
     }
@@ -590,7 +674,7 @@ const WF_TABELL_KILDER = [
       moter = dedupliser(moter).sort((a, b) => a.date.localeCompare(b.date) || a.time.localeCompare(b.time));
       teller = {};
       moter.forEach(m => { teller[m.municipality] = (teller[m.municipality] || 0) + 1; });
-      log('info', `\nGjenbrukte totalt ${gjenbrukt} møter fra forrige kjøring for feilede kilder.`);
+      log('info', `\nGjenbrukte totalt ${gjenbrukt} møter fra forrige kjøring for feilede/mistenkelige kilder.`);
     }
   }
 
